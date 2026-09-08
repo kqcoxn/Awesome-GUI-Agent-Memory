@@ -1,0 +1,14 @@
+{
+  "unit": "positive source-cell assignments; not independent studies or field prevalence",
+  "positive_total": 122,
+  "by_operation": {
+    "U": 29,
+    "F": 18,
+    "W": 21,
+    "P": 24,
+    "R": 21,
+    "V": 9
+  },
+  "primary_positive": 118,
+  "auxiliary_positive": 4
+}

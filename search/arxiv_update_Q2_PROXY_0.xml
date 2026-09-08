@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XT8N5cilMyK6PuM8YQ95V2yCQ0A</id>
+  <title>arXiv Query: search_query=(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ( (all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app") ) ) AND ( (all:"task state" OR all:"interaction history" OR all:"action history" OR all:trajectory OR all:"context compression" OR all:"context summarization" OR all:"experience retrieval" OR all:"experience reuse" OR all:"skill library") AND (all:store OR all:persist OR all:retain OR all:summarize OR all:compress OR all:retrieve OR all:reuse OR all:update OR all:recover) ) AND submittedDate:"202608250000 TO 202609082359"&amp;id_list=&amp;start=0&amp;max_results=100</title>
+  <updated>2026-09-08T06:18:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22GUI+agent%22+OR+(all:%22UI+agent%22+OR+(all:%22graphical+user+interface+agent%22+OR+(all:%22computer-use+agent%22+OR+(all:%22computer+use+agent%22+OR+(all:%22web+agent%22+OR+(all:%22web+navigation+agent%22+OR+(all:%22browser+agent%22+OR+(all:%22mobile+GUI+agent%22+OR+(all:%22desktop+agent%22+OR+(all:%22operating+system+agent%22+OR+(all:%22software-use+agent%22+OR+(all:%22cross-app+agent%22+OR+((all:%22LLM+agent%22+OR+(all:%22vision-language+agent%22+OR+all:%22multimodal+agent%22))+AND+(all:GUI+OR+(all:%22computer+use%22+OR+(all:browser+OR+(all:website+OR+(all:Android+OR+(all:%22mobile+app%22+OR+(all:desktop+OR+(all:%22operating+system%22+OR+(all:%22software+application%22+OR+all:%22cross-app%22)))))))))))))))))))))))+AND+(((all:%22task+state%22+OR+(all:%22interaction+history%22+OR+(all:%22action+history%22+OR+(all:trajectory+OR+(all:%22context+compression%22+OR+(all:%22context+summarization%22+OR+(all:%22experience+retrieval%22+OR+(all:%22experience+reuse%22+OR+all:%22skill+library%22))))))))+AND+(all:store+OR+(all:persist+OR+(all:retain+OR+(all:summarize+OR+(all:compress+OR+(all:retrieve+OR+(all:reuse+OR+(all:update+OR+all:recover)))))))))+AND+submittedDate:%22202608250000+TO+202609082359%22)&amp;start=0&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.04869v1</id>
+    <title>From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents</title>
+    <updated>2026-09-04T08:29:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.04869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.04869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer-use agents can execute increasingly complex tasks in graphical interfaces, but their interaction experience is typically transient: procedural knowledge acquired from one rollout is not systematically retained, refined, and reused in later tasks. Existing skill libraries provide external procedural knowledge, yet their incremental value over the same agent operating without skills, as well as their longitudinal dynamics under repeated interaction, remain insufficiently characterized. We present an online skill-evolution framework that converts interaction trajectories and evaluator feedback into a persistent, versioned library of reusable procedures. Each iteration executes against a frozen library snapshot, and evidence-guided skill updates become available in subsequent iterations without changing model parameters. We compare the full evolving-library system with a configuration-matched empty-library control across four OSWorld application domains under the same fixed action-generation and GUI-grounding stack, task sets, and iteration horizons. Following a five-iteration empty-library warm-up, Full attains a higher post-warm-up mean evaluator score in all four observed domain runs, with mean differences ranging from 5.7 to 18.6 percentage points and domain-dependent temporal stability. In GIMP, provenance-aware analysis reveals retrieval across task-of-origin boundaries and revision churn, where repeated accepted edits fail to recover the originating task. These findings characterize evolving skill libraries as auditable, shared procedural memory that can improve a fixed computer-use stack, while showing that their benefits are conditional and repeated revision does not guarantee recovery. Code is released at https://github.com/LongtaoHu/Skill-Evo4GUI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-04T08:29:45Z</published>
+    <arxiv:comment>10 pages, 2 figures, and 2 tables. Code: https://github.com/LongtaoHu/Skill-Evo4GUI</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Longtao Hu</name>
+    </author>
+    <author>
+      <name>Xiao Liang</name>
+    </author>
+    <author>
+      <name>Linchao Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02057v1</id>
+    <title>Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision</title>
+    <updated>2026-09-02T03:34:47Z</updated>
+    <link href="https://arxiv.org/abs/2609.02057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable web-agent monitoring is difficult when model-internal uncertainty signals such as token logits are unavailable. In this work, we study prefix-level risk prediction for web agents using observable trajectory signals: given an evolving prefix, estimate whether the current execution remains on track or is tending toward failure. We derive two observable trajectory representations: Macro features summarize cross-step agent--environment behavior and feedback, while Micro features measure the consistency of intention, action, and anticipated state change through repeated black-box queries. Instead of inheriting the final result label, we label the first critical error that remains uncorrected in the observed continuation and is associated with final failure as a key-step boundary, preserving valid early prefixes of failed trajectories as on track. Across WebArena-Lite and Online Mind2Web web agent benchmarks with five open- and closed-source backbones, observable trajectory signals are competitive with internal-signal baselines. The resulting predictors also support early intervention under fixed false-cut budgets and transfer across held-out website categories. These findings show that observable trajectory signals support valuable risk prediction abilities.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T03:34:47Z</published>
+    <arxiv:comment>preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sitong Pan</name>
+    </author>
+    <author>
+      <name>Yipeng Shen</name>
+    </author>
+    <author>
+      <name>Yilin Lu</name>
+    </author>
+    <author>
+      <name>Caiwen Ding</name>
+    </author>
+    <author>
+      <name>Lu Cheng</name>
+    </author>
+    <author>
+      <name>Qianwen Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.00048v1</id>
+    <title>GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments</title>
+    <updated>2026-08-30T05:19:43Z</updated>
+    <link href="https://arxiv.org/abs/2609.00048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.00048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must remain contextually consistent when they are repeatedly reused for future interaction. We introduce GUI-CC, a benchmark that evaluates contextual consistency of GUI world models as agent environments rather than isolated next-screen predictors. GUI-CC contains two complementary tracks: an offline reference-action track that rolls models along real mobile GUI trajectories, and an online agent-loop track that lets fixed probing agents interact with model-generated UIs. We construct 500 offline trajectory tasks from GUIOdyssey and 200 emulator-verified online tasks across 30 mobile apps. GUI-CC evaluates transition fidelity, transition plausibility, contextual consistency, and task progress. Experiments show that plausible single-step generation does not guarantee reliable environment simulation: current models often produce usable-looking screens while failing to preserve task-relevant context or support executable multi-step rollouts.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-30T05:19:43Z</published>
+    <arxiv:comment>EMNLP 26 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lin Fu</name>
+    </author>
+    <author>
+      <name>Zheyuan Yang</name>
+    </author>
+    <author>
+      <name>Tianhui Zhang</name>
+    </author>
+    <author>
+      <name>Jinbiao Wei</name>
+    </author>
+    <author>
+      <name>Guo Gan</name>
+    </author>
+    <author>
+      <name>Boxu Liu</name>
+    </author>
+    <author>
+      <name>Yilun Zhao</name>
+    </author>
+    <author>
+      <name>Yu Rong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.27808v1</id>
+    <title>CURA: Certified Runtime Alarms for Computer-Use Agents</title>
+    <updated>2026-08-28T00:50:47Z</updated>
+    <link href="https://arxiv.org/abs/2608.27808v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.27808v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-report is the cheapest oversight channel a deployer has, and on capable computer-use agents (CUAs) it fails precisely where oversight matters. On 361 OSWorld tasks our pipeline, a read-only feasibility gate, a planner, and a GUI executor, reaches a mean task score of 82.9, above the 72.4 human reference, yet 64 of its 71 failures (90%) end with a success claim, 61 acknowledging no blocker, and the explicit failure affordance is never used in roughly 9,100 calls. We introduce CURA (Certified Runtime Alarms for Computer-Use Agents), an external monitor that reads only harness-visible telemetry, with no model internals, extra LLM calls, or prompt changes, and turns the running trajectory into a sequential test with certified false-alarm control. At alpha = 0.10 its CUSUM alarm detects 42.3% of failures a median of 31 steps before termination at a realized false-alarm rate of 0.066, and risk is partly resolvable before the first action (gate probe, 0.69 AUROC). Retrospectively the composite reaches 0.828 AUROC (fold-internal floor 0.802), but its margin over a total-token baseline is not significant (Delta = +0.026, p = 0.101); the separation is online, where CURA recalls more at matched certified budgets: 0.41 versus 0.34 at alpha = 0.10, 0.56 versus 0.38 at alpha = 0.20. Alarm-gated mid-execution oversight recovers 23 of 70 failures while spending a frontier overseer on 38, giving a deployable cascade at mean score 86.8 and 84.5% full-solve (305 of 361). The certificate bounds false alarms only. We also report where behavioral monitoring is uninformative.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T00:50:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Divake Kumar</name>
+    </author>
+    <author>
+      <name>Sina Tayebati</name>
+    </author>
+    <author>
+      <name>Devashri Naik</name>
+    </author>
+    <author>
+      <name>Amanda Sofie Rios</name>
+    </author>
+    <author>
+      <name>Nilesh Ahuja</name>
+    </author>
+    <author>
+      <name>Omesh Tickoo</name>
+    </author>
+    <author>
+      <name>Ranganath Krishnan</name>
+    </author>
+    <author>
+      <name>Amit Ranjan Trivedi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.25777v1</id>
+    <title>LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents</title>
+    <updated>2026-08-26T13:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2608.25777v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.25777v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern GUI-agent frameworks achieve strong desktop task performance with frontier API models, yet persistent control information often remains implicit in growing interaction trajectories. At each step, the planner reconstructs the active task stage, accumulated evidence, and runtime feedback before deciding the next action. This dependence becomes more pronounced under weaker local reasoning backbones. Across four representative state-of-the-art frameworks, replacing GPT-5 with Qwen3.5-9B reduces average OSWorld SR-100 from 60.9\% to 37.7\%. Trajectory annotation further identifies at least one control failure in 91.6\% of failed trajectories. To address this problem, we introduce LocalLSTC, a training-free architecture that organizes control by temporal scope, maintaining persistent cross-step state to guide short-term execution commitments. Long-Term Control maintains the active subgoal, subgoal-aligned evidence, and runtime feedback across interactions, while Short-Term Execution realizes bounded commitments for the current step. Long-to-Short Planning forms each commitment from persistent state, and Short-to-Long Control integrates execution outcomes back into that state for progress assessment, recovery, and termination. With Qwen3.6-27B, LocalLSTC reaches 64.7\% SR-100 on OSWorld and 65.3\% on WindowsAgentArena, outperforming the strongest prior local results on both benchmarks. Ablations further support contributions from mechanisms on both sides of execution. These findings identify temporal organization of control information as a distinct architectural dimension for locally deployed GUI agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T13:20:27Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Weiming Li</name>
+    </author>
+    <author>
+      <name>Helen Paik</name>
+    </author>
+    <author>
+      <name>Yulei Sui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.24174v1</id>
+    <title>Task-Adaptive Rubrics for GUI Reward Modeling</title>
+    <updated>2026-08-25T07:40:12Z</updated>
+    <link href="https://arxiv.org/abs/2608.24174v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.24174v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies on GUI agents have increasingly focused on outcome reward modeling, which assigns outcome rewards by judging whether an executed trajectory satisfies the success criteria implied by the user instruction. Existing GUI reward verifiers, however, often under-specify how these criteria should be constructed for each task instance. Whether using generic rubric structures or implicit model reasoning, their judging criteria are not sufficiently task-adaptive: they can transfer checks across tasks, overlook concrete constraints in the current instruction, or become overly strict by enforcing unstated requirements. To address this limitation, we propose AdaptRubric, a Coarse-to-Fine Rubrics Framework that constructs task-adaptive judging criteria through a category-level coarse stage and an instance-level fine stage. AdaptRubric performs category-level coarse rubric retrieval by routing the instruction to a GUI task family and retrieving reusable task-family criteria, then conducts instance-level fine rubric generation to surface compact cues for concrete values, scopes, and constraints in the current instruction. Across offline reward evaluation and online reinforcement learning optimization, AdaptRubric consistently outperforms prior reward agents, improving F1 by 3.6 points over the baseline average under a matched image budget and yielding a 4.23-point task-success gain.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-25T07:40:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tao Xiong</name>
+    </author>
+    <author>
+      <name>Xavier Hu</name>
+    </author>
+    <author>
+      <name>Wenkai Wang</name>
+    </author>
+    <author>
+      <name>Qinzhuo Wu</name>
+    </author>
+    <author>
+      <name>Changqiao Wu</name>
+    </author>
+    <author>
+      <name>Pengzhi Gao</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Jian Luan</name>
+    </author>
+    <author>
+      <name>Shengyu Zhang</name>
+    </author>
+  </entry>
+</feed>
