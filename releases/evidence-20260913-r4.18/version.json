@@ -1,9 +1,9 @@
 {
-  "evidence_version": "evidence-20260913-r4.17",
+  "evidence_version": "evidence-20260913-r4.18",
   "baseline": "evidence-20260908 / e4692ac",
   "manuscript_pdf_sha256": {
-    "en": "85fd84d909bed98bab15ae6dbf15f95bdcd22d43e0730525decfaef76af766f3",
-    "zh": "07ab58d9922a04580acb079b21697481e20d0dec3a9a3f70fa9a6a654c1f70e7"
+    "en": "9106a41e8c528440e6fd6d48b0fb84d6097435c03bdb802aaacc1abbe8b1e6a2",
+    "zh": "f3b891c31d7a503f75a2ea4475f10acf595fc29d7b9ad38b6a6fc1e447df579f"
   },
   "counts": {
     "positive_source_cells": 123,
@@ -16,15 +16,15 @@
   "files_source_sha256": {
     "docs/paper/latex/sections/en/00_abstract.tex": "bac2ad11ee690349d4adc3d1002e29c2d05298865ad73215c877d22142db771d",
     "docs/paper/latex/sections/en/01_introduction.tex": "59c570fb401e58e20b45da5f2f19f22d1058917ffce30a1f0167562c9dbf3eaa",
-    "docs/paper/latex/sections/en/02_methodology.tex": "dc14f9c7ed435615515bbf3fe461fe6a5b260c23c0681c7e1257cee493c909b4",
+    "docs/paper/latex/sections/en/02_methodology.tex": "82b50efdac6261c07e332b097b7ea0e15ccbc09d976a88d14aad75fd0bec1472",
     "docs/paper/latex/sections/en/03_framework.tex": "5ac5afa1c574b01fa8dfd519a1c50368f866326c681951b6745a1ebda0531b07",
     "docs/paper/latex/sections/en/04_mechanisms.tex": "7ab19ef16c1922f3c86c4098590e28be64bc3c4911fa183d3e102bf895a69b44",
     "docs/paper/latex/sections/en/05_evaluation.tex": "29f613101c23f412d1681acfdd44e4741f40fc149bacdc367093c0921fe6b8e4",
     "docs/paper/latex/sections/en/06_security.tex": "461a721b884b35fbfad5c009f448c2246315afaa61c5a2faf8762a3b24a4a733",
     "docs/paper/latex/sections/en/07_challenges.tex": "871db3352f5092348b1818c29520f05690ae39b457a2cbd02f58cb03c655f0fa",
     "docs/paper/latex/sections/en/08_conclusion.tex": "c806592636abf0817aab75cbd560260c094d291725fa1a8b74f7c8794b175d24",
-    "docs/paper/latex/sections/en/appendix_methods.tex": "8e2ff8dc15a6e9cb500b2677d3293cf1c129e4e79e600ca362ebf43e49aab168",
-    "docs/paper/latex/sections/en/declarations.tex": "3b32ff3471234d6d4f154edb62b45582229fd835e1d1ad8e0b7dee1b45966e26",
+    "docs/paper/latex/sections/en/appendix_methods.tex": "0ea9b98f269c2e57c13832c70cac6d7099876bfcccd439a4844aa7e567b3a34d",
+    "docs/paper/latex/sections/en/declarations.tex": "9f8eb853e8e149caa4274de6af88b1957217c78f06c10e6ef7cd8238d0fcc9a7",
     "docs/paper/latex/shared/fig_architecture.tex": "ed76e2bf5ee9004b4685bab850573045f7e1d3871b1d77c48383ffc9c467ed6a",
     "docs/paper/latex/shared/fig_evaluation_design.tex": "e078ce59fe58595bcf8e19972f0004b6f1c05c24d0f66301843b13bf97a3744c",
     "docs/paper/latex/shared/fig_evidence.tex": "f2509c416bb00ca67613d0bd70cb2deeb1a28026c6b7b4eb500f2a6b099e92e5",
@@ -32,8 +32,8 @@
     "docs/paper/latex/shared/fig_memory_workflow.tex": "1c54f2dbc9a30c2ce4403e446dfcc08d610ad2d9f200c313ddf76550935d0699",
     "docs/paper/latex/shared/fig_security.tex": "d3879f4c86e70b11575883c2cb6691619fec065fb5cf5a91533d28b1e99f2c60",
     "docs/paper/latex/shared/preamble.tex": "37866a3e1a510d0ff522785ae038ef8a58827742e0cfe2c83bd77e63fa095cb6",
-    "docs/paper/latex/shared/search_queries.tex": "55e11bb3bf2f77bec32bf0ea5a8eda646b6415eefdb4cd58c758ba69532a8ef1",
-    "docs/paper/latex/shared/tab_acquisition.tex": "a62b6b3666161b1bd0c294239197733c776709b53d7e23e41052ab61ffbeab05",
+    "docs/paper/latex/shared/search_queries.tex": "5d2d2db93df512ef838570961210e176b27f71ecb9dca277bbfe482fff4f05b5",
+    "docs/paper/latex/shared/tab_acquisition.tex": "308e20969f8d3c9e8938ae8550f6cb26f5bba4853d543783734ab5e464cb17d8",
     "docs/paper/latex/shared/tab_cell_sources.tex": "d605d8a5a9b2863b3b39b49a88be75225822d83a18a494f0aa6012b713dbcfb8",
     "docs/paper/latex/shared/tab_constructs.tex": "b8f92c279e8159ba129ba44e2f1de3aec2b28673503b79b9c43e606ca9e41816",
     "docs/paper/latex/shared/tab_corpus_profile.tex": "e53735f766dacecda5090fb5bdc88bbf6aa23e97f80a73c5d1563bdbcf19b8b3",

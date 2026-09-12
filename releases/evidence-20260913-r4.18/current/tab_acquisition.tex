@@ -1,0 +1,12 @@
+\begin{table}[!htbp]\centering\tabsize
+\caption{\Bi{Acquisition and selection counts by record type.}{按记录类型统计的获取与选择数量。}}\label{tab:acquisition}
+\begin{tabularx}{\linewidth}{@{}p{0.24\linewidth}p{0.21\linewidth}Y@{}}\toprule
+\Bi{Set}{集合} & \Bi{Count}{数量} & \Bi{Interpretation}{解释}\\\midrule
+\Bi{Database hits / distinct records}{数据库命中／唯一记录} & 216/128; 75/47; 13/8; 10/7 & \Bi{Scopus; WoS; IEEE; ACM. Deduplication within each database.}{依次为 Scopus、WoS、IEEE、ACM；各库内部去重。}\\
+\Bi{arXiv hits / distinct records}{arXiv 命中／唯一记录} & 544 / 346 & \Bi{API and keyword queries combined; deduplicated by arXiv base ID.}{合并 API 与关键词查询；按 arXiv 基础编号去重。}\\
+\Bi{Selection inventory}{选材清单} & 155 & \Bi{Candidate families used for framework source selection.}{用于框架来源选择的候选家族。}\\
+\Bi{Selected / not selected}{采用／未采用} & 34 / 121 & \Bi{121 = 113 not used for claims + 8 contextual candidates.}{121 = 113 项未用于主张提取 + 8 项背景候选。}\\
+\Bi{Coded sources outside inventory}{清单外编码来源} & 21 & \Bi{10 arXiv; 1 Scopus; 5 survey-collection; 5 targeted retrieval.}{10 项 arXiv、1 项 Scopus、5 项综述资料、5 项定向获取。}\\
+\Bi{Coded subset}{编码子集} & 34 + 21 = 55 & \Bi{33 primary mechanisms and 22 auxiliary sources; 75 claims.}{33 个主要机制来源及 22 个辅助来源；75 条主张。}\\
+\bottomrule\end{tabularx}
+\end{table}

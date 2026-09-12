@@ -1,26 +1,25 @@
-# Evidence collection and coding
+# Evidence methods
 
-## Scope and retrieval
+## Source acquisition and selection
 
-The survey examines retained state and experience in GUI agents. Source selection supports comparisons of retained objects, consumption paths, maintenance operations, and evaluation conditions. Publication coverage extends through 10 September 2026.
+Literature is collected through Scopus, Web of Science Core Collection, IEEE Xplore, ACM Digital Library, arXiv, and targeted retrieval of named mechanism papers and surveys. The publication cutoff is 10 September 2026. Database publication filters cover 2015–2026. arXiv date intervals and literal queries are specified in `acquisition_records.json` and `search_queries.tex`. English-language selection applies at retrieval in Scopus, WoS and ACM and at screening for IEEE and arXiv.
 
-Scopus, Web of Science, IEEE Xplore, and ACM Digital Library searches ran on 2–3 September 2026 with a 2015–2026 publication-year filter. Scopus, Web of Science, and ACM applied English-language filtering during retrieval; IEEE records applied the language restriction during source selection. The wide date window includes foundations preceding LLM-driven GUI systems. Passage-level analysis uses English-language sources.
+| Channel | Query hits | Distinct records within channel |
+|---|---:|---:|
+| Scopus | 216 | 128 |
+| Web of Science | 75 | 47 |
+| IEEE Xplore | 13 | 8 |
+| ACM Digital Library | 10 | 7 |
+| arXiv | 544 | 346 |
 
-The three arXiv query families cover submission dates from 25 August to 8 September 2026. Q1, Q2, and Q3 returned 3, 6, and 3 records respectively: 12 hits and 8 distinct records. The focused `GUI memory` search covers latest-submission dates from 2 to 10 September 2026, searches all fields, includes cross-listed records, and returns 6 records. One targeted source joins this set; three sources support qualitative comparisons. Exact queries, execution times, returned records, and selection decisions are included in the package.
+arXiv results are combined by base identifier across all recorded successful API and keyword queries. The API date intervals are 2015-01-01–2026-08-31 and 2026-08-25–2026-09-08; the advanced-search interval is 2026-09-02–2026-09-10 (latest submission). The ledger records membership and removes overlap. Failed query attempts have no hit count.
 
-| Unit | Count | Interpretation |
-|---|---|---|
-| Database query hits | 216 / 75 / 13 / 10 | Scopus / WoS / IEEE / ACM; queries overlap |
-| arXiv query-family hits | 12 / 8 | Returned / distinct records |
-| Focused retrieval | 6 + 1 | Keyword-search records plus one targeted source |
-| Candidate families | 155 | 34 selected for claims; 113 not selected for claims; 8 contextual candidates |
-| Coded sources | 55 | 34 from the candidate inventory and 21 outside it |
-| Source roles | 33 + 22 | Primary mechanisms and auxiliary roles |
-| Claims | 75 | Source-located statements, each with an explicit scope |
-| Other mechanism comparisons | 24 | Version-specific comparisons outside the coded claim set |
-| Manuscript references | 91 | 55 coded sources and 36 other cited works |
+Cross-channel matching uses normalized DOI, arXiv base ID, database identifiers, and normalized title with first author and publication year (within one year). The 155-family selection inventory is a source-selection collection containing both search and citation-tracing candidates.
 
-Selection is purposive. Counts describe this collection. Historical records provide broad non-selection categories; detailed individual exclusion reasons and the complete cross-database deduplication chain are unavailable. Query attempts that returned HTTP errors or timed out have no hit count. These outcomes are recorded separately from successful searches.
+
+The inventory supplies 34 coded sources; 113 families are not selected for claim extraction and eight are contextual candidates. The 21 coded sources outside it comprise ten arXiv retrievals, one Scopus retrieval, five survey-collection sources and five targeted source retrievals. `acquisition_records.json` identifies each source, its available acquisition record, record locator and hash. Retrieval evidence does not establish a first-discovery query when that query was not retained. The five survey-collection sources are documented in the local reference catalogue; their original discovery queries are unavailable.
+
+The coded subset contains 55 sources (33 primary mechanisms and 22 auxiliary sources) and 75 claims. The manuscript has 91 references and 24 other mechanism-comparison records. Selection is purposive; broad non-selection categories are available, but detailed individual exclusion reasons and some first-discovery records are incomplete.
 
 ## Coding
 

@@ -1,0 +1,2858 @@
+{
+  "arxiv_raw_hits": 544,
+  "arxiv_unique_records": 346,
+  "queries": [
+    {
+      "channel": "arXiv API",
+      "family": "Q1_CORE",
+      "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND (all:memory OR all:\"working memory\" OR all:\"short-term memory\" OR all:\"long-term memory\" OR all:\"episodic memory\" OR all:\"external memory\" OR all:\"memory bank\" OR all:\"memory retrieval\") AND submittedDate:[201501010000 TO 202608312359]",
+      "hits": 145,
+      "date_from": "2015-01-01",
+      "date_to": "2026-08-31"
+    },
+    {
+      "channel": "arXiv API",
+      "family": "Q2_PROXY",
+      "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND ((all:\"task state\" OR all:\"interaction history\" OR all:\"action history\" OR all:trajectory OR all:\"context compression\" OR all:\"context summarization\" OR all:\"experience retrieval\" OR all:\"experience reuse\" OR all:\"skill library\") AND (all:store OR all:persist OR all:retain OR all:summarize OR all:compress OR all:retrieve OR all:reuse OR all:update OR all:recover)) AND submittedDate:[201501010000 TO 202608312359]",
+      "hits": 135,
+      "date_from": "2015-01-01",
+      "date_to": "2026-08-31"
+    },
+    {
+      "channel": "arXiv API",
+      "family": "Q3_EVAL",
+      "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND (all:memory OR all:\"long-horizon\" OR all:\"long horizon\" OR all:\"state tracking\" OR all:\"progress tracking\" OR all:\"history-aware\") AND (all:benchmark OR all:evaluation OR all:ablation OR all:failure OR all:robustness OR all:security OR all:attack) AND submittedDate:[201501010000 TO 202608312359]",
+      "hits": 246,
+      "date_from": "2015-01-01",
+      "date_to": "2026-08-31"
+    },
+    {
+      "channel": "arXiv API",
+      "family": "Q1_CORE",
+      "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND (all:memory OR all:\"working memory\" OR all:\"short-term memory\" OR all:\"long-term memory\" OR all:\"episodic memory\" OR all:\"external memory\" OR all:\"memory bank\" OR all:\"memory retrieval\") AND submittedDate:[202608250000 TO 202609082359]",
+      "hits": 3,
+      "date_from": "2026-08-25",
+      "date_to": "2026-09-08"
+    },
+    {
+      "channel": "arXiv API",
+      "family": "Q2_PROXY",
+      "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND ((all:\"task state\" OR all:\"interaction history\" OR all:\"action history\" OR all:trajectory OR all:\"context compression\" OR all:\"context summarization\" OR all:\"experience retrieval\" OR all:\"experience reuse\" OR all:\"skill library\") AND (all:store OR all:persist OR all:retain OR all:summarize OR all:compress OR all:retrieve OR all:reuse OR all:update OR all:recover)) AND submittedDate:[202608250000 TO 202609082359]",
+      "hits": 6,
+      "date_from": "2026-08-25",
+      "date_to": "2026-09-08"
+    },
+    {
+      "channel": "arXiv API",
+      "family": "Q3_EVAL",
+      "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND (all:memory OR all:\"long-horizon\" OR all:\"long horizon\" OR all:\"state tracking\" OR all:\"progress tracking\" OR all:\"history-aware\") AND (all:benchmark OR all:evaluation OR all:ablation OR all:failure OR all:robustness OR all:security OR all:attack) AND submittedDate:[202608250000 TO 202609082359]",
+      "hits": 3,
+      "date_from": "2026-08-25",
+      "date_to": "2026-09-08"
+    },
+    {
+      "channel": "arXiv advanced search",
+      "family": "GUI memory",
+      "query": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=GUI%20memory&terms-0-field=all&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-09-02&date-to_date=2026-09-10&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first",
+      "hits": 6,
+      "date_from": "2026-09-02",
+      "date_to": "2026-09-10",
+      "date_type": "latest submission"
+    }
+  ],
+  "arxiv_records": [
+    {
+      "arxiv_id": "1909.07646",
+      "title": "Proceedings 35th International Conference on Logic Programming (Technical Communications)",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2109.07914",
+      "title": "Proceedings 37th International Conference on Logic Programming (Technical Communications)",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2208.02685",
+      "title": "Proceedings 38th International Conference on Logic Programming",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2307.02485",
+      "title": "Building Cooperative Embodied Agents Modularly with Large Language Models",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2308.04026",
+      "title": "AgentSims: An Open-Source Sandbox for Large Language Model Evaluation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2402.09727",
+      "title": "A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2402.15057",
+      "title": "On the Multi-turn Instruction Following for Conversational Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2403.12014",
+      "title": "EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2403.16971",
+      "title": "AIOS: LLM Agent Operating System",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2404.09992",
+      "title": "MMInA: Benchmarking Multihop Multimodal Internet Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2405.20309",
+      "title": "Large Language Models Can Self-Improve At Web Agent Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2406.09187",
+      "title": "GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2410.08164",
+      "title": "Agent S: An Open Agentic Framework that Uses Computers Like a Human",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2410.17236",
+      "title": "Large Language Models Empowered Personalized Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2411.15004",
+      "title": "ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2412.19723",
+      "title": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2501.10893",
+      "title": "Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2501.12485",
+      "title": "R2D2: Remembering, Replaying and Dynamic Decision Making with a Reflective Agentic Memory",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2502.07942",
+      "title": "Symbiotic Cooperation for Web Agents: Harnessing Complementary Strengths of Large and Small LLMs",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2502.08047",
+      "title": "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2502.14282",
+      "title": "PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2503.02268",
+      "title": "AppAgentX: Evolving GUI Agents as Proficient Smartphone Users",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2503.02950",
+      "title": "LiteWebAgent: The Open-Source Suite for VLM-Based Web-Agent Applications",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2503.07919",
+      "title": "BEARCUBS: A benchmark for computer-using web agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2503.09263",
+      "title": "COLA: A Scalable Multi-Agent Framework For Windows UI Task Automation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2503.24180",
+      "title": "Navi-plus: Managing Ambiguous GUI Navigation Tasks with Follow-up Questions",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2504.00906",
+      "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2504.11788",
+      "title": "WebRollback: Enhancing Web Agents with Explicit Rollback Mechanisms",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2504.13865",
+      "title": "A Survey on (M)LLM-Based GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.11942",
+      "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.15277",
+      "title": "Web-Shepherd: Advancing PRMs for Reinforcing Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.16282",
+      "title": "ARPO:End-to-End Policy Optimization for GUI Agents with Experience Replay",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.16421",
+      "title": "WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.16827",
+      "title": "GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.20231",
+      "title": "MemGuide: Intent-Driven Memory Selection for Goal-Oriented Multi-Session LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.23596",
+      "title": "Agent-SAMA: State-Aware Mobile Assistant",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2505.24838",
+      "title": "VideoCAD: A Dataset and Model for Learning Long-Horizon 3D CAD UI Interactions from Video",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.01616",
+      "title": "MLA-Trust: Benchmarking Trustworthiness of Multimodal LLM Agents in GUI Environments",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.02158",
+      "title": "Reflection-Based Memory For Web navigation Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.02539",
+      "title": "VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.03533",
+      "title": "Go-Browse: Training Web Agents with Structured Exploration",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.10387",
+      "title": "Mirage-1: Augmenting and Updating GUI Agent with Hierarchical Multimodal Skills",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.12104",
+      "title": "DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.14205",
+      "title": "AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.17318",
+      "title": "Context manipulation attacks : Web agents are susceptible to corrupted memory",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2506.18158",
+      "title": "Chain-of-Memory: Enhancing GUI Agents for Cross-Application Navigation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2507.00210",
+      "title": "LineRetriever: Planning-Aware Observation Reduction for Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2507.00938",
+      "title": "WebArXiv: Evaluating Multimodal Agents on Time-Invariant arXiv Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2507.05445",
+      "title": "A Systematization of Security Vulnerabilities in Computer Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2507.10644",
+      "title": "From Multi-Agent Systems and the Semantic Web to Agentic AI: A Unified Narrative of the Web of Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2507.16853",
+      "title": "MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2507.19478",
+      "title": "MMBench-GUI: Hierarchical Multi-Platform Evaluation Framework for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.01330",
+      "title": "NaturalGAIA: A Verifiable Benchmark and Hierarchical Framework for Long-Horizon GUI Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.03923",
+      "title": "CoAct-1: Computer-using Multi-Agent System with Coding Actions",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.04026",
+      "title": "VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.04700",
+      "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.05748",
+      "title": "WebWatcher: Breaking New Frontier of Vision-Language Deep Research Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.13024",
+      "title": "WebMall -- A Multi-Shop Benchmark for Evaluating Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.14704",
+      "title": "MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.16987",
+      "title": "WebSight: A Vision-First Architecture for Robust Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.19461",
+      "title": "Reliable Weak-to-Strong Monitoring of LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2508.20096",
+      "title": "CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.01052",
+      "title": "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.02544",
+      "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.06501",
+      "title": "WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.07098",
+      "title": "Instruction Agent: Enhancing Agent with Expert Demonstration",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.09525",
+      "title": "TrEnv-X: Transparently Share Serverless Execution Environments Across Different Functions and Nodes",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.11543",
+      "title": "UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.13313",
+      "title": "ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.13704",
+      "title": "InfraMind: A Novel Exploration-based GUI Agentic Framework for Mission-critical Industrial Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.15738",
+      "title": "GUI-ReWalk: Massive Data Generation for GUI Agent via Stochastic Exploration and Intent-Aware Reasoning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.20729",
+      "title": "Robust, Observable, and Evolvable Agentic Systems Engineering: A Principled Framework Validated via the Fairy GUI Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.21799",
+      "title": "D-Artemis: A Deliberative Cognitive Framework for Mobile GUI Multi-Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.23263",
+      "title": "GUI-PRA: Process Reward Agent for GUI Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.23738",
+      "title": "GUI-Shepherd: Reliable Process Reward and Verification for Long-Sequence GUI Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2509.23866",
+      "title": "Efficient Multi-turn RL for GUI Agents via Decoupled Training and Adaptive Data Curation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.00078",
+      "title": "Adaptive and Resource-efficient Agentic AI Systems for Mobile and Embedded Devices: A Survey",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.00413",
+      "title": "PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.00496",
+      "title": "Agent-ScanKit: Unraveling Memory and Reasoning of Multimodal Agents via Sensitivity Perturbations",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.00536",
+      "title": "GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.01524",
+      "title": "WALT: Web Agents that Learn Tools",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.02250",
+      "title": "Scaling Agents for Computer Use",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.03485",
+      "title": "Learning Efficient Guardrails for Compliance",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.03612",
+      "title": "Cross-Modal Content Optimization for Steering Web Agent Preferences",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.04373",
+      "title": "JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.04673",
+      "title": "Watch and Learn: Learning to Use Computers from Online Videos",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.06042",
+      "title": "Agent+P: Guiding UI Agents via Symbolic Planning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.07988",
+      "title": "ReInAgent: A Context-Aware GUI Agent Enabling Human-in-the-Loop Mobile Task Navigation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.09038",
+      "title": "Auto-scaling Continuous Memory for GUI Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.10666",
+      "title": "BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.11221",
+      "title": "WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.13913",
+      "title": "Synthesizing Agentic Data for Web Agents with Progressive Difficulty Enhancement Mechanisms",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.14388",
+      "title": "Hi-Agent: Hierarchical Vision-Language Agents for Mobile Device Control",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.16720",
+      "title": "Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic AI",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.19838",
+      "title": "Branch-and-Browse: Efficient and Controllable Web Exploration with Tree-Structured Reasoning and Action Memory",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.21850",
+      "title": "SCoPE VLM: Selective Context Processing for Efficient Document Navigation in Vision-Language Models",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.22009",
+      "title": "OpenPhone: Mobile Agentic Foundation Models",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.22732",
+      "title": "WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.24168",
+      "title": "MGA: Memory-Driven GUI Agent for Observation-Centric Interaction",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.24699",
+      "title": "AgentFold: Long-Horizon Web Agents with Proactive Context Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2510.27210",
+      "title": "GUI-Rise: Structured Reasoning and History Summarization for GUI Navigation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.04137",
+      "title": "Learning from Online Videos at Inference Time for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.04307",
+      "title": "GUI-360$^\\circ$: A Comprehensive Dataset and Benchmark for Computer-Using Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.08325",
+      "title": "AgentPRM: Process Reward Models for LLM Agents via Step-Wise Promise and Progress",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.09127",
+      "title": "History-Aware Reasoning for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.12997",
+      "title": "WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.16108",
+      "title": "SkyRL-Agent: Efficient RL Training for Multi-turn LLM Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.17131",
+      "title": "UI-CUBE: Enterprise-Grade Computer Use Agent Benchmarking Beyond Task Accuracy to Operational Reliability",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2511.22235",
+      "title": "Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.01078",
+      "title": "SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.09458",
+      "title": "Architectures for Building Agentic AI",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.10371",
+      "title": "AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.10962",
+      "title": "WebSTAR: Scalable Data Synthesis for Computer Use Agents with Step-Level Filtering",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.15784",
+      "title": "Beyond Training: Enabling Self-Evolution of Agents with MOBIMEM",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.16295",
+      "title": "OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.16301",
+      "title": "Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.19107",
+      "title": "FC-MIR: A Mobile Screen Awareness Framework for Intent-Aware Recommendation based on Frame-Compressed Multimodal Trajectory Reasoning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.19396",
+      "title": "EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2512.21302",
+      "title": "AndroidLens: Long-latency Evaluation with Nested Sub-targets for Android GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.04035",
+      "title": "MobileDreamer: Generative Sketch World Model for GUI Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.05787",
+      "title": "From Off-Policy to On-Policy: Enhancing GUI Agents via Bi-level Expert-to-Policy Assimilation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.06328",
+      "title": "C-World: A Computer Use Agent Environment Creator",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.07262",
+      "title": "ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.07779",
+      "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.09636",
+      "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.11631",
+      "title": "Compress to Focus: Efficient Coordinate Compression for Policy Optimization in Multi-Turn GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.15311",
+      "title": "Aeon: High-Performance Neuro-Symbolic Memory Management for Long-Horizon LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.15876",
+      "title": "EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.17722",
+      "title": "EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.19199",
+      "title": "MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.21123",
+      "title": "CUA-Skill: Develop Skills for Computer Using Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.21352",
+      "title": "BEAP-Agent: Backtrackable Execution and Adaptive Planning for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.21872",
+      "title": "WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2601.22528",
+      "title": "Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.00785",
+      "title": "World Models as an Intermediary between Agents and the Real World",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.02468",
+      "title": "Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.02995",
+      "title": "Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.03255",
+      "title": "LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.05832",
+      "title": "UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.06075",
+      "title": "MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.07398",
+      "title": "AgentSys: Secure and Dynamic LLM Agents Through Explicit Hierarchical Memory Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.09012",
+      "title": "Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.09082",
+      "title": "UI-Venus-1.5 Technical Report",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.09662",
+      "title": "TreeCUA: Efficiently Scaling GUI Automation with Tree-Structured Verifiable Evolution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.10863",
+      "title": "ICA: Information-Aware Credit Assignment for Visually Grounded Long-Horizon Information-Seeking Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.11351",
+      "title": "Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.11524",
+      "title": "Adaptive Milestone Reward for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.12852",
+      "title": "WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.12984",
+      "title": "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.13559",
+      "title": "OpAgent: Operator Agent for Web Navigation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.13653",
+      "title": "Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.14296",
+      "title": "AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.14721",
+      "title": "WebWorld: A Large-Scale World Model for Web Agent Training",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.16855",
+      "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.17049",
+      "title": "IntentCUA: Learning Intent-level Representations for Skill Abstraction and Multi-Agent Planning in Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.20502",
+      "title": "ActionEngine: From Reactive to Programmatic GUI Agents via State Machine Memory",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.20867",
+      "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.21394",
+      "title": "MemoPhishAgent: Memory-Augmented Multi-Modal LLM Agent for Phishing URL Detection",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.22190",
+      "title": "GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.22402",
+      "title": "Contextual Memory Virtualisation: DAG-Based State Management and Structurally Lossless Trimming for LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.23166",
+      "title": "AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2602.23235",
+      "title": "Spatio-Temporal Token Pruning for Efficient High-Resolution GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.00188",
+      "title": "ST-Lite: Training-Free KV Cache Compression with Spatio-Trajectory Guidance for Long-Horizon GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.00503",
+      "title": "M$^2$: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.01104",
+      "title": "Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.03296",
+      "title": "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.05044",
+      "title": "WebFactory: Automated Compression of Foundational Language Intelligence into Grounded Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.05294",
+      "title": "STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.07024",
+      "title": "Enhancing Web Agents with a Hierarchical Memory Tree",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.08013",
+      "title": "PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.10178",
+      "title": "Video-Based Reward Modeling for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.10291",
+      "title": "Hybrid Self-evolving Structured Memory for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.11721",
+      "title": "When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.12138",
+      "title": "HATS: Hardness-Aware Trajectory Synthesis for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.12823",
+      "title": "Adaptive Vision-Language Model Routing for Computer Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.13110",
+      "title": "AgentRM: An OS-Inspired Resource Manager for LLM Agent Systems",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.14248",
+      "title": "Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.18030",
+      "title": "Quine: Realizing LLM Agents as Native POSIX Processes",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.18429",
+      "title": "AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.19584",
+      "title": "PowerLens: Taming LLM Agents for Safe and Personalized Mobile Power Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.19685",
+      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.23559",
+      "title": "CAPTCHA Solving for Native GUI Agents: Automated Reasoning-Action Data Generation and Self-Corrective Training",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.24157",
+      "title": "CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.24533",
+      "title": "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.25226",
+      "title": "WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.26648",
+      "title": "Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.27490",
+      "title": "AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2603.29318",
+      "title": "PSPA-Bench: A Personalized Benchmark for Smartphone GUI Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.01676",
+      "title": "GPA: Learning GUI Process Automation from Demonstrations",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.02623",
+      "title": "Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.04399",
+      "title": "GUIDE: Interpretable GUI Agent Evaluation via Hierarchical Diagnosis",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.05333",
+      "title": "Graph-of-Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.06126",
+      "title": "Gym-Anything: Turn any Software into an Agent Environment",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.06177",
+      "title": "WebExpert: domain-aware web agents with critic-guided expert experience for high-precision search",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.06182",
+      "title": "VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.06694",
+      "title": "",
+      "memberships": [
+        "arxiv_keyword_GUI_memory"
+      ]
+    },
+    {
+      "arxiv_id": "2604.07429",
+      "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.07927",
+      "title": "EigentSearch-Q+: Enhancing Deep Research Agents with Structured Reasoning Tools",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.11201",
+      "title": "CocoaBench: Evaluating Unified Digital Agents in the Wild",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.11784",
+      "title": "ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.11978",
+      "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.12666",
+      "title": "From Imitation to Discrimination: Progressive Curriculum Learning for Robust Web Navigation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.13318",
+      "title": "WebXSkill: Skill Learning for Autonomous Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.13531",
+      "title": "RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.13822",
+      "title": "UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.14872",
+      "title": "SkillDroid: Compile Once, Reuse Forever",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.17821",
+      "title": "WebUncertainty: Dual-Level Uncertainty Driven Planning and Reasoning For Autonomous Web Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.18779",
+      "title": "Mango: Multi-Agent Web Navigation via Global-View Optimization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.18847",
+      "title": "Human-Guided Harm Recovery for Computer Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.22558",
+      "title": "SOLAR-RL: Semi-Online Long-horizon Assignment Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.23455",
+      "title": "CUJBench: Benchmarking LLM-Agent on Cross-Modal Failure Diagnosis from Browser to Backend",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.23941",
+      "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.24964",
+      "title": "Odysseys: Benchmarking Web Agents on Realistic Long Horizon Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.25562",
+      "title": "SnapGuard: Lightweight Prompt Injection Detection for Screenshot-Based Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.26653",
+      "title": "AgentSim: A Platform for Verifiable Agent-Trace Simulation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.27151",
+      "title": "Step-level Optimization for Efficient Computer-use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.27955",
+      "title": "GUI Agents with Reinforcement Learning: Toward Digital Inhabitants",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2604.27996",
+      "title": "Exploring LLM Agent Designs and Interaction Modalities for Scientific Visualization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.06716",
+      "title": "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.07110",
+      "title": "Securing Computer-Use Agents: A Unified Architecture-Lifecycle Framework for Deployment-Grounded Reliability",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.07505",
+      "title": "LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.08310",
+      "title": "WebTrap: Stealthy Mid-Task Hijacking of Browser Agents During Navigation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.09317",
+      "title": "Mem-W: Latent Memory-Native GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.10347",
+      "title": "How Mobile World Model Guides GUI Agents?",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.12294",
+      "title": "Executable Agentic Memory for GUI Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.12493",
+      "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.13527",
+      "title": "MMSkills: Towards Multimodal Skills for General Visual Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.15030",
+      "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.15040",
+      "title": "Orchard: An Open-Source Agentic Modeling Framework",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.15556",
+      "title": "TopoClaw: A Human-Centric and Topology-Aware Agent Operating System",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.15777",
+      "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.16883",
+      "title": "SE-GA: Memory-Augmented Self-Evolution for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.17170",
+      "title": "TriAxialKV: Toward Extreme Low-Precision KV-Cache Quantization for Agentic Inference Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.17320",
+      "title": "TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.17439",
+      "title": "DiagEval: Trajectory-Conditioned Diagnosis for Reliable Software Evaluation with GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.18652",
+      "title": "MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.18859",
+      "title": "TwinRouterBench: Fast Static and Live Dynamic Evaluation for Realistic Agentic LLM Routing",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.19219",
+      "title": "SimGym: A Framework for A/B Test Simulation in E-Commerce with Traffic-Grounded VLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.19484",
+      "title": "CutVerse: A Compositional GUI Agents Benchmark for Media Post-Production Editing",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.19769",
+      "title": "OpenComputer: Verifiable Software Worlds for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.20530",
+      "title": "AgentAtlas: Beyond Outcome Leaderboards for LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.20833",
+      "title": "MemGym: a Long-Horizon Memory Environment for LLM Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.23939",
+      "title": "DRIVE: Modeling Skills at the Reasoning and Interaction Levels for Web Agents under Continual Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.24785",
+      "title": "PANDO: Efficient Multimodal AI Agents via Online Skill Distillation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.25160",
+      "title": "ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.26114",
+      "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.26546",
+      "title": "MobileExplorer: Accelerating On-Device Inference for Mobile GUI Agents via Online Exploration",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.27761",
+      "title": "AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.28258",
+      "title": "GUI Agents for Continual Game Generation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.28646",
+      "title": "MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.28775",
+      "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29119",
+      "title": "PRO-CUA: Process-Reward Optimization for Computer Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29218",
+      "title": "GTA: Generating Long-Horizon Tasks for Web Agents at Scale",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29324",
+      "title": "STAMP: Training Explicit Memory for Mobile GUI Agents in Controllable and Scalable Virtual Environments",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29447",
+      "title": "Recovering Policy-Induced Errors: Benchmarking and Trajectory Synthesis for Robust GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2605.29560",
+      "title": "Battery-Sim-Agent: Leveraging LLM-Agent for Inverse Battery Parameter Estimation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.00408",
+      "title": "Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.01414",
+      "title": "Agent Skills Should Go Beyond Text: The Case for Visual Skills",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.01533",
+      "title": "Multi-Agent Computer Use",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.01790",
+      "title": "STaR-KV: Spatio-Temporal Adaptive Re-weighting for KV Cache Compression in GUI Vision-Language Models",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.02031",
+      "title": "OpenWebRL: Demystifying Online Multi-turn Reinforcement Learning for Visual Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.02449",
+      "title": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.03103",
+      "title": "DeskCraft: Benchmarking Desktop Agents on Professional Workflows and Human-in-the-Loop Collaboration",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.04391",
+      "title": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.05597",
+      "title": "AsyncWebRL: Efficient Asynchronous Reinforcement Learning for Multi-Step Visual Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.06708",
+      "title": "Signal-Driven Observation for Long-Horizon Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.07027",
+      "title": "StainFlow: Entity-Stain Tracking and Evidence Linking for Process Rewards in GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.07074",
+      "title": "SlimSearcher: Training Efficiency-Aware Web Agents via Adaptive Reward Gating",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.07594",
+      "title": "Syll: Open-Source Personal Automation with Cross-Surface Execution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.09426",
+      "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.10423",
+      "title": "WebChallenger: A Reliable and Efficient Generalist Web Agent",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.10742",
+      "title": "MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.11042",
+      "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.11078",
+      "title": "A History-Aware Visually Grounded Critic for Computer Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.12485",
+      "title": "Speculative Rollback Correction for Quality-Diverse Web Agent Imitation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.13239",
+      "title": "ComAct: Reframing Professional Software Manipulation via COM-as-Action Paradigm",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.14106",
+      "title": "Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.15017",
+      "title": "Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.15673",
+      "title": "Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.16295",
+      "title": "VisualClaw: A Real-Time, Personalized Agent for the Physical World",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.16802",
+      "title": "LabOSBench: Benchmarking Computer Use Agents for Scientific Instrument Control",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.17645",
+      "title": "Beyond Domains: Reusing Web Skills via Transferable Interaction Patterns",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.18448",
+      "title": "VISUALSKILL: Multimodal Skills for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.19926",
+      "title": "MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.19930",
+      "title": "MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20622",
+      "title": "Darwin Mobile Agent: A Roadmap for Self-Evolution",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20636",
+      "title": "SkillHarness: Harnessing Safe Skills for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.20724",
+      "title": "When Web Agents Finish but Still Fail: Reproducible Triggers and Trace Diagnostics for Parallel Web Exploration",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.21071",
+      "title": "Local LLM Agents as Vulnerable Runtimes:A Source-Code Audit of the Agent Runtime Layer",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.21654",
+      "title": "ChainWorld: Composing Long-Horizon Desktop Workloads from Atomic OSWorld Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.22557",
+      "title": "MacAgentBench: Benchmarking AI Agents on Real-World macOS Desktop",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.22948",
+      "title": "ENVS: Environment-Native Verified Search for Long-Horizon GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.24525",
+      "title": "VisCritic: Visual State Comparison as Process Reward for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.24551",
+      "title": "GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.28514",
+      "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.29445",
+      "title": "Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.29537",
+      "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.31410",
+      "title": "Xiaomi-GUI-0 Technical Report",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.31612",
+      "title": "What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2606.32014",
+      "title": "Scalable Behaviour Cloning on Browser Using via Skill Distillation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.00502",
+      "title": "A Task-State Representation for Long-Horizon Mobile GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.07820",
+      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.09773",
+      "title": "EvoCUA-1.5: Online Reinforcement Learning for Multi-turn Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.11149",
+      "title": "The Hidden Footprint: Making Storage a First-Class Metric for LLM Agent Evaluation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.13027",
+      "title": "PalmClaw: A Native On-Device Agent Framework for Mobile Phones",
+      "memberships": [
+        "arxiv_api_2015_20260831",
+        "arxiv_keyword_GUI_memory"
+      ]
+    },
+    {
+      "arxiv_id": "2607.14548",
+      "title": "HyMobileAgent: Data-Environment Co-Scaling for Efficient GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.20482",
+      "title": "PersonaTrail: Benchmarking Personalized Web Agents through Browsing Trails",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.22689",
+      "title": "Beyond Sequential Interaction: Benchmarking Parallel Execution and Coordination for GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.22798",
+      "title": "StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.23263",
+      "title": "SeekJudge: A Practical Reward Framework for Reinforcement Learning in Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.24167",
+      "title": "Falsifiable Commitment Planning for Self-Correcting Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.26041",
+      "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.27155",
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.28227",
+      "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2607.28367",
+      "title": "How Benchmarks Mis-Score Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.00335",
+      "title": "RMSWeb: Reflection, Failure-Mode Mining, and Salvage-DS for Web Agent Reinforcement Learning",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.02352",
+      "title": "Qwen-CUA: Native Computer Use for (almost) Everything",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.04530",
+      "title": "FocusMem: Factorizing Content, Readout, and Trust in Latent GUI Memory",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.05013",
+      "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.05784",
+      "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.05891",
+      "title": "AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.06065",
+      "title": "The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.06474",
+      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.06745",
+      "title": "MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.06862",
+      "title": "SynChain: Inducing Computer-Use Agent Systems to Construct Their Own Attack Chains",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.10775",
+      "title": "SkillLens: Visual Skill Cards for Retrieval-Augmented GUI Action Prediction and On-Policy Distillation",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.12429",
+      "title": "SynWeaver: Website-Prior Task and Trajectory Co-Synthesis for Web Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.15930",
+      "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.17319",
+      "title": "Wuying-Browser-Agent: Real-World Centric Fundamental Long-Horizon Browser Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.18307",
+      "title": "ComponentBench: Diagnosing Component-Level Failures in Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.20319",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.20379",
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.22533",
+      "title": "CONTRAMEM: Learning Self-Evolving Procedural Memory from Contrasting Multi-Model Trajectories",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.22577",
+      "title": "CausalCache: Conditional High-Fidelity Restoration for Long-Horizon GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.23035",
+      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.23041",
+      "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+      "memberships": [
+        "arxiv_api_2015_20260831"
+      ]
+    },
+    {
+      "arxiv_id": "2608.24174",
+      "title": "Task-Adaptive Rubrics for GUI Reward Modeling",
+      "memberships": [
+        "arxiv_api_2015_20260831",
+        "arxiv_api_20260825_20260908/Q2_PROXY"
+      ]
+    },
+    {
+      "arxiv_id": "2608.25777",
+      "title": "LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831",
+        "arxiv_api_20260825_20260908/Q2_PROXY"
+      ]
+    },
+    {
+      "arxiv_id": "2608.27808",
+      "title": "CURA: Certified Runtime Alarms for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_2015_20260831",
+        "arxiv_api_20260825_20260908/Q2_PROXY"
+      ]
+    },
+    {
+      "arxiv_id": "2608.29596",
+      "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+      "memberships": [
+        "arxiv_api_20260825_20260908/Q1_CORE",
+        "arxiv_api_20260825_20260908/Q3_EVAL"
+      ]
+    },
+    {
+      "arxiv_id": "2609.00048",
+      "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+      "memberships": [
+        "arxiv_api_20260825_20260908/Q2_PROXY"
+      ]
+    },
+    {
+      "arxiv_id": "2609.02057",
+      "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
+      "memberships": [
+        "arxiv_api_20260825_20260908/Q2_PROXY"
+      ]
+    },
+    {
+      "arxiv_id": "2609.02309",
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "memberships": [
+        "arxiv_api_20260825_20260908/Q1_CORE",
+        "arxiv_api_20260825_20260908/Q3_EVAL",
+        "arxiv_keyword_GUI_memory"
+      ]
+    },
+    {
+      "arxiv_id": "2609.04869",
+      "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+      "memberships": [
+        "arxiv_api_20260825_20260908/Q1_CORE",
+        "arxiv_api_20260825_20260908/Q2_PROXY",
+        "arxiv_api_20260825_20260908/Q3_EVAL",
+        "arxiv_keyword_GUI_memory"
+      ]
+    },
+    {
+      "arxiv_id": "2609.10031",
+      "title": "",
+      "memberships": [
+        "arxiv_keyword_GUI_memory"
+      ]
+    },
+    {
+      "arxiv_id": "2609.10297",
+      "title": "",
+      "memberships": [
+        "arxiv_keyword_GUI_memory"
+      ]
+    }
+  ],
+  "outside_inventory_sources": [
+    {
+      "canonical_id": "ADD-2608.29596",
+      "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+      "claim_ids": "PC-068",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "arxiv_id": "2608.29596",
+        "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+        "queries": "Q1_CORE;Q3_EVAL",
+        "decision": "secondary_context",
+        "locator": "p.4"
+      },
+      "source_url": "https://arxiv.org/abs/2608.29596v1",
+      "evidence_locator": "formal_paper/search_decisions.csv#2608.29596",
+      "record_detail": "arxiv_api_20260825_20260908/Q1_CORE; arxiv_api_20260825_20260908/Q3_EVAL",
+      "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d"
+    },
+    {
+      "canonical_id": "ADD-2609.00048",
+      "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+      "claim_ids": "PC-075",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "arxiv_id": "2609.00048",
+        "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+        "queries": "Q2_PROXY",
+        "decision": "infrastructure_context",
+        "locator": "p.3"
+      },
+      "source_url": "https://arxiv.org/abs/2609.00048v1",
+      "evidence_locator": "formal_paper/search_decisions.csv#2609.00048",
+      "record_detail": "arxiv_api_20260825_20260908/Q2_PROXY",
+      "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d"
+    },
+    {
+      "canonical_id": "ADD-2609.02057",
+      "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
+      "claim_ids": "PC-073",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "arxiv_id": "2609.02057",
+        "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
+        "queries": "Q2_PROXY",
+        "decision": "component_diagnostic",
+        "locator": "p.5"
+      },
+      "source_url": "https://arxiv.org/abs/2609.02057v1",
+      "evidence_locator": "formal_paper/search_decisions.csv#2609.02057",
+      "record_detail": "arxiv_api_20260825_20260908/Q2_PROXY",
+      "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d"
+    },
+    {
+      "canonical_id": "ADD-2609.04869",
+      "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+      "claim_ids": "PC-038;PC-039",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "arxiv_id": "2609.04869",
+        "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+        "queries": "Q1_CORE;Q2_PROXY;Q3_EVAL",
+        "decision": "primary_mechanism",
+        "locator": "p.4"
+      },
+      "source_url": "https://arxiv.org/abs/2609.04869v1",
+      "evidence_locator": "formal_paper/search_decisions.csv#2609.04869",
+      "record_detail": "arxiv_api_20260825_20260908/Q1_CORE; arxiv_api_20260825_20260908/Q2_PROXY; arxiv_api_20260825_20260908/Q3_EVAL; arxiv_keyword_GUI_memory",
+      "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d"
+    },
+    {
+      "canonical_id": "ADD-AWM",
+      "title": "Agent Workflow Memory",
+      "claim_ids": "PC-034",
+      "route": "Targeted source retrieval",
+      "acquisition_record": [
+        {
+          "url": "https://arxiv.org/pdf/2409.07429",
+          "retrieved_at": "2026-09-08T14:18:33.509339+08:00",
+          "status": "downloaded"
+        }
+      ],
+      "source_url": "https://arxiv.org/abs/2409.07429v1",
+      "evidence_locator": "formal_paper/sources/downloads.json#2409.07429",
+      "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+      "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b"
+    },
+    {
+      "canonical_id": "ADD-AppAgent",
+      "title": "AppAgent: Multimodal Agents as Smartphone Users",
+      "claim_ids": "PC-042;PC-043",
+      "route": "Targeted source retrieval",
+      "acquisition_record": [
+        {
+          "url": "https://arxiv.org/pdf/2312.13771",
+          "retrieved_at": "2026-09-08T14:20:47.667845+08:00",
+          "status": "downloaded"
+        }
+      ],
+      "source_url": "https://arxiv.org/abs/2312.13771v3",
+      "evidence_locator": "formal_paper/sources/downloads.json#2312.13771",
+      "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+      "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b"
+    },
+    {
+      "canonical_id": "ADD-AutoDroid",
+      "title": "AutoDroid: LLM-powered Task Automation in Android",
+      "claim_ids": "PC-037",
+      "route": "Targeted source retrieval",
+      "acquisition_record": [
+        {
+          "url": "https://arxiv.org/pdf/2308.15272",
+          "retrieved_at": "2026-09-08T14:20:49.487889+08:00",
+          "status": "downloaded"
+        }
+      ],
+      "source_url": "https://arxiv.org/abs/2308.15272v4",
+      "evidence_locator": "formal_paper/sources/downloads.json#2308.15272",
+      "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+      "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b"
+    },
+    {
+      "canonical_id": "ADD-MemoryAge",
+      "title": "Memory in the Age of AI Agents",
+      "claim_ids": "PC-061",
+      "route": "Targeted source retrieval",
+      "acquisition_record": [
+        {
+          "url": "https://arxiv.org/pdf/2512.13564",
+          "retrieved_at": "2026-09-08T14:18:34.838932+08:00",
+          "status": "downloaded"
+        }
+      ],
+      "source_url": "https://arxiv.org/abs/2512.13564v2",
+      "evidence_locator": "formal_paper/sources/downloads.json#2512.13564",
+      "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+      "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b"
+    },
+    {
+      "canonical_id": "ADD-ReasoningBank",
+      "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+      "claim_ids": "PC-035;PC-036",
+      "route": "Targeted source retrieval",
+      "acquisition_record": [
+        {
+          "url": "https://arxiv.org/pdf/2509.25140v2",
+          "retrieved_at": "2026-09-08T14:19:34.403541+08:00",
+          "status": "downloaded"
+        }
+      ],
+      "source_url": "https://arxiv.org/abs/2509.25140v2",
+      "evidence_locator": "formal_paper/sources/downloads.json#2509.25140",
+      "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+      "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b"
+    },
+    {
+      "canonical_id": "SUR-2404.13501",
+      "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "claim_ids": "PC-059",
+      "route": "Survey reference collection",
+      "acquisition_record": {
+        "arxiv_id": "2404.13501",
+        "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+        "collection": "Survey reference catalogue"
+      },
+      "source_url": "https://arxiv.org/abs/2404.13501v1",
+      "evidence_locator": "docs/reference/survey_landscape_notes.md#2404.13501",
+      "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+      "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8"
+    },
+    {
+      "canonical_id": "SUR-2412.13501",
+      "title": "GUI Agents: A Survey",
+      "claim_ids": "PC-065",
+      "route": "Survey reference collection",
+      "acquisition_record": {
+        "arxiv_id": "2412.13501",
+        "title": "GUI Agents: A Survey",
+        "collection": "Survey reference catalogue"
+      },
+      "source_url": "https://arxiv.org/abs/2412.13501v3",
+      "evidence_locator": "docs/reference/survey_landscape_notes.md#2412.13501",
+      "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+      "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8"
+    },
+    {
+      "canonical_id": "SUR-2508.04482",
+      "title": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
+      "claim_ids": "PC-062",
+      "route": "Survey reference collection",
+      "acquisition_record": {
+        "arxiv_id": "2508.04482",
+        "title": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
+        "collection": "Survey reference catalogue"
+      },
+      "source_url": "https://arxiv.org/abs/2508.04482v1",
+      "evidence_locator": "docs/reference/survey_landscape_notes.md#2508.04482",
+      "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+      "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8"
+    },
+    {
+      "canonical_id": "SUR-2603.07670",
+      "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+      "claim_ids": "PC-060",
+      "route": "Survey reference collection",
+      "acquisition_record": {
+        "arxiv_id": "2603.07670",
+        "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+        "collection": "Survey reference catalogue"
+      },
+      "source_url": "https://arxiv.org/abs/2603.07670v1",
+      "evidence_locator": "docs/reference/survey_landscape_notes.md#2603.07670",
+      "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+      "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8"
+    },
+    {
+      "canonical_id": "SUR-2604.16548",
+      "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
+      "claim_ids": "PC-067",
+      "route": "Survey reference collection",
+      "acquisition_record": {
+        "arxiv_id": "2604.16548",
+        "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
+        "collection": "Survey reference catalogue"
+      },
+      "source_url": "https://arxiv.org/abs/2604.16548v2",
+      "evidence_locator": "docs/reference/survey_landscape_notes.md#2604.16548",
+      "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+      "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8"
+    },
+    {
+      "canonical_id": "SUR-2609.02309",
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "claim_ids": "PC-066",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "arxiv_id": "2609.02309",
+        "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+        "queries": "Q1_CORE;Q3_EVAL",
+        "decision": "secondary_context",
+        "locator": "pp.5–6"
+      },
+      "source_url": "https://arxiv.org/abs/2609.02309v1",
+      "evidence_locator": "formal_paper/search_decisions.csv#2609.02309",
+      "record_detail": "arxiv_api_20260825_20260908/Q1_CORE; arxiv_api_20260825_20260908/Q3_EVAL; arxiv_keyword_GUI_memory",
+      "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d"
+    },
+    {
+      "canonical_id": "WF-0027",
+      "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+      "claim_ids": "PC-028",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "work_family_id": "WF-0027",
+        "source_record_ids": [
+          "arxiv:0027"
+        ],
+        "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+        "channel": "arxiv"
+      },
+      "source_url": "https://arxiv.org/abs/2504.00906v1",
+      "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0027",
+      "record_detail": "arxiv; source records: arxiv:0027",
+      "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d"
+    },
+    {
+      "canonical_id": "WF-0124",
+      "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+      "claim_ids": "PC-027",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "work_family_id": "WF-0124",
+        "source_record_ids": [
+          "arxiv:0124"
+        ],
+        "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+        "channel": "arxiv"
+      },
+      "source_url": "https://arxiv.org/abs/2601.07779v1",
+      "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0124",
+      "record_detail": "arxiv; source records: arxiv:0124",
+      "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d"
+    },
+    {
+      "canonical_id": "WF-0125",
+      "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+      "claim_ids": "PC-025;PC-026",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "work_family_id": "WF-0125",
+        "source_record_ids": [
+          "arxiv:0125"
+        ],
+        "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+        "channel": "arxiv"
+      },
+      "source_url": "https://arxiv.org/abs/2601.09636v2",
+      "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0125",
+      "record_detail": "arxiv; source records: arxiv:0125",
+      "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d"
+    },
+    {
+      "canonical_id": "WF-0337",
+      "title": "LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents",
+      "claim_ids": "PC-040",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "work_family_id": "WF-0337",
+        "source_record_ids": [
+          "arxiv:0337"
+        ],
+        "title": "LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents",
+        "channel": "arxiv"
+      },
+      "source_url": "https://arxiv.org/abs/2608.25777v1",
+      "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0337",
+      "record_detail": "arxiv; source records: arxiv:0337",
+      "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d"
+    },
+    {
+      "canonical_id": "WF-0338",
+      "title": "CURA: Certified Runtime Alarms for Computer-Use Agents",
+      "claim_ids": "PC-074",
+      "route": "arXiv retrieval",
+      "acquisition_record": {
+        "work_family_id": "WF-0338",
+        "source_record_ids": [
+          "arxiv:0338"
+        ],
+        "title": "CURA: Certified Runtime Alarms for Computer-Use Agents",
+        "channel": "arxiv"
+      },
+      "source_url": "https://arxiv.org/abs/2608.27808v1",
+      "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0338",
+      "record_detail": "arxiv; source records: arxiv:0338",
+      "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d"
+    },
+    {
+      "canonical_id": "WF-0488",
+      "title": "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control",
+      "claim_ids": "PC-041",
+      "route": "Database retrieval",
+      "acquisition_record": {
+        "work_family_id": "WF-0488",
+        "source_record_ids": [
+          "scopus:0121"
+        ],
+        "title": "SYNAPSE: TRAJECTORY-AS-EXEMPLAR PROMPTING WITH MEMORY FOR COMPUTER CONTROL",
+        "channel": "scopus"
+      },
+      "source_url": "https://arxiv.org/abs/2306.07863v3",
+      "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0488",
+      "record_detail": "scopus; source records: scopus:0121",
+      "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d"
+    }
+  ],
+  "outside_inventory_channel_counts": {
+    "arXiv retrieval": 10,
+    "Targeted source retrieval": 5,
+    "Survey reference collection": 5,
+    "Database retrieval": 1
+  }
+}

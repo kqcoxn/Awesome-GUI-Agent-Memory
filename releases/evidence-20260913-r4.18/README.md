@@ -10,7 +10,8 @@ Publication coverage: 10 September 2026.
 - `current/capability_matrix.csv`, `matrix_examples.csv`, `matrix_counts.json`: 123 positive source-cell assignments; 27 primary-supported cells, one auxiliary-only cell, and two unassessed cells.
 - `current/corpus_profile.csv`: years, venue metadata and platform settings.
 - `current/mechanism_comparisons.json`: 24 version-specific comparisons with manuscript locations.
-- `current/outside_inventory_uses.json`, `selection_summary.csv`: source uses and selection counts.
+- `current/acquisition_records.json`: channel queries, 346 distinct arXiv records, and acquisition evidence for 21 coded sources outside the selection inventory.
+- `current/outside_inventory_uses.json`, `selection_summary.csv`: source acquisition, uses and selection counts.
 - `current/effects.json`, `evaluation_protocols.csv`, `survey_comparison.csv`: numerical comparisons, evaluation conditions and related surveys.
 - `current/*references.bib` and `.tex` tables: bibliographies and manuscript evidence tables.
 - `current/cutoff_*.json`, `baseline/search/`: retrieval records, queries and source hashes.

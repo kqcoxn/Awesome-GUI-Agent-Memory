@@ -207,25 +207,41 @@ TS=(("GUI agent*" OR "UI agent*" OR "graphical user interface agent*" OR "user i
 \end{lstlisting}
 \end{minipage}\par\medskip
 \noindent\begin{minipage}{\linewidth}
-\paragraph{arXiv / Q1\_CORE}
-3 \Bi{query hits}{条命中}.
+\paragraph{arXiv API / Q1\_CORE}
+\Bi{The query uses the date bounds and hit counts below. START and END denote the literal bounds shown.}{检索式采用下列日期边界与对应命中数；START、END 对应所列实际参数。}
+\par 201501010000 TO 202608312359: 145 \Bi{hits}{条命中}.
+\par 202608250000 TO 202609082359: 3 \Bi{hits}{条命中}.
 \begin{lstlisting}
-(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ((all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app"))) AND (all:memory OR all:"working memory" OR all:"short-term memory" OR all:"long-term memory" OR all:"episodic memory" OR all:"external memory" OR all:"memory bank" OR all:"memory retrieval") AND submittedDate:[202608250000 TO 202609082359]
+(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ((all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app"))) AND (all:memory OR all:"working memory" OR all:"short-term memory" OR all:"long-term memory" OR all:"episodic memory" OR all:"external memory" OR all:"memory bank" OR all:"memory retrieval") AND submittedDate:[START TO END]
 \end{lstlisting}
 \end{minipage}\par\medskip
 \noindent\begin{minipage}{\linewidth}
-\paragraph{arXiv / Q2\_PROXY}
-6 \Bi{query hits}{条命中}.
+\paragraph{arXiv API / Q2\_PROXY}
+\Bi{The query uses the date bounds and hit counts below. START and END denote the literal bounds shown.}{检索式采用下列日期边界与对应命中数；START、END 对应所列实际参数。}
+\par 201501010000 TO 202608312359: 135 \Bi{hits}{条命中}.
+\par 202608250000 TO 202609082359: 6 \Bi{hits}{条命中}.
 \begin{lstlisting}
-(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ((all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app"))) AND ((all:"task state" OR all:"interaction history" OR all:"action history" OR all:trajectory OR all:"context compression" OR all:"context summarization" OR all:"experience retrieval" OR all:"experience reuse" OR all:"skill library") AND (all:store OR all:persist OR all:retain OR all:summarize OR all:compress OR all:retrieve OR all:reuse OR all:update OR all:recover)) AND submittedDate:[202608250000 TO 202609082359]
+(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ((all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app"))) AND ((all:"task state" OR all:"interaction history" OR all:"action history" OR all:trajectory OR all:"context compression" OR all:"context summarization" OR all:"experience retrieval" OR all:"experience reuse" OR all:"skill library") AND (all:store OR all:persist OR all:retain OR all:summarize OR all:compress OR all:retrieve OR all:reuse OR all:update OR all:recover)) AND submittedDate:[START TO END]
 \end{lstlisting}
 \end{minipage}\par\medskip
 \noindent\begin{minipage}{\linewidth}
-\paragraph{arXiv / Q3\_EVAL}
-3 \Bi{query hits}{条命中}.
+\paragraph{arXiv API / Q3\_EVAL}
+\Bi{The query uses the date bounds and hit counts below. START and END denote the literal bounds shown.}{检索式采用下列日期边界与对应命中数；START、END 对应所列实际参数。}
+\par 201501010000 TO 202608312359: 246 \Bi{hits}{条命中}.
+\par 202608250000 TO 202609082359: 3 \Bi{hits}{条命中}.
 \begin{lstlisting}
-(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ((all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app"))) AND (all:memory OR all:"long-horizon" OR all:"long horizon" OR all:"state tracking" OR all:"progress tracking" OR all:"history-aware") AND (all:benchmark OR all:evaluation OR all:ablation OR all:failure OR all:robustness OR all:security OR all:attack) AND submittedDate:[202608250000 TO 202609082359]
+(all:"GUI agent" OR all:"UI agent" OR all:"graphical user interface agent" OR all:"computer-use agent" OR all:"computer use agent" OR all:"web agent" OR all:"web navigation agent" OR all:"browser agent" OR all:"mobile GUI agent" OR all:"desktop agent" OR all:"operating system agent" OR all:"software-use agent" OR all:"cross-app agent" OR ((all:"LLM agent" OR all:"vision-language agent" OR all:"multimodal agent") AND (all:GUI OR all:"computer use" OR all:browser OR all:website OR all:Android OR all:"mobile app" OR all:desktop OR all:"operating system" OR all:"software application" OR all:"cross-app"))) AND (all:memory OR all:"long-horizon" OR all:"long horizon" OR all:"state tracking" OR all:"progress tracking" OR all:"history-aware") AND (all:benchmark OR all:evaluation OR all:ablation OR all:failure OR all:robustness OR all:security OR all:attack) AND submittedDate:[START TO END]
 \end{lstlisting}
 \end{minipage}\par\medskip
-\paragraph{\Bi{arXiv / focused keyword search}{arXiv／定向关键词检索}}
-\Bi{Query: GUI memory; field: all fields; cross-listed records included; date type: latest submission; date range: 2--10 September 2026; 6 hits.}{查询：GUI memory；字段：全部字段；包含交叉列入记录；日期类型：最近提交；日期范围：2026 年 9 月 2--10 日；6 条命中。}
+\paragraph{\Bi{arXiv advanced search}{arXiv 高级检索}}
+\Bi{Query: GUI memory; field: all fields; cross-listed records included; latest-submission range: 2--10 September 2026; 6 hits.}{查询：GUI memory；字段：全部字段；包含交叉列入记录；最近提交日期范围：2026 年 9 月 2--10 日；6 条命中。}
+\paragraph{\Bi{Source acquisition ledger}{来源获取清单}}
+\Bi{Named-paper and survey retrieval uses source titles and stable publication URLs. The source ledger records the available acquisition evidence for all 21 coded sources outside the selection inventory.}{按论文题名和稳定出版链接获取机制论文与综述。来源清单列出选材清单外全部 21 个编码来源的获取依据。}
+\paragraph{\Bi{arXiv retrieval}{arXiv 检索} (10)}
+Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security; GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments; Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision; From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents; Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization; Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents; OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent; PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records; LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents; CURA: Certified Runtime Alarms for Computer-Use Agents.
+\paragraph{\Bi{Database retrieval}{数据库检索} (1)}
+Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control.
+\paragraph{\Bi{Survey reference collection}{综述资料集合} (5)}
+A Survey on the Memory Mechanism of Large Language Model based Agents; GUI Agents: A Survey; OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use; Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers; A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle.
+\paragraph{\Bi{Targeted source retrieval}{定向来源获取} (5)}
+Agent Workflow Memory; AppAgent: Multimodal Agents as Smartphone Users; AutoDroid: LLM-powered Task Automation in Android; Memory in the Age of AI Agents; ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory.

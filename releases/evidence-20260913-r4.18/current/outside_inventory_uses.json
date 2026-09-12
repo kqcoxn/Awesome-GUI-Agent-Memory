@@ -3,7 +3,18 @@
     "canonical_id": "ADD-2608.29596",
     "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
     "claim_ids": "PC-068",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "arxiv_id": "2608.29596",
+      "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+      "queries": "Q1_CORE;Q3_EVAL",
+      "decision": "secondary_context",
+      "locator": "p.4"
+    },
+    "source_url": "https://arxiv.org/abs/2608.29596v1",
+    "evidence_locator": "formal_paper/search_decisions.csv#2608.29596",
+    "record_detail": "arxiv_api_20260825_20260908/Q1_CORE; arxiv_api_20260825_20260908/Q3_EVAL",
+    "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -20,7 +31,18 @@
     "canonical_id": "ADD-2609.00048",
     "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
     "claim_ids": "PC-075",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "arxiv_id": "2609.00048",
+      "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+      "queries": "Q2_PROXY",
+      "decision": "infrastructure_context",
+      "locator": "p.3"
+    },
+    "source_url": "https://arxiv.org/abs/2609.00048v1",
+    "evidence_locator": "formal_paper/search_decisions.csv#2609.00048",
+    "record_detail": "arxiv_api_20260825_20260908/Q2_PROXY",
+    "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d",
     "analytical_roles": [
       "infrastructure_context"
     ],
@@ -37,7 +59,18 @@
     "canonical_id": "ADD-2609.02057",
     "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
     "claim_ids": "PC-073",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "arxiv_id": "2609.02057",
+      "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
+      "queries": "Q2_PROXY",
+      "decision": "component_diagnostic",
+      "locator": "p.5"
+    },
+    "source_url": "https://arxiv.org/abs/2609.02057v1",
+    "evidence_locator": "formal_paper/search_decisions.csv#2609.02057",
+    "record_detail": "arxiv_api_20260825_20260908/Q2_PROXY",
+    "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d",
     "analytical_roles": [
       "component_diagnostic"
     ],
@@ -54,7 +87,18 @@
     "canonical_id": "ADD-2609.04869",
     "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
     "claim_ids": "PC-038;PC-039",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "arxiv_id": "2609.04869",
+      "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+      "queries": "Q1_CORE;Q2_PROXY;Q3_EVAL",
+      "decision": "primary_mechanism",
+      "locator": "p.4"
+    },
+    "source_url": "https://arxiv.org/abs/2609.04869v1",
+    "evidence_locator": "formal_paper/search_decisions.csv#2609.04869",
+    "record_detail": "arxiv_api_20260825_20260908/Q1_CORE; arxiv_api_20260825_20260908/Q2_PROXY; arxiv_api_20260825_20260908/Q3_EVAL; arxiv_keyword_GUI_memory",
+    "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -76,7 +120,18 @@
     "canonical_id": "ADD-AWM",
     "title": "Agent Workflow Memory",
     "claim_ids": "PC-034",
-    "route": "outside_155_candidate_inventory",
+    "route": "Targeted source retrieval",
+    "acquisition_record": [
+      {
+        "url": "https://arxiv.org/pdf/2409.07429",
+        "retrieved_at": "2026-09-08T14:18:33.509339+08:00",
+        "status": "downloaded"
+      }
+    ],
+    "source_url": "https://arxiv.org/abs/2409.07429v1",
+    "evidence_locator": "formal_paper/sources/downloads.json#2409.07429",
+    "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+    "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -93,7 +148,18 @@
     "canonical_id": "ADD-AppAgent",
     "title": "AppAgent: Multimodal Agents as Smartphone Users",
     "claim_ids": "PC-042;PC-043",
-    "route": "outside_155_candidate_inventory",
+    "route": "Targeted source retrieval",
+    "acquisition_record": [
+      {
+        "url": "https://arxiv.org/pdf/2312.13771",
+        "retrieved_at": "2026-09-08T14:20:47.667845+08:00",
+        "status": "downloaded"
+      }
+    ],
+    "source_url": "https://arxiv.org/abs/2312.13771v3",
+    "evidence_locator": "formal_paper/sources/downloads.json#2312.13771",
+    "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+    "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -115,7 +181,18 @@
     "canonical_id": "ADD-AutoDroid",
     "title": "AutoDroid: LLM-powered Task Automation in Android",
     "claim_ids": "PC-037",
-    "route": "outside_155_candidate_inventory",
+    "route": "Targeted source retrieval",
+    "acquisition_record": [
+      {
+        "url": "https://arxiv.org/pdf/2308.15272",
+        "retrieved_at": "2026-09-08T14:20:49.487889+08:00",
+        "status": "downloaded"
+      }
+    ],
+    "source_url": "https://arxiv.org/abs/2308.15272v4",
+    "evidence_locator": "formal_paper/sources/downloads.json#2308.15272",
+    "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+    "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -132,7 +209,18 @@
     "canonical_id": "ADD-MemoryAge",
     "title": "Memory in the Age of AI Agents",
     "claim_ids": "PC-061",
-    "route": "outside_155_candidate_inventory",
+    "route": "Targeted source retrieval",
+    "acquisition_record": [
+      {
+        "url": "https://arxiv.org/pdf/2512.13564",
+        "retrieved_at": "2026-09-08T14:18:34.838932+08:00",
+        "status": "downloaded"
+      }
+    ],
+    "source_url": "https://arxiv.org/abs/2512.13564v2",
+    "evidence_locator": "formal_paper/sources/downloads.json#2512.13564",
+    "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+    "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -149,7 +237,18 @@
     "canonical_id": "ADD-ReasoningBank",
     "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
     "claim_ids": "PC-035;PC-036",
-    "route": "outside_155_candidate_inventory",
+    "route": "Targeted source retrieval",
+    "acquisition_record": [
+      {
+        "url": "https://arxiv.org/pdf/2509.25140v2",
+        "retrieved_at": "2026-09-08T14:19:34.403541+08:00",
+        "status": "downloaded"
+      }
+    ],
+    "source_url": "https://arxiv.org/abs/2509.25140v2",
+    "evidence_locator": "formal_paper/sources/downloads.json#2509.25140",
+    "record_detail": "Named-paper retrieval from the source URL; first-discovery channel is not established by the download record.",
+    "evidence_sha256": "230102623e65a04e5ec4c71afde149d08a2525261d7fcb3ee11b2a0db0b9590b",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -171,7 +270,16 @@
     "canonical_id": "SUR-2404.13501",
     "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
     "claim_ids": "PC-059",
-    "route": "outside_155_candidate_inventory",
+    "route": "Survey reference collection",
+    "acquisition_record": {
+      "arxiv_id": "2404.13501",
+      "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+      "collection": "Survey reference catalogue"
+    },
+    "source_url": "https://arxiv.org/abs/2404.13501v1",
+    "evidence_locator": "docs/reference/survey_landscape_notes.md#2404.13501",
+    "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+    "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -188,7 +296,16 @@
     "canonical_id": "SUR-2412.13501",
     "title": "GUI Agents: A Survey",
     "claim_ids": "PC-065",
-    "route": "outside_155_candidate_inventory",
+    "route": "Survey reference collection",
+    "acquisition_record": {
+      "arxiv_id": "2412.13501",
+      "title": "GUI Agents: A Survey",
+      "collection": "Survey reference catalogue"
+    },
+    "source_url": "https://arxiv.org/abs/2412.13501v3",
+    "evidence_locator": "docs/reference/survey_landscape_notes.md#2412.13501",
+    "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+    "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -205,7 +322,16 @@
     "canonical_id": "SUR-2508.04482",
     "title": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
     "claim_ids": "PC-062",
-    "route": "outside_155_candidate_inventory",
+    "route": "Survey reference collection",
+    "acquisition_record": {
+      "arxiv_id": "2508.04482",
+      "title": "OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use",
+      "collection": "Survey reference catalogue"
+    },
+    "source_url": "https://arxiv.org/abs/2508.04482v1",
+    "evidence_locator": "docs/reference/survey_landscape_notes.md#2508.04482",
+    "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+    "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -222,7 +348,16 @@
     "canonical_id": "SUR-2603.07670",
     "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
     "claim_ids": "PC-060",
-    "route": "outside_155_candidate_inventory",
+    "route": "Survey reference collection",
+    "acquisition_record": {
+      "arxiv_id": "2603.07670",
+      "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+      "collection": "Survey reference catalogue"
+    },
+    "source_url": "https://arxiv.org/abs/2603.07670v1",
+    "evidence_locator": "docs/reference/survey_landscape_notes.md#2603.07670",
+    "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+    "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -239,7 +374,16 @@
     "canonical_id": "SUR-2604.16548",
     "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
     "claim_ids": "PC-067",
-    "route": "outside_155_candidate_inventory",
+    "route": "Survey reference collection",
+    "acquisition_record": {
+      "arxiv_id": "2604.16548",
+      "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
+      "collection": "Survey reference catalogue"
+    },
+    "source_url": "https://arxiv.org/abs/2604.16548v2",
+    "evidence_locator": "docs/reference/survey_landscape_notes.md#2604.16548",
+    "record_detail": "Source identified in the survey reference catalogue; original discovery query not recorded.",
+    "evidence_sha256": "16c987ad866066ad344472acec65ffddb6341a040f57595c65af605ab97e0df8",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -256,7 +400,18 @@
     "canonical_id": "SUR-2609.02309",
     "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
     "claim_ids": "PC-066",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "arxiv_id": "2609.02309",
+      "title": "Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",
+      "queries": "Q1_CORE;Q3_EVAL",
+      "decision": "secondary_context",
+      "locator": "pp.5–6"
+    },
+    "source_url": "https://arxiv.org/abs/2609.02309v1",
+    "evidence_locator": "formal_paper/search_decisions.csv#2609.02309",
+    "record_detail": "arxiv_api_20260825_20260908/Q1_CORE; arxiv_api_20260825_20260908/Q3_EVAL; arxiv_keyword_GUI_memory",
+    "evidence_sha256": "31a051b995c51d44e55b0fa042399f44ded45b2628b48052d03cba3cdd22641d",
     "analytical_roles": [
       "secondary_context"
     ],
@@ -273,7 +428,19 @@
     "canonical_id": "WF-0027",
     "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
     "claim_ids": "PC-028",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "work_family_id": "WF-0027",
+      "source_record_ids": [
+        "arxiv:0027"
+      ],
+      "title": "Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents",
+      "channel": "arxiv"
+    },
+    "source_url": "https://arxiv.org/abs/2504.00906v1",
+    "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0027",
+    "record_detail": "arxiv; source records: arxiv:0027",
+    "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -290,7 +457,19 @@
     "canonical_id": "WF-0124",
     "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
     "claim_ids": "PC-027",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "work_family_id": "WF-0124",
+      "source_record_ids": [
+        "arxiv:0124"
+      ],
+      "title": "OS-Symphony: A Holistic Framework for Robust and Generalist Computer-Using Agent",
+      "channel": "arxiv"
+    },
+    "source_url": "https://arxiv.org/abs/2601.07779v1",
+    "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0124",
+    "record_detail": "arxiv; source records: arxiv:0124",
+    "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -307,7 +486,19 @@
     "canonical_id": "WF-0125",
     "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
     "claim_ids": "PC-025;PC-026",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "work_family_id": "WF-0125",
+      "source_record_ids": [
+        "arxiv:0125"
+      ],
+      "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+      "channel": "arxiv"
+    },
+    "source_url": "https://arxiv.org/abs/2601.09636v2",
+    "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0125",
+    "record_detail": "arxiv; source records: arxiv:0125",
+    "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -329,7 +520,19 @@
     "canonical_id": "WF-0337",
     "title": "LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents",
     "claim_ids": "PC-040",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "work_family_id": "WF-0337",
+      "source_record_ids": [
+        "arxiv:0337"
+      ],
+      "title": "LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents",
+      "channel": "arxiv"
+    },
+    "source_url": "https://arxiv.org/abs/2608.25777v1",
+    "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0337",
+    "record_detail": "arxiv; source records: arxiv:0337",
+    "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d",
     "analytical_roles": [
       "primary_mechanism"
     ],
@@ -346,7 +549,19 @@
     "canonical_id": "WF-0338",
     "title": "CURA: Certified Runtime Alarms for Computer-Use Agents",
     "claim_ids": "PC-074",
-    "route": "outside_155_candidate_inventory",
+    "route": "arXiv retrieval",
+    "acquisition_record": {
+      "work_family_id": "WF-0338",
+      "source_record_ids": [
+        "arxiv:0338"
+      ],
+      "title": "CURA: Certified Runtime Alarms for Computer-Use Agents",
+      "channel": "arxiv"
+    },
+    "source_url": "https://arxiv.org/abs/2608.27808v1",
+    "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0338",
+    "record_detail": "arxiv; source records: arxiv:0338",
+    "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d",
     "analytical_roles": [
       "component_diagnostic"
     ],
@@ -363,7 +578,19 @@
     "canonical_id": "WF-0488",
     "title": "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control",
     "claim_ids": "PC-041",
-    "route": "outside_155_candidate_inventory",
+    "route": "Database retrieval",
+    "acquisition_record": {
+      "work_family_id": "WF-0488",
+      "source_record_ids": [
+        "scopus:0121"
+      ],
+      "title": "SYNAPSE: TRAJECTORY-AS-EXEMPLAR PROMPTING WITH MEMORY FOR COMPUTER CONTROL",
+      "channel": "scopus"
+    },
+    "source_url": "https://arxiv.org/abs/2306.07863v3",
+    "evidence_locator": "normalized/primary_sources_work_families_20260903.json#WF-0488",
+    "record_detail": "scopus; source records: scopus:0121",
+    "evidence_sha256": "88a32b1f84563b59a0c907cc2ee4bd66f668a7593649d894c07070952c990f7d",
     "analytical_roles": [
       "primary_mechanism"
     ],
