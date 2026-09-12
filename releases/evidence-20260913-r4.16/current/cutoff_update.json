@@ -1,0 +1,74 @@
+{
+  "coverage_end": "2026-09-10",
+  "scope": "Bounded arXiv and targeted supplement to qualitative comparisons; not a rerun of the four databases or an extension of the 55-source coded subset.",
+  "search": {
+    "query": "GUI memory",
+    "interface": "arXiv advanced search, all fields, include cross-list, latest submitted date",
+    "date_from": "2026-09-02",
+    "date_to": "2026-09-10",
+    "result_count": 6,
+    "result_ids": [
+      "2609.10297",
+      "2609.10031",
+      "2609.04869",
+      "2609.02309",
+      "2607.13027",
+      "2604.06694"
+    ],
+    "retrieval_method": "Official arXiv search page, locally retained as sources/cutoff_update/gui_memory_search.html",
+    "targeted_record": "2609.09774v1",
+    "limitations": "Original three query families could not be replayed successfully. Short fallback queries GUI history, GUI skill, web agent memory, computer use memory, and mobile agent memory also timed out. Failed retrievals have no result count; this supplement is not equivalent to a complete original-query update.",
+    "source_sha256": "83e61c75565955cfb435874483e91a4976f7f4686b01aabb5cbc11a3379c9b50",
+    "retrieved_at": "2026-09-12T17:13:16.993486+00:00",
+    "url": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=GUI%20memory&terms-0-field=all&classification-include_cross_list=include&date-filter_by=date_range&date-from_date=2026-09-02&date-to_date=2026-09-10&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first"
+  },
+  "decisions": [
+    {
+      "id": "2609.10297v1",
+      "decision": "qualitative_comparison",
+      "citation_key": "tracegui",
+      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
+      "locator": "Sections 3.1, 3.5 and A.2",
+      "paraphrase": "A nested visual-token ordering is admitted once and contracted when a frame retires; retained native rows are reused in subsequent steps. Discarded evidence requires re-encoding.",
+      "limit": "Session visual-state contraction, not an empirical test of semantic archive validity. No matrix assignment or effect size is added."
+    },
+    {
+      "id": "2609.10031v1",
+      "decision": "qualitative_comparison",
+      "citation_key": "graphdroid",
+      "title": "GraphDroid: Asynchronous LLM-Based Mobile App GUI Testing via History-Aware Exploration and Hybrid Intent Fulfillment",
+      "locator": "Sections 2.1, 2.2 and 2.3",
+      "paraphrase": "Historical screenshots and UI transitions are clustered; clusters provide context for generating test intents toward uncovered functionality while exploration continues.",
+      "limit": "Android application testing; not a general task-completion result or a new matrix assignment."
+    },
+    {
+      "id": "2609.09774v1",
+      "decision": "qualitative_comparison",
+      "citation_key": "proceduralchange",
+      "title": "Procedural Memory Under Change: Reuse and Interference in Controlled Web Tasks",
+      "locator": "Sections 4.5, 4.6, 5.7 and 8",
+      "paraphrase": "No predefined interference signatures appeared across 32 one-shot formal conditions with explicit sufficient current evidence.",
+      "limit": "Controlled synthetic shopping decisions with a single local model and no repeated sampling. Retrospective BrowserGym case was human-assisted; not autonomous GUI evaluation."
+    },
+    {
+      "id": "2609.04869",
+      "decision": "already_present",
+      "reason": "Existing persistent-skills source ADD-2609.04869."
+    },
+    {
+      "id": "2609.02309",
+      "decision": "already_present",
+      "reason": "Existing Efficient GUI Agents survey comparison."
+    },
+    {
+      "id": "2607.13027v2",
+      "decision": "not_selected",
+      "reason": "PalmClaw sections 3.1-3.3 describe native device-tool execution; retained memory is relevant background but the mechanism comparison sought here concerns GUI interaction."
+    },
+    {
+      "id": "2604.06694",
+      "decision": "excluded_topic",
+      "reason": "AudioKV concerns audio-language inference; GUI query matches author Gui rather than a GUI memory mechanism. Search-page title and abstract sufficient for topic exclusion."
+    }
+  ]
+}

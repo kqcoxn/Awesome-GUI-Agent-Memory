@@ -1,0 +1,52 @@
+{
+  "evidence_version": "evidence-20260913-r4.16",
+  "baseline": "evidence-20260908 / e4692ac",
+  "manuscript_pdf_sha256": {
+    "en": "bf417f6c43dab0474471b160b3158face2a69e8f92588da458f4e3eb70dc49af",
+    "zh": "ebca66909c42826ca8e358a08ffe67cffc23cb18ecf3af3047e74d54a89f7312"
+  },
+  "counts": {
+    "positive_source_cells": 123,
+    "primary_assignments": 119,
+    "auxiliary_assignments": 4,
+    "primary_cells": 27,
+    "auxiliary_only_cells": 1,
+    "unassessed_cells": 2
+  },
+  "files_source_sha256": {
+    "docs/paper/latex/sections/en/00_abstract.tex": "bac2ad11ee690349d4adc3d1002e29c2d05298865ad73215c877d22142db771d",
+    "docs/paper/latex/sections/en/01_introduction.tex": "59c570fb401e58e20b45da5f2f19f22d1058917ffce30a1f0167562c9dbf3eaa",
+    "docs/paper/latex/sections/en/02_methodology.tex": "5e1f7e0cd9c3ff2a90377ca803a873ae2825dba3b2b2cda9e4ea34de4752069b",
+    "docs/paper/latex/sections/en/03_framework.tex": "5ac5afa1c574b01fa8dfd519a1c50368f866326c681951b6745a1ebda0531b07",
+    "docs/paper/latex/sections/en/04_mechanisms.tex": "7ab19ef16c1922f3c86c4098590e28be64bc3c4911fa183d3e102bf895a69b44",
+    "docs/paper/latex/sections/en/05_evaluation.tex": "29f613101c23f412d1681acfdd44e4741f40fc149bacdc367093c0921fe6b8e4",
+    "docs/paper/latex/sections/en/06_security.tex": "461a721b884b35fbfad5c009f448c2246315afaa61c5a2faf8762a3b24a4a733",
+    "docs/paper/latex/sections/en/07_challenges.tex": "871db3352f5092348b1818c29520f05690ae39b457a2cbd02f58cb03c655f0fa",
+    "docs/paper/latex/sections/en/08_conclusion.tex": "c806592636abf0817aab75cbd560260c094d291725fa1a8b74f7c8794b175d24",
+    "docs/paper/latex/sections/en/appendix_methods.tex": "8e2ff8dc15a6e9cb500b2677d3293cf1c129e4e79e600ca362ebf43e49aab168",
+    "docs/paper/latex/sections/en/declarations.tex": "3b32ff3471234d6d4f154edb62b45582229fd835e1d1ad8e0b7dee1b45966e26",
+    "docs/paper/latex/shared/fig_architecture.tex": "ed76e2bf5ee9004b4685bab850573045f7e1d3871b1d77c48383ffc9c467ed6a",
+    "docs/paper/latex/shared/fig_evaluation_design.tex": "e078ce59fe58595bcf8e19972f0004b6f1c05c24d0f66301843b13bf97a3744c",
+    "docs/paper/latex/shared/fig_evidence.tex": "f2509c416bb00ca67613d0bd70cb2deeb1a28026c6b7b4eb500f2a6b099e92e5",
+    "docs/paper/latex/shared/fig_mechanism_paths.tex": "2c0f8d1c841e164d3d03e83477168708370742284037304436c5fd736dffe268",
+    "docs/paper/latex/shared/fig_memory_workflow.tex": "1c54f2dbc9a30c2ce4403e446dfcc08d610ad2d9f200c313ddf76550935d0699",
+    "docs/paper/latex/shared/fig_security.tex": "d3879f4c86e70b11575883c2cb6691619fec065fb5cf5a91533d28b1e99f2c60",
+    "docs/paper/latex/shared/preamble.tex": "37866a3e1a510d0ff522785ae038ef8a58827742e0cfe2c83bd77e63fa095cb6",
+    "docs/paper/latex/shared/search_queries.tex": "55e11bb3bf2f77bec32bf0ea5a8eda646b6415eefdb4cd58c758ba69532a8ef1",
+    "docs/paper/latex/shared/tab_acquisition.tex": "a62b6b3666161b1bd0c294239197733c776709b53d7e23e41052ab61ffbeab05",
+    "docs/paper/latex/shared/tab_cell_sources.tex": "d605d8a5a9b2863b3b39b49a88be75225822d83a18a494f0aa6012b713dbcfb8",
+    "docs/paper/latex/shared/tab_constructs.tex": "b8f92c279e8159ba129ba44e2f1de3aec2b28673503b79b9c43e606ca9e41816",
+    "docs/paper/latex/shared/tab_corpus_profile.tex": "e53735f766dacecda5090fb5bdc88bbf6aa23e97f80a73c5d1563bdbcf19b8b3",
+    "docs/paper/latex/shared/tab_definitions.tex": "0e73110d40c52446abb2ae147fba15abd42869d69e835e413a8f3790f855c573",
+    "docs/paper/latex/shared/tab_design_choices.tex": "76defc7ae3c5c1b9ac1bbb278698a5e023d7030fb88126177db9218e38a37d26",
+    "docs/paper/latex/shared/tab_effects.tex": "234413167b7c4a59068f4cfb4d943db21d2094d77af42a7ce87c9c5ee3d8ecdb",
+    "docs/paper/latex/shared/tab_maintenance.tex": "0c474084c76d57338087285de20ff1a10c048a799fe2e2ec19621dc2bce4a623",
+    "docs/paper/latex/shared/tab_matrix_definition.tex": "1d4578166ac88e39699140970fe3b30233a7bf867ab1b02f1ef53e0430b44c2e",
+    "docs/paper/latex/shared/tab_mechanisms.tex": "9fc772b76074550130aa1f856c80587af0584650701de3785aca0e3dbdd6a2ab",
+    "docs/paper/latex/shared/tab_protocols.tex": "ba72c8b6b5bea3bee5f166dc23b500d95c744c2401c0f9c0880038fc90fc542a",
+    "docs/paper/latex/shared/tab_security.tex": "2c62e7b39a9d40d39788f1d7e7cf262c53dfb99f675a8eacf3dc019132f81311",
+    "docs/paper/latex/shared/tab_surveys.tex": "4580043c4a96635925960a8403229f281e7d921e4c0b159510ff1b7a7c3ae2b2",
+    "docs/paper/latex/shared/tab_terms.tex": "c816248cca5e7e2c9fc4c4896b12ccc960eddf749598e1811b055cad8ab839ed"
+  },
+  "comparison_records": 24
+}

@@ -1,5 +1,0 @@
-code,count,meaning
-A,34,Selected for core claims
-N,113,Not selected for claim extraction; more specific individual reasons not documented
-S,8,Contextual candidate not selected for core survey comparison
-outside,21,Coded sources outside the 155; current uses in outside_inventory_uses.json

@@ -1,0 +1,56 @@
+source_id,citation_key,year,registered_venue,venue_basis,role,platform,platform_pdf_pages,evidence_version,source_sha256
+ADD-2608.25777,gui_wf_0337,2026,No venue identified for consulted version,Source registry,primary_mechanism,Desktop,1,2608.25777v1,3b0b5e90d95b7527a40de9f4e713731b026e1230321007c21a8741c0fd9278b3
+ADD-2608.27808,gui_wf_0338,2026,No venue identified for consulted version,Source registry,component_diagnostic,Not profiled: auxiliary role,,2608.27808v1,3fb73b02cc646e0b809212f9ca33d460cd4e374b206c559d666c0bc3cb9a644b
+ADD-2608.29596,gui_add_2608_29596,2026,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2608.29596v1,458e4de407f3991f651608fc6a93d38a5233f22f1b728a984530d148b717bdb0
+ADD-2609.00048,gui_add_2609_00048,2026,No venue identified for consulted version,Source registry,infrastructure_context,Not profiled: auxiliary role,,2609.00048v1,2381e657eb6c51fd4af7d3fd9f7d6eab03b3f96d4d6726eea932f89d605acb4a
+ADD-2609.02057,gui_add_2609_02057,2026,No venue identified for consulted version,Source registry,component_diagnostic,Not profiled: auxiliary role,,2609.02057v1,b32d2a3885895602f1b52cbcdeb896a2aa697d9f9b3e4a7fdf75c2408364d9cb
+ADD-2609.04869,gui_add_2609_04869,2026,No venue identified for consulted version,Source registry,primary_mechanism,Desktop,6,2609.04869v1,627b347a1f4adce01ed640c829e0dfef4def805aef42fc7f756090ec1586108e
+ADD-AWM,gui_add_awm,2024,No venue identified for consulted version,Source registry,primary_mechanism,Web,1,2409.07429v1,ddc6f6fedec48c88ae743b43a464f7eb4aecaab05acd18c29cfb657ab445ebe4
+ADD-AppAgent,gui_add_appagent,2023,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,1,2312.13771v3,800ec0437da9183b77fb6fe3db7b4f64e2ff23b88efc887f6809cd00db0af4c8
+ADD-AutoDroid,gui_add_autodroid,2023,ACM MobiCom 2024,Evidence PDF p.1,primary_mechanism,Mobile,1,2308.15272v4,a09ac91037fb4df367c556e05a4568ebd324932e933c58adfcf34963733b6601
+ADD-MemoryAge,gui_add_memoryage,2025,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2512.13564v2,10de3c050903bfa1113c9a954380e2786f42d25a9ea24478bf6cc69fef2e2b42
+ADD-ReasoningBank,gui_add_reasoningbank,2025,No venue identified for consulted version,Source registry,primary_mechanism,Web,6,2509.25140v2,d9e08c61ab714304a6a88e014f552597d9ac654c4cb23dc63a5d53248715da13
+ADD-Synapse,gui_wf_0488,2023,ICLR 2024,Evidence PDF p.1,primary_mechanism,Web,1,2306.07863v3,24a8e95ceb3a90f6c303442f224c109f5abc92d2a9918ee0cf7d2246de781260
+CHAIN-R1-WF-0269,gui_chain_r1_wf_0269,2025,Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing,Source registry,primary_mechanism,Mobile,1,local_pdf_sha256,1fef67939364b1f4f5448f55dd5dd05579509bf32e27efab59afd3438ecb5323
+SUR-2404.13501,gui_sur_2404_13501,2024,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2404.13501v1,aae2f9537f748f30f0ca59fd66c499b7df7bdb199d24ce43cab0a6170f7dceef
+SUR-2411.18279,gui_wf_0479,2024,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2411.18279v12,8419cb8f386bdc982b46ca9a4c81f5bcc026e153509ce2fc7e216fffb3950cea
+SUR-2412.13501,gui_sur_2412_13501,2024,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2412.13501v3,712ed065b5ef9b78633988f93b3301cd3ba3ed80239f2b1ac59d443c152ff21f
+SUR-2504.13865,gui_wf_0029,2025,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2504.13865v2,44c8ef9152784d59ea6330c1bfb8d1d0697de4fbb07d23d8c642c5548d9e343d
+SUR-2508.04482,gui_sur_2508_04482,2025,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2508.04482v1,60764631e290b8196378e2953b079eaba174fc91bba5a205fdd7f26fd8939a89
+SUR-2603.07670,gui_sur_2603_07670,2026,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2603.07670v1,ca7d6c5dfb712921da92542454e07af2a09751d61811e76a29066e89dd57cc51
+SUR-2604.16548,gui_sur_2604_16548,2026,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2604.16548v2,314f86e4cae6e3fa16e813ddb721991a256345d9a87b2a11290a0655f462df9f
+SUR-2609.02309,gui_sur_2609_02309,2026,No venue identified for consulted version,Source registry,secondary_context,Not profiled: auxiliary role,,2609.02309v1,b9d4d0eb06581feffbe4a1f04610573db51ead594ae9ef26719426e683a2d473
+WF-0012,gui_wf_0012,2024,No venue identified for consulted version,Source registry,component_diagnostic,Not profiled: auxiliary role,,2406.09187v3,845a62cfc19be17894280e71e1669fdd3de5715ac8f9f41ef0206db941eb7d38
+WF-0027,gui_wf_0027,2025,No venue identified for consulted version,Source registry,primary_mechanism,Desktop;Mobile,1,2504.00906v1,b87310f7b40407c9413d99bbd6cd027bac381cae77ef4d116dc3070012aa3ae5
+WF-0040,gui_wf_0040,2025,No venue identified for consulted version,Source registry,primary_mechanism,Desktop,1,2506.02539v3,385de717c31cc657811299999b17798bf9ded0f6977b1e998b3eb169f79004c9
+WF-0046,gui_wf_0046,2025,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,5-6,2506.18158v1,ed84d6e65eddc6d835b1320b57dbc6a3ca9d36843f5109b12599e0c1f69db52f
+WF-0078,gui_wf_0078,2025,No venue identified for consulted version,Source registry,primary_mechanism,Web;Mobile,1,2510.00413v2,8f716140b8dc53e4e28ec66d8ed900816a521c96a874eb2c8dbad276b6972cc8
+WF-0106,gui_wf_0106,2025,ICLR 2026,Evidence PDF p.1,primary_mechanism,Web,1,2511.12997v2,c6116ae33a8e5607598ce540fbabd343bea0ea7533dc9c99bc93d3e367b17941
+WF-0124,gui_wf_0124,2026,No venue identified for consulted version,Source registry,primary_mechanism,Desktop,1-2,2601.07779v1,55b1570ceeaa9aae69ce4f150bb0bff9347ff8e98d8c773c457820cd6c5d0f41
+WF-0125,gui_wf_0125,2026,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,1,2601.09636v2,5381370d89e1bb8ae179bf67f3531ac1187a6b1ae73da200e8d6ad0985d24426
+WF-0134,gui_wf_0134,2026,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,5,2601.22528v1,8fcee5c5ea865661cc6f3ce8254a43d79ee9adcdd9205e0072db2ecef79b5641
+WF-0140,gui_wf_0140,2026,No venue identified for consulted version,Source registry,primary_evaluation,Not profiled: auxiliary role,,2602.06075v3,dd48c137911a2ff027fd1c1a970a6c33913d940af8cddaf96c505357a15442d6
+WF-0156,gui_wf_0156,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,1,2602.20502v1,1632d027321a591896b8fbe07908c9988f91db54058e5304c4836d6f5fce83f0
+WF-0172,gui_wf_0172,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,5,2603.10291v1,2938b25f2a741186e0c25be3e2f4e58a17a8fd765c8732a6dc39f106e6e194d6
+WF-0179,gui_wf_0179,2026,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,1,2603.18429v1,9a45ae8a299165309cda24e605121ac991f526b30a6ba3507bf76a1a1f9c7727
+WF-0190,gui_wf_0190,2026,No venue identified for consulted version,Source registry,primary_evaluation,Not profiled: auxiliary role,,2604.02623v2,e22b8d07ac02fed9e6c1fe3150f8ef1d56dcb9e545c089bb3c706d38ca6eec2a
+WF-0222,gui_wf_0222,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web;Mobile,1,2605.09317v1,3e61e5754a25197b8be861a5b538626ec89b8fba61b702bf59341a3b44f0e7c7
+WF-0224,gui_wf_0224,2026,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,1,2605.12294v1,c61a96a4b5d34c373e2ae2193077398a48284bcee2fd8724d3a06d5a1f78a982
+WF-0225,gui_wf_0225,2026,No venue identified for consulted version,Source registry,component_diagnostic,Not profiled: auxiliary role,,2605.12493v1,5734ebfe844c4b8a846e2766fb7150aa8cbca62429c137935f3fbfc0ff2cd5c3
+WF-0235,gui_wf_0235,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web;Mobile,1,2605.18652v1,bf6e672269ac55c35870ab2b93d652b472c30fd6ad9c98797b00127d58132305
+WF-0241,gui_wf_0241,2026,No venue identified for consulted version,Source registry,primary_evaluation,Not profiled: auxiliary role,,2605.20833v1,b8894814b03fa0c7b6bdce48ecc8575a5226d6d639f5c3cf04ce84085007e2a2
+WF-0242,gui_wf_0242,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,1,2605.23939v1,214a04e671a1e67611d7c1d803e7dd5038b45800f4cadb258c0014fb3625fa63
+WF-0243,gui_wf_0243,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,1,2605.24785v2,749e6ecb0fa6dcaf2ca9e6d37aa1129fd47d7661e774c3466c00b2b5b71bb181
+WF-0249,gui_wf_0249,2026,No venue identified for consulted version,Source registry,component_diagnostic,Not profiled: auxiliary role,,2605.28646v2,46d44b95aae9de79b7b322478b4a9feeded620e056d2d5165969a2834cb4d2d1
+WF-0263,gui_wf_0263,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,1,2606.04391v1,7fabd21e6d23dc9e035ed0fea4aed7e5c36e3e3b8942f3c1d735408917663b7b
+WF-0271,gui_wf_0271,2026,No venue identified for consulted version,Source registry,primary_evaluation,Not profiled: auxiliary role,,2606.10742v1,e655a7628107efb50e7a33b5239ffbe98fa4155cd7be209cbfd946b0e65c30e9
+WF-0277,gui_wf_0277,2026,No venue identified for consulted version,Source registry,primary_evaluation,Not profiled: auxiliary role,,2606.15017v2,08dcb6d1288b43e5622ec2cdbbe79708424b3af339b03f6d1e92ffdfd91a2d1d
+WF-0298,gui_wf_0298,2026,No venue identified for consulted version,Source registry,primary_mechanism,Mobile,1,2606.31612v2,cdd01f44574d677bb9ed43c588e9c037159cc7d54eab15392b42806780f69bb8
+WF-0306,gui_wf_0306,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,1,2607.20482v2,f6e84acafe1eaf3c75db3ade84a324fa15a37331851305c4c063085ee89d7180
+WF-0317,gui_wf_0317,2026,No venue identified for consulted version,Source registry,primary_mechanism,Web,5,2608.04530v1,fd6a18c2634ad9d19035e2b53fb7b69f3ada352cbba9c8c08e2ee84fe61d7854
+WF-0333,gui_wf_0333,2026,No venue identified for consulted version,Source registry,primary_mechanism,Desktop;Mobile,1,2608.22577v2,434583b39cbefd6132f464cb68a833252837714da3f077291467640d67b87801
+WF-0339,gui_wf_0339,2025,Proceedings of the ACM on Web Conference 2025,Source registry,component_diagnostic,Not profiled: auxiliary role,,local_pdf_sha256,8b02d10923002b2792f085eb5db3d68382b6d924ccd08045b22639cb2feedfd5
+WF-0346,gui_wf_0346,2025,2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE),Source registry,primary_mechanism,Mobile,1,local_pdf_sha256,5229b3e185931db076c1109ecdaff12c18945201ea0dc13d45976a900eb73d10
+WF-0373,gui_wf_0373,2026,Axioms,Source registry,primary_mechanism,Desktop,1,local_pdf_sha256,9d7b0429f24e7a7de118a6878278ec78137cc9edf83cb77b6c049c828704f290
+WF-0395,gui_wf_0395,2025,From Objects to Agents 2025,Source registry,primary_mechanism,Web,1,local_pdf_sha256,442e3533aaed152be80d1e201444767c3515efadeb62ee064f7dbbbfa06cc01f
+WF-0469,gui_wf_0469,2024,No venue identified for consulted version,Source registry,primary_mechanism,Desktop,1,2410.08164v1,ee8c9b38e20b5f747bd78828d96beab0b266eb99baaafe44c3936ff0d89cb92b

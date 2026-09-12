@@ -1,9 +1,0 @@
-arxiv_id,title,published,queries,source_id,decision,locator,reason
-2609.04869,From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents,2026-09-04T08:29:45Z,Q1_CORE;Q2_PROXY;Q3_EVAL,ADD-2609.04869,primary_mechanism,p.4,新增持续技能演化机制；PC-038/039
-2609.02309,"Efficient GUI Agents: A Systems Survey of Observation, Memory, Action, and Runtime Optimization",2026-09-02T08:54:58Z,Q1_CORE;Q3_EVAL,SUR-2609.02309,secondary_context,pp.5–6,已有参照综述；加入 T1 主比较，非新增一次研究
-2608.29596,"Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",2026-08-30T06:36:42Z,Q1_CORE;Q3_EVAL,ADD-2608.29596,secondary_context,p.4,新增技能生命周期近邻综述；PC-068
-2609.02057,Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision,2026-09-02T03:34:47Z,Q2_PROXY,ADD-2609.02057,component_diagnostic,p.5,前缀风险监控，作为验证边界；PC-073
-2609.00048,GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments,2026-08-30T05:19:43Z,Q2_PROXY,ADD-2609.00048,infrastructure_context,p.3,环境世界模型一致性；PC-075
-2608.27808,CURA: Certified Runtime Alarms for Computer-Use Agents,2026-08-28T00:50:47Z,Q2_PROXY,ADD-2608.27808,component_diagnostic,p.3,旧 WF-0338 的原文补齐；外部报警，PC-074
-2608.25777,LocalLSTC: A Long Short-Term Control Architecture for Locally Deployed GUI Agents,2026-08-26T13:20:27Z,Q2_PROXY,ADD-2608.25777,primary_mechanism,p.3,旧 WF-0337 的原文补齐；持续控制状态，PC-040
-2608.24174,Task-Adaptive Rubrics for GUI Reward Modeling,2026-08-25T07:40:12Z,Q2_PROXY,WF-0336,candidate_reference,已有候选来源,旧候选重叠命中；正文不采用其效果或能力主张，未新增深度编码
