@@ -24,7 +24,7 @@ Selection is purposive. Counts describe this collection. Historical records prov
 
 ## Coding
 
-Each claim links a retained object and operation to a source version, passage, and location. Related versions form one work family. Coding was performed by one author; the package contains the source-level assignments and decision boundaries.
+Each claim links a retained object and operation to a source version, passage, and location. Related versions form one work family. The package contains the source-level assignments and decision boundaries.
 
 | Evidence role | Content | Use |
 |---|---|---|

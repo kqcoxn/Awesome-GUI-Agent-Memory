@@ -1,9 +1,9 @@
 {
-  "evidence_version": "evidence-20260913-r4.16",
+  "evidence_version": "evidence-20260913-r4.17",
   "baseline": "evidence-20260908 / e4692ac",
   "manuscript_pdf_sha256": {
-    "en": "bf417f6c43dab0474471b160b3158face2a69e8f92588da458f4e3eb70dc49af",
-    "zh": "ebca66909c42826ca8e358a08ffe67cffc23cb18ecf3af3047e74d54a89f7312"
+    "en": "85fd84d909bed98bab15ae6dbf15f95bdcd22d43e0730525decfaef76af766f3",
+    "zh": "07ab58d9922a04580acb079b21697481e20d0dec3a9a3f70fa9a6a654c1f70e7"
   },
   "counts": {
     "positive_source_cells": 123,
@@ -16,7 +16,7 @@
   "files_source_sha256": {
     "docs/paper/latex/sections/en/00_abstract.tex": "bac2ad11ee690349d4adc3d1002e29c2d05298865ad73215c877d22142db771d",
     "docs/paper/latex/sections/en/01_introduction.tex": "59c570fb401e58e20b45da5f2f19f22d1058917ffce30a1f0167562c9dbf3eaa",
-    "docs/paper/latex/sections/en/02_methodology.tex": "5e1f7e0cd9c3ff2a90377ca803a873ae2825dba3b2b2cda9e4ea34de4752069b",
+    "docs/paper/latex/sections/en/02_methodology.tex": "dc14f9c7ed435615515bbf3fe461fe6a5b260c23c0681c7e1257cee493c909b4",
     "docs/paper/latex/sections/en/03_framework.tex": "5ac5afa1c574b01fa8dfd519a1c50368f866326c681951b6745a1ebda0531b07",
     "docs/paper/latex/sections/en/04_mechanisms.tex": "7ab19ef16c1922f3c86c4098590e28be64bc3c4911fa183d3e102bf895a69b44",
     "docs/paper/latex/sections/en/05_evaluation.tex": "29f613101c23f412d1681acfdd44e4741f40fc149bacdc367093c0921fe6b8e4",
