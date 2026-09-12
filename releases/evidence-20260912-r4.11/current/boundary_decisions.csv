@@ -1,0 +1,13 @@
+source_id,previous_role,current_role,evidence,reason
+WF-0125,旧 X06,primary_mechanism,PC-025;PC-026,有每日更新的原型记忆与后续偏好推断；不沿用无专用记忆的解释
+WF-0124,旧 X06,primary_mechanism,PC-027,轨迹压缩和反思记忆
+WF-0027,旧 X06,primary_mechanism,PC-028,允许普通历史消费；仅采用 L3.U，不认定专用长期模块
+WF-0339,旧 primary 候选,component_diagnostic,PC-050,明确 API/函数化环境；不计 GUI 闭环效果
+WF-0179,长程任务候选,primary_mechanism,PC-051;PC-052,ASM 机制纳入；预录轨迹评测单独标注
+WF-0225,记忆评测候选,component_diagnostic,PC-055,轨迹证据收集和固定 reader 问答
+WF-0249,隐私机制候选,component_diagnostic,PC-029;PC-030,策略记忆机制存在；效果只在静态单步曝光决策协议解释
+WF-0233,恢复候选,infrastructure_context,PDF p.1,环境快照不等于记忆修复；本轮正文仅以边界说明使用
+WF-0216,旧 primary 候选,secondary_context,PDF p.1,综述角色，不入一次研究分母
+WF-0219,旧 primary 候选,secondary_context,PDF p.1,架构生命周期综述，不入一次研究分母
+WF-0392,独立家族标签,duplicate,与 WF-0012 SHA256 相同,同一 GuardAgent PDF，来源记录保留，证据按 WF-0012 计
+WF-0188,旧 X06,boundary_pending,PDF p.3,任务定义不足以证明具体长期记忆干预；正文不采用相关效果，候选保留

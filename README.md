@@ -4,14 +4,16 @@ Companion evidence for **Memory for GUI Agents: A Framework Survey of Lifecycles
 
 ## Current manuscript evidence
 
-Use [evidence-20260912-r4.10](releases/evidence-20260912-r4.10/README.md) for the current claims, matrix, comparisons, and methods documentation.
+Use [evidence-20260912-r4.11](releases/evidence-20260912-r4.11/README.md) for the current claims, matrix, comparisons, and methods documentation.
 
-- [Collection and coding details](releases/evidence-20260912-r4.10/current/evidence_methods.md)
-- [75 claims from 55 coded sources](releases/evidence-20260912-r4.10/current/claims.json)
-- [Current matrix](releases/evidence-20260912-r4.10/current/capability_matrix.csv)
-- [Additional mechanism comparisons](releases/evidence-20260912-r4.10/current/mechanism_comparisons.json)
+- [Collection and coding details](releases/evidence-20260912-r4.11/current/evidence_methods.md)
+- [75 claims from 55 coded sources](releases/evidence-20260912-r4.11/current/claims.json)
+- [Current matrix](releases/evidence-20260912-r4.11/current/capability_matrix.csv)
+- [Additional mechanism comparisons](releases/evidence-20260912-r4.11/current/mechanism_comparisons.json)
 
 The detailed release README explains counting units, record relationships, validation, and source access. Run its `validate.py` from the release directory.
+
+The r4.10 tag was superseded because Git newline conversion invalidated some package hashes. Use r4.11, which preserves release file bytes.
 
 ## Historical baseline
 

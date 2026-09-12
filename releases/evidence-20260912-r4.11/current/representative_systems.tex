@@ -1,0 +1,14 @@
+\begin{table}[tbp]
+\caption{\Bi{Representative retention--consumption paths. Platforms identify the settings discussed here; persistence specifies the documented reuse boundary.}{代表系统的保留—消费路径。平台标识此处讨论的设置；持久性描述已有记录的复用边界。}}\label{tab:mechanisms}
+\centering\tabsize\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{.19\linewidth}YYY@{}}
+\toprule
+\Bi{System / setting}{系统／设置} & \Bi{Object and representation}{对象与表示} & \Bi{Reading and use}{读取与使用} & \Bi{Boundary and maintenance}{边界与维护} \\ \midrule
+CausalCache~\cite{gui_wf_0333}\newline \Bi{Mobile / desktop}{移动／桌面} & \Bi{Historical events: text summaries and archived images}{历史事件：文本摘要与归档图像} & \Bi{Selected images re-enter a fixed visual context budget alongside text}{选定图像与文本共同输入，活跃视觉预算固定} & \Bi{Earlier steps within a task; reallocates active images while retaining the archive}{任务内早期步骤；保留归档并重分配活跃图像} \\
+ATMem~\cite{gui_wf_0298}\newline \Bi{Mobile}{移动} & \Bi{Workflow state and identified items with fields and execution status}{工作流状态及带字段、执行状态的标识条目} & \Bi{Current state enters each system prompt; response supplies revised state and action}{每次系统提示输入当前状态；响应给出修订状态及动作} & \Bi{Across task steps; revised state is carried into the next call}{跨任务步骤；修订状态进入下一调用} \\
+\Bi{Agent Workflow Memory}{Agent Workflow Memory}~\cite{gui_add_awm}\newline Web & \Bi{Subroutine purpose and parameterized environment/\allowbreak reasoning/\allowbreak action steps}{子流程目的及参数化的环境／推理／动作步骤} & \Bi{Induced workflows augment memory for later action generation}{归纳工作流扩充记忆，参与后续动作生成} & \Bi{Across tasks; workflows induced from earlier experience are added to memory}{跨任务；由先前经验归纳工作流并加入记忆} \\
+Mobile-Agent-E~\cite{mobileagente}\newline \Bi{Mobile}{移动} & \Bi{Task plan, progress, and histories; reusable Tips and Shortcuts}{任务计划、进度、历史；可复用 Tips 与 Shortcuts} & \Bi{Tips guide planning; executable Shortcuts support action}{Tips 指导规划，可执行 Shortcuts 支持动作} & \Bi{Within and across tasks; post-task reflection revises reusable knowledge}{任务内及跨任务；任务后反思修订可复用知识} \\
+HYMEM~\cite{gui_wf_0172}\newline Web & \Bi{Experience graph linking symbolic strategies/attributes and trajectory embeddings}{连接符号策略／属性与轨迹嵌入的经验图} & \Bi{Graph retrieval supplies guidance and continuous context to the agent}{图检索向智能体提供指导与连续上下文} & \Bi{Accumulated trajectories; graph ADD/\allowbreak MERGE/\allowbreak REPLACE and phase-triggered context refresh}{积累轨迹；图增／并／替换及阶段触发的上下文刷新} \\
+UFO2~\cite{ufo2}\newline \Bi{Desktop, GUI--API}{桌面，GUI--API} & \Bi{Private histories and a shared blackboard of intermediate results}{私有历史及保存中间结果的共享黑板} & \Bi{AppAgents consume shared results; execution knowledge is also retrieved}{AppAgent 消费共享结果，并检索执行知识} & \Bi{Across applications in a task; private execution state remains separately scoped}{任务内跨应用；私有执行状态保持独立作用域} \\
+\bottomrule\end{tabularx}
+\end{table}

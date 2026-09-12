@@ -1,0 +1,176 @@
+{
+  "date_received": "2026-09-08",
+  "confirmed": 15,
+  "unresolved_in_supplied_check": 3,
+  "reported_factual_errors_among_confirmed": 0,
+  "cannot_estimate_claim_error_rate": true,
+  "records": [
+    {
+      "source_id": "WF-0298",
+      "name": "ATMem",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0134",
+      "name": "Darwinian Memory",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0235",
+      "name": "MementoGUI",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0333",
+      "name": "CausalCache",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0277",
+      "name": "Budget study",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0190",
+      "name": "eTAMP",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0225",
+      "name": "LongMemEval-V2",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0271",
+      "name": "MemVenom",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0249",
+      "name": "MaskClaw",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0306",
+      "name": "PersonaTrail",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0241",
+      "name": "MemGym",
+      "route": "direct_source_search",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0172",
+      "name": "HYMEM",
+      "route": "third_party_citation_list",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0479",
+      "name": "LLM-Brained GUI Agents",
+      "route": "third_party_citation_list",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "ADD-AWM",
+      "name": "Agent Workflow Memory",
+      "route": "third_party_citation_list",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0027",
+      "name": "Agent S2",
+      "route": "third_party_citation_list",
+      "reported_outcome": "consistent",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "ADD-2609.04869",
+      "name": "Persistent skills",
+      "route": "not_located",
+      "reported_outcome": "unresolved",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0140",
+      "name": "MemGUI-Bench",
+      "route": "not_located",
+      "reported_outcome": "unresolved",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    },
+    {
+      "source_id": "WF-0179",
+      "name": "AndroTMem",
+      "route": "not_located",
+      "reported_outcome": "unresolved",
+      "check_depth": "existence, bibliographic metadata, abstract-level paraphrase; not full claim/page/cell audit",
+      "provenance": "user-supplied automation-assisted external bibliographic spot-check",
+      "independent_human_claim_review": false
+    }
+  ],
+  "notes": [
+    "CausalCache: user reports v1 five authors and v2 four authors; bibliography follows evidence v2.",
+    "MemGym calls its scores memory-isolated; the manuscript separates this author terminology from its interpretation of the endpoint.",
+    "The supplied check is automation-assisted, not independent human claim validation."
+  ]
+}
