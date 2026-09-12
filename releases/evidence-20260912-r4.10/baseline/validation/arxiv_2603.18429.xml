@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gDcuG/jKO1pi8QO7sSbIbbmGGHw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2603.18429&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T08:37:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2603.18429" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.18429v1</id>
+    <title>AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents</title>
+    <updated>2026-03-19T02:45:21Z</updated>
+    <link href="https://arxiv.org/abs/2603.18429v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.18429v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon GUI agents are a key step toward real-world deployment, yet effective interaction memory under prevailing paradigms remains under-explored. Replaying full interaction sequences is redundant and amplifies noise, while summaries often erase dependency-critical information and traceability. We present AndroTMem, a diagnostic framework for anchored memory in long-horizon Android GUI agents. Its core benchmark, AndroTMem-Bench, comprises 1,069 tasks with 34,473 interaction steps (avg. 32.1 per task, max. 65). We evaluate agents with TCR (Task Complete Rate), focusing on tasks whose completion requires carrying forward critical intermediate state; AndroTMem-Bench is designed to enforce strong step-to-step causal dependencies, making sparse yet essential intermediate states decisive for downstream actions and centering interaction memory in evaluation. Across open- and closed-source GUI agents, we observe a consistent pattern: as interaction sequences grow longer, performance drops are driven mainly by within-task memory failures, not isolated perception errors or local action mistakes. Guided by this diagnosis, we propose Anchored State Memory (ASM), which represents interaction sequences as a compact set of causally linked intermediate-state anchors to enable subgoal-targeted retrieval and attribution-aware decision making. Across multiple settings and 12 evaluated GUI agents, ASM consistently outperforms full-sequence replay and summary-based baselines, improving TCR by 5%-30.16% and AMS by 4.93%-24.66%, indicating that anchored, structured memory effectively mitigates the interaction-memory bottleneck in long-horizon GUI tasks. The code, benchmark, and related resources are publicly available at [https://github.com/CVC2233/AndroTMem](https://github.com/CVC2233/AndroTMem).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-19T02:45:21Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yibo Shi</name>
+    </author>
+    <author>
+      <name>Jungang Li</name>
+    </author>
+    <author>
+      <name>Linghao Zhang</name>
+    </author>
+    <author>
+      <name>Zihao Dongfang</name>
+    </author>
+    <author>
+      <name>Biao Wu</name>
+    </author>
+    <author>
+      <name>Sicheng Tao</name>
+    </author>
+    <author>
+      <name>Yibo Yan</name>
+    </author>
+    <author>
+      <name>Chenxi Qin</name>
+    </author>
+    <author>
+      <name>Weiting Liu</name>
+    </author>
+    <author>
+      <name>Zhixin Lin</name>
+    </author>
+    <author>
+      <name>Hanqian Li</name>
+    </author>
+    <author>
+      <name>Yu Huang</name>
+    </author>
+    <author>
+      <name>Song Dai</name>
+    </author>
+    <author>
+      <name>Yonghua Hei</name>
+    </author>
+    <author>
+      <name>Yue Ding</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Shikang Wang</name>
+    </author>
+    <author>
+      <name>Chengdong Xu</name>
+    </author>
+    <author>
+      <name>Jingqi Liu</name>
+    </author>
+    <author>
+      <name>Xueying Ma</name>
+    </author>
+    <author>
+      <name>Zhiwen Zheng</name>
+    </author>
+    <author>
+      <name>Xiaofei Zhang</name>
+    </author>
+    <author>
+      <name>Bincheng Wang</name>
+    </author>
+    <author>
+      <name>Nichen Yang</name>
+    </author>
+    <author>
+      <name>Jie Wu</name>
+    </author>
+    <author>
+      <name>Lihua Tian</name>
+    </author>
+    <author>
+      <name>Chen Li</name>
+    </author>
+    <author>
+      <name>Xuming Hu</name>
+    </author>
+  </entry>
+</feed>

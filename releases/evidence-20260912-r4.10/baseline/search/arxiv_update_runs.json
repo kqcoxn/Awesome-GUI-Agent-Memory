@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Q1_CORE",
+    "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND (all:memory OR all:\"working memory\" OR all:\"short-term memory\" OR all:\"long-term memory\" OR all:\"episodic memory\" OR all:\"external memory\" OR all:\"memory bank\" OR all:\"memory retrieval\") AND submittedDate:[202608250000 TO 202609082359]",
+    "executed_at": "2026-09-08T14:18:32.367913+08:00",
+    "pages": [
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22GUI+agent%22+OR+all%3A%22UI+agent%22+OR+all%3A%22graphical+user+interface+agent%22+OR+all%3A%22computer-use+agent%22+OR+all%3A%22computer+use+agent%22+OR+all%3A%22web+agent%22+OR+all%3A%22web+navigation+agent%22+OR+all%3A%22browser+agent%22+OR+all%3A%22mobile+GUI+agent%22+OR+all%3A%22desktop+agent%22+OR+all%3A%22operating+system+agent%22+OR+all%3A%22software-use+agent%22+OR+all%3A%22cross-app+agent%22+OR+%28%28all%3A%22LLM+agent%22+OR+all%3A%22vision-language+agent%22+OR+all%3A%22multimodal+agent%22%29+AND+%28all%3AGUI+OR+all%3A%22computer+use%22+OR+all%3Abrowser+OR+all%3Awebsite+OR+all%3AAndroid+OR+all%3A%22mobile+app%22+OR+all%3Adesktop+OR+all%3A%22operating+system%22+OR+all%3A%22software+application%22+OR+all%3A%22cross-app%22%29%29%29+AND+%28all%3Amemory+OR+all%3A%22working+memory%22+OR+all%3A%22short-term+memory%22+OR+all%3A%22long-term+memory%22+OR+all%3A%22episodic+memory%22+OR+all%3A%22external+memory%22+OR+all%3A%22memory+bank%22+OR+all%3A%22memory+retrieval%22%29+AND+submittedDate%3A%5B202608250000+TO+202609082359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "path": "arxiv_update_Q1_CORE_0.xml",
+        "count": 3,
+        "total": 3
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "Q2_PROXY",
+    "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND ((all:\"task state\" OR all:\"interaction history\" OR all:\"action history\" OR all:trajectory OR all:\"context compression\" OR all:\"context summarization\" OR all:\"experience retrieval\" OR all:\"experience reuse\" OR all:\"skill library\") AND (all:store OR all:persist OR all:retain OR all:summarize OR all:compress OR all:retrieve OR all:reuse OR all:update OR all:recover)) AND submittedDate:[202608250000 TO 202609082359]",
+    "executed_at": "2026-09-08T14:18:37.661481+08:00",
+    "pages": [
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22GUI+agent%22+OR+all%3A%22UI+agent%22+OR+all%3A%22graphical+user+interface+agent%22+OR+all%3A%22computer-use+agent%22+OR+all%3A%22computer+use+agent%22+OR+all%3A%22web+agent%22+OR+all%3A%22web+navigation+agent%22+OR+all%3A%22browser+agent%22+OR+all%3A%22mobile+GUI+agent%22+OR+all%3A%22desktop+agent%22+OR+all%3A%22operating+system+agent%22+OR+all%3A%22software-use+agent%22+OR+all%3A%22cross-app+agent%22+OR+%28%28all%3A%22LLM+agent%22+OR+all%3A%22vision-language+agent%22+OR+all%3A%22multimodal+agent%22%29+AND+%28all%3AGUI+OR+all%3A%22computer+use%22+OR+all%3Abrowser+OR+all%3Awebsite+OR+all%3AAndroid+OR+all%3A%22mobile+app%22+OR+all%3Adesktop+OR+all%3A%22operating+system%22+OR+all%3A%22software+application%22+OR+all%3A%22cross-app%22%29%29%29+AND+%28%28all%3A%22task+state%22+OR+all%3A%22interaction+history%22+OR+all%3A%22action+history%22+OR+all%3Atrajectory+OR+all%3A%22context+compression%22+OR+all%3A%22context+summarization%22+OR+all%3A%22experience+retrieval%22+OR+all%3A%22experience+reuse%22+OR+all%3A%22skill+library%22%29+AND+%28all%3Astore+OR+all%3Apersist+OR+all%3Aretain+OR+all%3Asummarize+OR+all%3Acompress+OR+all%3Aretrieve+OR+all%3Areuse+OR+all%3Aupdate+OR+all%3Arecover%29%29+AND+submittedDate%3A%5B202608250000+TO+202609082359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "path": "arxiv_update_Q2_PROXY_0.xml",
+        "count": 6,
+        "total": 6
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "id": "Q3_EVAL",
+    "query": "(all:\"GUI agent\" OR all:\"UI agent\" OR all:\"graphical user interface agent\" OR all:\"computer-use agent\" OR all:\"computer use agent\" OR all:\"web agent\" OR all:\"web navigation agent\" OR all:\"browser agent\" OR all:\"mobile GUI agent\" OR all:\"desktop agent\" OR all:\"operating system agent\" OR all:\"software-use agent\" OR all:\"cross-app agent\" OR ((all:\"LLM agent\" OR all:\"vision-language agent\" OR all:\"multimodal agent\") AND (all:GUI OR all:\"computer use\" OR all:browser OR all:website OR all:Android OR all:\"mobile app\" OR all:desktop OR all:\"operating system\" OR all:\"software application\" OR all:\"cross-app\"))) AND (all:memory OR all:\"long-horizon\" OR all:\"long horizon\" OR all:\"state tracking\" OR all:\"progress tracking\" OR all:\"history-aware\") AND (all:benchmark OR all:evaluation OR all:ablation OR all:failure OR all:robustness OR all:security OR all:attack) AND submittedDate:[202608250000 TO 202609082359]",
+    "executed_at": "2026-09-08T14:18:42.864333+08:00",
+    "pages": [
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22GUI+agent%22+OR+all%3A%22UI+agent%22+OR+all%3A%22graphical+user+interface+agent%22+OR+all%3A%22computer-use+agent%22+OR+all%3A%22computer+use+agent%22+OR+all%3A%22web+agent%22+OR+all%3A%22web+navigation+agent%22+OR+all%3A%22browser+agent%22+OR+all%3A%22mobile+GUI+agent%22+OR+all%3A%22desktop+agent%22+OR+all%3A%22operating+system+agent%22+OR+all%3A%22software-use+agent%22+OR+all%3A%22cross-app+agent%22+OR+%28%28all%3A%22LLM+agent%22+OR+all%3A%22vision-language+agent%22+OR+all%3A%22multimodal+agent%22%29+AND+%28all%3AGUI+OR+all%3A%22computer+use%22+OR+all%3Abrowser+OR+all%3Awebsite+OR+all%3AAndroid+OR+all%3A%22mobile+app%22+OR+all%3Adesktop+OR+all%3A%22operating+system%22+OR+all%3A%22software+application%22+OR+all%3A%22cross-app%22%29%29%29+AND+%28all%3Amemory+OR+all%3A%22long-horizon%22+OR+all%3A%22long+horizon%22+OR+all%3A%22state+tracking%22+OR+all%3A%22progress+tracking%22+OR+all%3A%22history-aware%22%29+AND+%28all%3Abenchmark+OR+all%3Aevaluation+OR+all%3Aablation+OR+all%3Afailure+OR+all%3Arobustness+OR+all%3Asecurity+OR+all%3Aattack%29+AND+submittedDate%3A%5B202608250000+TO+202609082359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+        "path": "arxiv_update_Q3_EVAL_0.xml",
+        "count": 3,
+        "total": 3
+      }
+    ],
+    "status": "complete"
+  }
+]

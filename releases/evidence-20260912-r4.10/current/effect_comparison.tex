@@ -1,0 +1,10 @@
+\begin{table}[tbp]
+\caption{\Bi{Two reported comparisons under different resource controls. Results are source-specific; pp denotes percentage points.}{不同资源控制下的两项已报告比较。结果对应各自来源；pp 表示百分点。}}\label{tab:effects}
+\centering\tabsize\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}YYY@{}}
+\toprule
+\Bi{Setting}{设置} & \Bi{Intervention and control}{干预与控制} & \Bi{Reported outcome}{报告结果} \\ \midrule
+CausalCache~\cite{gui_wf_0333}: MobileWorld; GUI-Owl-1.5-8B-Instruct + HGKV; \Bi{117 tasks, three-run means}{117任务，三次运行均值} & \Bi{HGKV+Recent vs. CausalCache; four active history images and identical summaries; inference calls may differ}{HGKV+Recent 对比 CausalCache；四张活跃历史图像、相同摘要；推理调用可不同} & \Bi{Success: 30.2\% vs. 36.8\%; +6.6 pp}{成功率：30.2\% 对比36.8\%；提高6.6个百分点} \\
+\Bi{Budget study}{预算研究}~\cite{gui_wf_0277}: WorkArena-L1; Qwen3.6-27B; \Bi{33 task types, three seeds per type}{33种任务类型，每种三个种子} & \Bi{Vanilla-IB: 15-step horizon, rule-based accessibility-tree pruning; ReasoningBank: 10-step horizon}{Vanilla-IB：15步上限、规则式可访问性树剪枝；ReasoningBank：10步上限} & \Bi{Success: $55.56\pm2.9\%$ vs. $55.56\pm2.8\%$. Total tokens/task (thousands): $109.4\pm14.8$ vs. $120.3\pm5.7$; mean $\pm$ SD}{成功率：$55.56\pm2.9\%$ 对比 $55.56\pm2.8\%$。每任务总token（千）：$109.4\pm14.8$ 对比 $120.3\pm5.7$；均值 $\pm$ 标准差} \\
+\bottomrule\end{tabularx}
+\end{table}

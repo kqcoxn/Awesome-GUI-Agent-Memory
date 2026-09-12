@@ -1,0 +1,16 @@
+\begin{table}[tbp]
+\caption{\Bi{Maintenance mechanisms, target objects, and behavioral implications.}{维护机制、目标对象与行为含义。}}\label{tab:maintenance}
+\centering\tabsize\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}lYY@{}}
+\toprule
+\Bi{Source}{来源} & \Bi{Supported operation}{受支持操作} & \Bi{Target and timing}{对象与时机} \\ \midrule
+PAL-UI~\cite{gui_wf_0078} & \Bi{V-check: before/after action validation}{V-check：动作前后验证} & \Bi{Executed action and observed transition}{已执行动作与观测转移} \\
+SGDR~\cite{gui_wf_0263} & \Bi{V-check: skill re-execution before admission}{V-check：准入前重新执行技能} & \Bi{Candidate skill before library admission}{入库前的候选技能} \\
+VerificAgent~\cite{gui_wf_0040} & \Bi{F-edit: expert correction before frozen use}{F-edit：冻结使用前的专家纠正} & \Bi{Learned experience before inference}{推理前的学习经验} \\
+HYMEM~\cite{gui_wf_0172} & \Bi{F-edit: ADD/\allowbreak MERGE/\allowbreak REPLACE; phase refresh}{F-edit：增/并/替换；阶段刷新} & \Bi{Experience graph and phase-specific guidance}{经验图与阶段特定指导} \\
+Darwinian Memory~\cite{gui_wf_0134} & \Bi{F-prune: utility/failure/capacity pruning}{F-prune：效用/失败/容量剪枝} & \Bi{Skill entries during library maintenance}{记忆库维护中的技能条目} \\
+PANDO~\cite{gui_wf_0243} & \Bi{F-disable: persistent-failure blacklist}{F-disable：持续失败黑名单} & \Bi{Failing routines before future reuse}{后续复用前的失败例程} \\
+MemAgent~\cite{gui_wf_0395} & \Bi{F-expire: time-to-live control}{F-expire：生存时间控制} & \Bi{Task-entity records at expiry}{到期的任务实体记录} \\
+ASM~\cite{gui_wf_0179} & \Bi{F-edit: anchor edits and dependencies}{F-edit：锚点编辑与依赖} & \Bi{Anchors and dependencies in recorded trajectories}{记录轨迹中的锚点与依赖} \\
+\bottomrule\end{tabularx}
+\end{table}
