@@ -1,0 +1,61 @@
+{
+  "included_works": 289,
+  "mechanism_works": 246,
+  "work_cell_assignments": 1119,
+  "by_theme": {
+    "evaluation": 22,
+    "interface": 48,
+    "security": 15,
+    "skill": 83,
+    "state": 90,
+    "user": 14,
+    "visual": 17
+  },
+  "by_category": {
+    "direct_memory": 250,
+    "memory_evaluation_security": 39
+  },
+  "by_role": {
+    "component_diagnostic": 10,
+    "primary_evaluation": 33,
+    "primary_mechanism": 246
+  },
+  "by_year": {
+    "2023": 12,
+    "2024": 40,
+    "2025": 103,
+    "2026": 134
+  },
+  "by_cell": {
+    "L1.F": 1,
+    "L1.P": 15,
+    "L1.R": 11,
+    "L1.U": 20,
+    "L1.V": 1,
+    "L1.W": 17,
+    "L2.F": 8,
+    "L2.P": 60,
+    "L2.R": 52,
+    "L2.U": 62,
+    "L2.V": 5,
+    "L2.W": 64,
+    "L3.F": 18,
+    "L3.P": 76,
+    "L3.R": 30,
+    "L3.U": 121,
+    "L3.V": 39,
+    "L3.W": 112,
+    "L4.F": 15,
+    "L4.P": 73,
+    "L4.R": 79,
+    "L4.U": 97,
+    "L4.V": 7,
+    "L4.W": 84,
+    "L5.F": 2,
+    "L5.P": 9,
+    "L5.R": 12,
+    "L5.U": 15,
+    "L5.V": 1,
+    "L5.W": 13
+  }
+}

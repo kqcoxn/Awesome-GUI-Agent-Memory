@@ -1,0 +1,12 @@
+{
+  "publication_cutoff": "2026-09-20",
+  "query_runs": 13,
+  "search_records": 7409,
+  "merged_candidates": 4951,
+  "duplicate_records": 2458,
+  "retained_for_fulltext": 1601,
+  "not_selected_at_title_abstract": 3350,
+  "included_works": 289,
+  "included_from_search_pool": 271,
+  "included_from_additional_sources": 18
+}
