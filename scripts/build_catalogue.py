@@ -31,13 +31,13 @@ def render(rows, zh):
     counts = Counter(r['category'] for r in rows)
     if zh:
         lines = ['# GUI 智能体记忆分类目录', '', '[English](CATALOGUE.md) · **简体中文** · [精选阅读](README.zh-CN.md#shelves) · [CSV 数据](catalogue.csv)', '',
-                 f"文献覆盖截止 **2026-09-20**；目录整理于 **2026-10-14**。按工作去重共 **{len(rows)} 项**：{counts['direct_memory']} 项直接记忆研究、{counts['memory_evaluation_security']} 项相关评测／安全研究。", '',
+                 f"文献覆盖截止 **2026-09-20**；目录整理于 **2026-10-21**。按工作去重共 **{len(rows)} 项**：{counts['direct_memory']} 项直接记忆研究、{counts['memory_evaluation_security']} 项相关评测／安全研究。", '',
                  '收录范围为 LLM/VLM 参与 GUI 决策、操作或记忆处理的研究，依据原文中的保留对象及后续 GUI 用途选材。目录按框架贡献组织，允许存在覆盖遗漏。每项有原文分类依据；分类核验不代表所有效果数字或机制细节均已完成主张级审计。', '',
                  '下列主题用于阅读导航，每项只列一次；主题分区与直接记忆／评测安全类别是两种不同的组织口径。保留对象与用途是综述者综合描述。年份取首次公开日期，可能早于正式发表年份。CSV 保留稳定标识、类别、采用版本、双语描述和原文定位；原文定位沿用核验记录的语言。', '',
                  '[配套数据](README.zh-CN.md#evidence) 保存本目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。精选阅读还包含目录范围之外的背景综述。', '']
     else:
         lines = ['# GUI Agent Memory Catalogue', '', '**English** · [简体中文](CATALOGUE.zh-CN.md) · [Curated readings](README.md#shelves) · [CSV data](catalogue.csv)', '',
-                 f"Publication cutoff: **2026-09-20**. Catalogue prepared: **2026-10-14**. **{len(rows)} distinct works**: {counts['direct_memory']} direct-memory studies and {counts['memory_evaluation_security']} related evaluation/security studies.", '',
+                 f"Publication cutoff: **2026-09-20**. Catalogue prepared: **2026-10-21**. **{len(rows)} distinct works**: {counts['direct_memory']} direct-memory studies and {counts['memory_evaluation_security']} related evaluation/security studies.", '',
                  'The scope covers research in which an LLM/VLM participates in GUI decisions, actions or memory processing. Selection uses original-source evidence of retained information and its subsequent GUI use, organized by contribution to the framework; coverage may be incomplete. Every entry has a source basis for classification. Classification checks do not establish that all effect sizes or mechanism details have undergone claim-level auditing.', '',
                  'Themes below are reading routes, with each work listed once; they are separate from the direct-memory versus evaluation/security categories. Retained objects and uses are reviewer syntheses. Years indicate first public availability and may precede formal publication. The CSV retains stable identifiers, categories, consulted versions, bilingual descriptions and source passages; passage locators preserve the language of the verification record.', '',
                  'The [companion data](README.md#evidence) provide this catalogue, explicit matrix assignments, corpus statistics, executed queries and selection totals. Curated readings also include background surveys outside the catalogue scope.', '']

@@ -12,7 +12,7 @@ Curated papers, mechanism guides and traceable evidence on memory for GUI and co
 
 [Start Here](#start) · [Paper Library](#shelves) · [Full Catalogue](CATALOGUE.md) · [Benchmarks](#benchmarks) · [Our Survey](#survey) · [Evidence](#evidence)
 
-**Paper — Coming soon** · **43 curated readings** · **289 classified works through 2026-09-20**
+**Paper — Coming soon** · **43 curated readings** · **290 classified works through 2026-09-20**
 
 </div>
 
@@ -33,15 +33,15 @@ Curated papers, mechanism guides and traceable evidence on memory for GUI and co
 | Understand information sharing between agents | [Task state & visual history](#state): UFO2 → [Our framework](#survey): dependencies and scope |
 | Study memory reliability | [Maintenance & safety](#maintenance): HYMEM → Darwinian Memory → VerificAgent |
 | Design an evaluation or check a claim | [Benchmarks](#benchmarks) → [Fixed evidence package](#evidence) |
-| Browse the wider literature | [289-work catalogue](CATALOGUE.md) → [Downloadable CSV](catalogue.csv) |
+| Browse the wider literature | [290-work catalogue](CATALOGUE.md) → [Downloadable CSV](catalogue.csv) |
 
 <a id="shelves"></a>
 
 ## 📚 Paper Library
 
-These shelves offer 43 selected readings, including background surveys. The [full catalogue](CATALOGUE.md) covers 289 distinct works selected for the survey through **2026-09-20**: 250 direct-memory studies and 39 related evaluation/security studies. Its seven themes provide reading routes, with retained objects, subsequent GUI uses and original-source links; the [CSV](catalogue.csv) also records consulted versions and source passages. Selection is based on contribution to the framework and may omit relevant work.
+These shelves offer 43 selected readings, including background surveys. The [full catalogue](CATALOGUE.md) covers 290 distinct works selected for the survey through **2026-09-20**: 251 direct-memory studies and 39 related evaluation/security studies. Its seven themes provide reading routes, with retained objects, subsequent GUI uses and original-source links; the [CSV](catalogue.csv) also records consulted versions and source passages. Selection is based on contribution to the framework and may omit relevant work.
 
-The [companion data](#evidence) provide the 289-work catalogue, explicit matrix assignments, corpus statistics, executed queries and selection totals. Reading notes below link to the consulted sources.
+The [companion data](#evidence) provide the 290-work catalogue, explicit matrix assignments, corpus statistics, executed queries and selection totals. Reading notes below link to the consulted sources.
 
 [🖥️ Task State & Visual History](#state) · [🧭 Trajectories & Experience](#experience) · [🛠️ Workflows & Skills](#skills) · [👤 User Preferences & Task Information](#personalization) · [🔄 Maintenance & Memory Safety](#maintenance) · [🧪 Benchmarks & Evaluation](#benchmarks) · [📖 Related Surveys](#surveys)
 
@@ -292,7 +292,7 @@ Connects skill discovery, representation, storage, routing, execution/repair and
 
 The survey examines memory in language- and vision-language-model agents operating Web, desktop and mobile interfaces. Its **lifecycle–state framework** connects five kinds of retained objects—visual evidence, interface knowledge, task state and trajectories, reusable skills, and user and session context—to six operations: writing, representation, retrieval, use, verification/recovery and updating/forgetting. Object types describe what a record is about; text, graphs and latent representations describe how it is stored.
 
-The current synthesis draws on the [289-work classification catalogue](CATALOGUE.md), with original-source checks of retained objects and subsequent GUI uses. The framework relates maintenance operations to their objects and evaluation endpoints; assignments indicate source-supported mechanisms, rather than comparable effect sizes or field-wide prevalence.
+The current synthesis draws on the [290-work classification catalogue](CATALOGUE.md), with original-source checks of retained objects and subsequent GUI uses. The framework relates maintenance operations to their objects and evaluation endpoints; assignments indicate source-supported mechanisms, rather than comparable effect sizes or field-wide prevalence.
 
 Lifecycle operations form the main axis for comparing mechanisms; the five object categories distinguish what each operation acts on and the conditions under which that information remains useful:
 
@@ -333,25 +333,25 @@ The survey develops six research directions from existing mechanisms and their c
 
 ## 🔎 Evidence & Reproducibility
 
-Version **`evidence-20261014-v2`** provides the companion data for *The State of Memory in GUI Agents: A Lifecycle-Centric Survey*, with publication coverage through **20 September 2026**.
+Version **`evidence-20261021-v3`** provides the companion data for *The State of Memory in GUI Agents: A Lifecycle-Centric Survey*, with publication coverage through **20 September 2026**.
 
 | Content | Scope and counts |
 |---|---|
-| Literature catalogue | **289 works**: 250 direct-memory and 39 evaluation or security studies, with classifications, bilingual descriptions, adopted versions and source locations |
-| Object–operation matrix | **1,119 work–cell assignments** for **246 mechanism studies** |
+| Literature catalogue | **290 works**: 251 direct-memory and 39 evaluation or security studies, with classifications, bilingual descriptions, adopted versions and source locations |
+| Object–operation matrix | **1,128 work–cell assignments** for **247 mechanism studies** |
 | Corpus statistics | Counts by publication year, theme, category, analytical role and matrix cell |
 | Search and selection | **13 queries across five databases**, execution dates, hit counts and selection totals |
 | Documentation and validation | English and Chinese readmes, a data dictionary, CC BY 4.0 license, file checksums and an offline validation script |
 
-- [Download the data package](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/releases/download/evidence-20261014-v2/evidence-20261014-v2.zip) · [Package overview](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/README.md) · [Zenodo](https://doi.org/10.5281/zenodo.23366556)
-- [Literature catalogue](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/catalogue.csv) · [Matrix assignments](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/matrix_assignments.csv)
-- [Corpus statistics](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/corpus_counts.json) · [Search records](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/search_runs.csv) · [Selection totals](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/selection_summary.json)
-- [Data dictionary](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/data_dictionary.md) · [License](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/LICENSE.md) · [File checksums](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/manifest.sha256)
+- [Download the data package](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/releases/download/evidence-20261021-v3/evidence-20261021-v3.zip) · [Package overview](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/README.md) · [Zenodo](https://doi.org/10.5281/zenodo.23536415)
+- [Literature catalogue](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/catalogue.csv) · [Matrix assignments](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/matrix_assignments.csv)
+- [Corpus statistics](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/corpus_counts.json) · [Search records](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/search_runs.csv) · [Selection totals](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/selection_summary.json)
+- [Data dictionary](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/data_dictionary.md) · [License](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/LICENSE.md) · [File checksums](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/manifest.sha256)
 
 Validate the files, record relationships and counts with Python 3.9 or later:
 
 ```sh
-cd releases/evidence-20261014-v2
+cd releases/evidence-20261021-v3
 python3 validate.py
 ```
 

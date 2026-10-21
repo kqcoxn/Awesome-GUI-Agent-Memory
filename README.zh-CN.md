@@ -12,7 +12,7 @@
 
 [阅读起点](#start) · [主题书架](#shelves) · [完整目录](CATALOGUE.zh-CN.md) · [基准](#benchmarks) · [我们的综述](#survey) · [证据](#evidence)
 
-**论文链接 — 待公开** · **精选书目：43 项** · **分类目录：289 项，截止 2026-09-20**
+**论文链接 — 待公开** · **精选书目：43 项** · **分类目录：290 项，截止 2026-09-20**
 
 </div>
 
@@ -33,15 +33,15 @@
 | 理解智能体之间的信息共享 | [任务状态与视觉历史](#state)：UFO2 → [我们的框架](#survey)：依赖与作用域 |
 | 研究记忆可靠性 | [维护与安全](#maintenance)：HYMEM → Darwinian Memory → VerificAgent |
 | 设计评测或核查论断 | [基准与评测](#benchmarks) → [固定证据包](#evidence) |
-| 浏览更广泛的文献 | [289 项分类目录](CATALOGUE.zh-CN.md) → [可下载 CSV](catalogue.csv) |
+| 浏览更广泛的文献 | [290 项分类目录](CATALOGUE.zh-CN.md) → [可下载 CSV](catalogue.csv) |
 
 <a id="shelves"></a>
 
 ## 📚 主题书架
 
-主题书架提供 43 项精选阅读，包含背景综述。[完整目录](CATALOGUE.zh-CN.md)收录综述选材中截至 **2026-09-20** 的 289 项不同工作：250 项直接记忆研究、39 项相关评测／安全研究。目录按七个主题提供阅读导航，列出保留对象、后续 GUI 用途与原文链接；[CSV](catalogue.csv)另保留采用版本及原文定位。选材依据框架贡献，允许存在覆盖遗漏。
+主题书架提供 43 项精选阅读，包含背景综述。[完整目录](CATALOGUE.zh-CN.md)收录综述选材中截至 **2026-09-20** 的 290 项不同工作：251 项直接记忆研究、39 项相关评测／安全研究。目录按七个主题提供阅读导航，列出保留对象、后续 GUI 用途与原文链接；[CSV](catalogue.csv)另保留采用版本及原文定位。选材依据框架贡献，允许存在覆盖遗漏。
 
-[配套数据](#evidence)提供289项文献目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。下列导读链接到采用的原文。
+[配套数据](#evidence)提供290项文献目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。下列导读链接到采用的原文。
 
 [🖥️ 任务状态与视觉历史](#state) · [🧭 轨迹与经验](#experience) · [🛠️ 工作流与技能](#skills) · [👤 用户偏好与任务信息](#personalization) · [🔄 记忆维护与安全](#maintenance) · [🧪 基准与评测](#benchmarks) · [📖 相关综述](#surveys)
 
@@ -294,7 +294,7 @@
 
 综述考察操作 Web、桌面和移动界面的语言模型与视觉语言模型智能体中的记忆。**生命周期—状态框架**将视觉证据、界面知识、任务状态与轨迹、可复用技能、用户与会话情境五类保留对象，与写入、表示、检索、使用、验证／恢复及更新／遗忘六种操作联系起来。对象类别描述记录所涉及的内容；文本、图和潜在表示描述存储形式。
 
-当前综合以 [289 项分类文献](CATALOGUE.zh-CN.md)为基础，逐项按原文核对保留对象及后续 GUI 用途。框架将维护操作与其作用对象、评测终点联系起来；映射反映原文支持的机制，效果比较与领域分布仍需相应的评测条件和抽样依据。
+当前综合以 [290 项分类文献](CATALOGUE.zh-CN.md)为基础，逐项按原文核对保留对象及后续 GUI 用途。框架将维护操作与其作用对象、评测终点联系起来；映射反映原文支持的机制，效果比较与领域分布仍需相应的评测条件和抽样依据。
 
 生命周期操作构成机制比较的主轴，五类对象用于区分同一操作作用于什么信息，以及相应的有效条件：
 
@@ -335,25 +335,25 @@
 
 ## 🔎 证据与可复现性
 
-版本 **`evidence-20261014-v2`** 提供《GUI 智能体记忆研究现状：以生命周期为中心的综述》的配套数据，文献截止日期为 **2026-09-20**。
+版本 **`evidence-20261021-v3`** 提供《GUI 智能体记忆研究现状：以生命周期为中心的综述》的配套数据，文献截止日期为 **2026-09-20**。
 
 | 内容 | 范围与数量 |
 |---|---|
-| 文献目录 | **289 项工作**：250 项直接记忆研究、39 项评测或安全研究，含分类、中英文描述、采用版本及原文定位 |
-| 对象—操作矩阵 | **246 项机制研究**的 **1,119 项工作—单元格赋值** |
+| 文献目录 | **290 项工作**：251 项直接记忆研究、39 项评测或安全研究，含分类、中英文描述、采用版本及原文定位 |
+| 对象—操作矩阵 | **247 项机制研究**的 **1,128 项工作—单元格赋值** |
 | 文献统计 | 按公开年份、主题、类别、分析角色及矩阵单元格汇总的计数 |
 | 检索与筛选 | **五个数据库的 13 组查询**、执行日期、命中数及筛选数量汇总 |
 | 说明与校验 | 中英文 README、字段说明、CC BY 4.0 许可证、文件哈希及离线校验脚本 |
 
-- [下载数据包](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/releases/download/evidence-20261014-v2/evidence-20261014-v2.zip) · [数据包说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/README.zh-CN.md) · [Zenodo](https://doi.org/10.5281/zenodo.23366556)
-- [文献目录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/catalogue.csv) · [矩阵赋值](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/matrix_assignments.csv)
-- [统计汇总](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/corpus_counts.json) · [检索记录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/search_runs.csv) · [筛选数量](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/selection_summary.json)
-- [字段说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/data_dictionary.md) · [许可证](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/LICENSE.md) · [文件哈希](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261014-v2/releases/evidence-20261014-v2/manifest.sha256)
+- [下载数据包](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/releases/download/evidence-20261021-v3/evidence-20261021-v3.zip) · [数据包说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/README.zh-CN.md) · [Zenodo](https://doi.org/10.5281/zenodo.23536415)
+- [文献目录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/catalogue.csv) · [矩阵赋值](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/matrix_assignments.csv)
+- [统计汇总](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/corpus_counts.json) · [检索记录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/search_runs.csv) · [筛选数量](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/selection_summary.json)
+- [字段说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/data_dictionary.md) · [许可证](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/LICENSE.md) · [文件哈希](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/manifest.sha256)
 
 使用 Python 3.9 或更高版本校验文件、记录关联和计数：
 
 ```sh
-cd releases/evidence-20261014-v2
+cd releases/evidence-20261021-v3
 python3 validate.py
 ```
 

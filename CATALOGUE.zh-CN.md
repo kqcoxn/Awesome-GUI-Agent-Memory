@@ -2,7 +2,7 @@
 
 [English](CATALOGUE.md) · **简体中文** · [精选阅读](README.zh-CN.md#shelves) · [CSV 数据](catalogue.csv)
 
-文献覆盖截止 **2026-09-20**；目录整理于 **2026-10-14**。按工作去重共 **289 项**：250 项直接记忆研究、39 项相关评测／安全研究。
+文献覆盖截止 **2026-09-20**；目录整理于 **2026-10-21**。按工作去重共 **290 项**：251 项直接记忆研究、39 项相关评测／安全研究。
 
 收录范围为 LLM/VLM 参与 GUI 决策、操作或记忆处理的研究，依据原文中的保留对象及后续 GUI 用途选材。目录按框架贡献组织，允许存在覆盖遗漏。每项有原文分类依据；分类核验不代表所有效果数字或机制细节均已完成主张级审计。
 
@@ -10,7 +10,7 @@
 
 [配套数据](README.zh-CN.md#evidence) 保存本目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。精选阅读还包含目录范围之外的背景综述。
 
-[视觉历史 (17)](#visual) | [界面结构与导航 (48)](#interface) | [任务状态与经验 (90)](#state) | [工作流与技能 (83)](#skill) | [用户上下文与个性化 (14)](#user) | [基准与评测 (22)](#evaluation) | [安全与可靠性 (15)](#security)
+[视觉历史 (17)](#visual) | [界面结构与导航 (48)](#interface) | [任务状态与经验 (90)](#state) | [工作流与技能 (84)](#skill) | [用户上下文与个性化 (14)](#user) | [基准与评测 (22)](#evaluation) | [安全与可靠性 (15)](#security)
 
 ## 年度分布
 
@@ -19,7 +19,7 @@
 | 2023 | 12 |
 | 2024 | 40 |
 | 2025 | 103 |
-| 2026* | 134 |
+| 2026* | 135 |
 
 *2026 年截至 9 月 20 日。计数描述本目录选材的年份分布，每项工作只计一次；不能据此估计全领域增长率。
 
@@ -201,7 +201,7 @@
 
 <a id="skill"></a>
 
-## 工作流与技能 · 83
+## 工作流与技能 · 84
 
 | 年份 | 论文 | 保留／测量对象 | 后续 GUI 用途／评测终点 |
 |---|---|---|---|
@@ -277,6 +277,7 @@
 | 2024 | <a id="mem_6d3437948f"></a>[Skill-Adpative Imitation Learning for UI Test Reuse](https://arxiv.org/html/2409.13311v1) | 源测试中的可迁移操作技能 | 目标移动应用测试操作生成 |
 | 2026 | <a id="mem_fc8efb4733"></a>[SkillDroid: Compile Once, Reuse Forever](https://arxiv.org/html/2604.14872v1) | 动作模板及元素定位器 | 未来移动GUI任务 |
 | 2026 | <a id="mem_1884939353"></a>[SkillLens: Visual Skill Cards for Retrieval-Augmented GUI Action Prediction and On-Policy Distillation](https://arxiv.org/html/2608.10775v1) | 程序技能、视觉证据和验证信号 | 后续GUI操作 |
+| 2026 | <a id="skilltracer2026"></a>[SkillTracer: Structural Failure Attribution and Refinement of Agentic Skills in Long-Horizon Web Tasks](https://openreview.net/pdf?id=OiyEjThGeZ) | 参数化技能图与失败修订记录 | 实例化技能，定位失败并修订受影响节点 |
 | 2025 | <a id="mem_ce2ba22ac8"></a>[Standing on the Shoulders of Giants: Bug-Aware Automated GUI Testing via Retrieval Augmentation](https://mediatum.ub.tum.de/doc/1832986/1832986.pdf) | 历史相似应用缺陷报告及其结构化知识库 | 目标 Android 应用的缺陷导向 GUI 测试路径规划 |
 | 2023 | <a id="gui_wf_0488"></a>[SYNAPSE: TRAJECTORY-AS-EXEMPLAR PROMPTING WITH MEMORY FOR COMPUTER CONTROL](https://arxiv.org/abs/2306.07863v3) | 抽象状态—动作示范 | 指导后续网页操作 |
 | 2024 | <a id="mem_0c31922846"></a>[TRAD: Enhancing LLM Agents with Step-Wise Thought Retrieval and Aligned Decision](https://arxiv.org/html/2403.06221v1) | 历史思路与示范步骤 | 指导后续网页动作决策 |

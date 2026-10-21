@@ -2,7 +2,7 @@
 
 **English** · [简体中文](CATALOGUE.zh-CN.md) · [Curated readings](README.md#shelves) · [CSV data](catalogue.csv)
 
-Publication cutoff: **2026-09-20**. Catalogue prepared: **2026-10-14**. **289 distinct works**: 250 direct-memory studies and 39 related evaluation/security studies.
+Publication cutoff: **2026-09-20**. Catalogue prepared: **2026-10-21**. **290 distinct works**: 251 direct-memory studies and 39 related evaluation/security studies.
 
 The scope covers research in which an LLM/VLM participates in GUI decisions, actions or memory processing. Selection uses original-source evidence of retained information and its subsequent GUI use, organized by contribution to the framework; coverage may be incomplete. Every entry has a source basis for classification. Classification checks do not establish that all effect sizes or mechanism details have undergone claim-level auditing.
 
@@ -10,7 +10,7 @@ Themes below are reading routes, with each work listed once; they are separate f
 
 The [companion data](README.md#evidence) provide this catalogue, explicit matrix assignments, corpus statistics, executed queries and selection totals. Curated readings also include background surveys outside the catalogue scope.
 
-[Visual history (17)](#visual) | [Interface structure and navigation (48)](#interface) | [Task state and experience (90)](#state) | [Workflows and skills (83)](#skill) | [User context and personalization (14)](#user) | [Benchmarks and evaluation (22)](#evaluation) | [Safety and reliability (15)](#security)
+[Visual history (17)](#visual) | [Interface structure and navigation (48)](#interface) | [Task state and experience (90)](#state) | [Workflows and skills (84)](#skill) | [User context and personalization (14)](#user) | [Benchmarks and evaluation (22)](#evaluation) | [Safety and reliability (15)](#security)
 
 ## Annual distribution
 
@@ -19,7 +19,7 @@ The [companion data](README.md#evidence) provide this catalogue, explicit matrix
 | 2023 | 12 |
 | 2024 | 40 |
 | 2025 | 103 |
-| 2026* | 134 |
+| 2026* | 135 |
 
 *2026 covers publications through 20 September. Counts describe the selected catalogue, with each work counted once; they do not estimate field-wide growth.
 
@@ -201,7 +201,7 @@ The [companion data](README.md#evidence) provide this catalogue, explicit matrix
 
 <a id="skill"></a>
 
-## Workflows and skills · 83
+## Workflows and skills · 84
 
 | Year | Paper | Retained / measured object | Subsequent GUI use / evaluation endpoint |
 |---|---|---|---|
@@ -277,6 +277,7 @@ The [companion data](README.md#evidence) provide this catalogue, explicit matrix
 | 2024 | <a id="mem_6d3437948f"></a>[Skill-Adpative Imitation Learning for UI Test Reuse](https://arxiv.org/html/2409.13311v1) | Transferable skills from source tests | Generate target-app testing actions |
 | 2026 | <a id="mem_fc8efb4733"></a>[SkillDroid: Compile Once, Reuse Forever](https://arxiv.org/html/2604.14872v1) | Action templates and element locators | Execute later mobile tasks |
 | 2026 | <a id="mem_1884939353"></a>[SkillLens: Visual Skill Cards for Retrieval-Augmented GUI Action Prediction and On-Policy Distillation](https://arxiv.org/html/2608.10775v1) | Skills, visual evidence and verification signals | Guide subsequent GUI operations |
+| 2026 | <a id="skilltracer2026"></a>[SkillTracer: Structural Failure Attribution and Refinement of Agentic Skills in Long-Horizon Web Tasks](https://openreview.net/pdf?id=OiyEjThGeZ) | Parameterized skill graphs and failure-repair records | Ground retrieved skills, localize failures and revise affected nodes |
 | 2025 | <a id="mem_ce2ba22ac8"></a>[Standing on the Shoulders of Giants: Bug-Aware Automated GUI Testing via Retrieval Augmentation](https://mediatum.ub.tum.de/doc/1832986/1832986.pdf) | Historical bug reports and structured knowledge | Plan bug-directed Android testing |
 | 2023 | <a id="gui_wf_0488"></a>[SYNAPSE: TRAJECTORY-AS-EXEMPLAR PROMPTING WITH MEMORY FOR COMPUTER CONTROL](https://arxiv.org/abs/2306.07863v3) | Abstract state-action exemplars | Guide later web actions |
 | 2024 | <a id="mem_0c31922846"></a>[TRAD: Enhancing LLM Agents with Step-Wise Thought Retrieval and Aligned Decision](https://arxiv.org/html/2403.06221v1) | Historical thoughts and demonstration steps | Guide subsequent web-action decisions |
