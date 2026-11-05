@@ -12,7 +12,7 @@
 
 [阅读起点](#start) · [主题书架](#shelves) · [完整目录](CATALOGUE.zh-CN.md) · [基准](#benchmarks) · [我们的综述](#survey) · [证据](#evidence)
 
-**论文链接 — 待公开** · **精选书目：43 项** · **分类目录：290 项，截止 2026-09-20**
+**论文链接 — 待公开** · **精选书目：50 项** · **分类目录：357 项，截止 2026-10-31**
 
 </div>
 
@@ -33,15 +33,15 @@
 | 理解智能体之间的信息共享 | [任务状态与视觉历史](#state)：UFO2 → [我们的框架](#survey)：依赖与作用域 |
 | 研究记忆可靠性 | [维护与安全](#maintenance)：HYMEM → Darwinian Memory → VerificAgent |
 | 设计评测或核查论断 | [基准与评测](#benchmarks) → [固定证据包](#evidence) |
-| 浏览更广泛的文献 | [290 项分类目录](CATALOGUE.zh-CN.md) → [可下载 CSV](catalogue.csv) |
+| 浏览更广泛的文献 | [357 项分类目录](CATALOGUE.zh-CN.md) → [可下载 CSV](catalogue.csv) |
 
 <a id="shelves"></a>
 
 ## 📚 主题书架
 
-主题书架提供 43 项精选阅读，包含背景综述。[完整目录](CATALOGUE.zh-CN.md)收录综述选材中截至 **2026-09-20** 的 290 项不同工作：251 项直接记忆研究、39 项相关评测／安全研究。目录按七个主题提供阅读导航，列出保留对象、后续 GUI 用途与原文链接；[CSV](catalogue.csv)另保留采用版本及原文定位。选材依据框架贡献，允许存在覆盖遗漏。
+主题书架提供 50 项精选阅读，包含背景综述。[完整目录](CATALOGUE.zh-CN.md)收录综述选材中截至 **2026-10-31** 的 357 项不同工作：304 项直接记忆研究、53 项相关评测／安全研究。目录按七个主题提供阅读导航，列出保留对象、后续 GUI 用途与原文链接；[CSV](catalogue.csv)另保留采用版本及原文定位。选材依据框架贡献，允许存在覆盖遗漏。
 
-[配套数据](#evidence)提供290项文献目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。下列导读链接到采用的原文。
+[配套数据](#evidence)提供357项文献目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。下列导读链接到采用的原文。
 
 [🖥️ 任务状态与视觉历史](#state) · [🧭 轨迹与经验](#experience) · [🛠️ 工作流与技能](#skills) · [👤 用户偏好与任务信息](#personalization) · [🔄 记忆维护与安全](#maintenance) · [🧪 基准与评测](#benchmarks) · [📖 相关综述](#surveys)
 
@@ -50,6 +50,26 @@
 ### 🖥️ 任务状态与视觉历史
 
 保留后续操作需要的信息。
+
+**MFM** · 2026<br>
+[Multimodal Filesystem Memory For Long-Horizon Embodied Agents](https://arxiv.org/html/2610.22686v2)<br>
+将不可变的交互片段及其索引与可编辑知识、流程分开保存，并保留到支撑证据的链接。<br>
+[原文: §§3.3–3.4](https://arxiv.org/html/2610.22686v2)
+
+**TAM** · 2026<br>
+[From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents](https://arxiv.org/html/2610.37482v1)<br>
+将已核验进度与剩余任务要求联系起来，并将局部成功的交互片段抽象为可复用算子。<br>
+[原文: §§3.1–3.4; Appendix A.3–A.10](https://arxiv.org/html/2610.37482v1)
+
+**ScopeMem** · 2026<br>
+[ScopeMem: Latent Memory That Learns Where to Revise Frozen GUI Agents](https://arxiv.org/html/2610.26503v1)<br>
+结合保留历史与执行模型的首次回答构建潜在前缀，对GUI动作进行选择性修订。<br>
+[原文: §4](https://arxiv.org/html/2610.26503v1)
+
+**SwitchMem** · 2026<br>
+[Learning How to Remember: Memory Modality Selection for GUI Agents](https://arxiv.org/html/2610.17928v1)<br>
+逐步为冻结的GUI执行模型选择检索经验的文本或视觉形式。<br>
+[原文: §4](https://arxiv.org/html/2610.17928v1)
 
 **ATMem** · 2026<br>
 [What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States](https://arxiv.org/abs/2606.31612v2)<br>
@@ -136,6 +156,11 @@
 
 将交互历史转化为可复用的操作流程。
 
+**SkillTracer** · 2026<br>
+[SkillTracer: Structural Failure Attribution and Refinement of Agentic Skills in Long-Horizon Web Tasks](https://openreview.net/pdf?id=OiyEjThGeZ)<br>
+结合执行证据实例化参数化技能图，定位失效节点并保留经验证的局部修复。<br>
+[原文: §§3.1–3.4; Appendices B–C.1, E, G](https://openreview.net/pdf?id=OiyEjThGeZ)
+
 **Agent Workflow Memory** · 2024<br>
 [Agent Workflow Memory](https://arxiv.org/abs/2409.07429v1)<br>
 从经历中归纳子任务流程，将实例值抽象为参数，辅助动作生成。<br>
@@ -171,6 +196,11 @@
 
 在明确的适用范围内复用用户上下文。
 
+**ExpActivator** · 2026<br>
+[Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents](https://arxiv.org/html/2609.33304v1)<br>
+区分任务相关性与当前步骤的适用性，并在每次观测后重新选择历史动作参考。<br>
+[原文: §§2.1–2.3](https://arxiv.org/html/2609.33304v1)
+
 **PersonaTrail / PACMEM** · 2026<br>
 [PersonaTrail: Benchmarking Personalized Web Agents through Browsing Trails](https://arxiv.org/abs/2607.20482v2)<br>
 将浏览历史分为事实记忆与偏好记忆，结合语义和时间线索检索。<br>
@@ -191,6 +221,11 @@
 
 更新有效记忆，并处理过时或有害内容。
 
+**REBASE** · 2026<br>
+[REBASE: Device-Cloud Experience Coherence for GUI Agents Across App Updates](https://arxiv.org/html/2609.32130v1)<br>
+跨应用更新检查已存GUI路径，并将经验证的修复补丁与相应应用版本关联。<br>
+[原文: §III; §IV](https://arxiv.org/html/2609.32130v1)
+
 **HYMEM** · 2026<br>
 [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291v1)<br>
 检索相邻经验节点并检查冗余后，选择新增、合并或替换。<br>
@@ -208,9 +243,9 @@
 使用经专家核查的轨迹教训，测试推理时保持记忆冻结。<br>
 
 **SmartSnap** · 2025<br>
-[SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents](https://arxiv.org/html/2512.22322v1)<br>
+[SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents](https://arxiv.org/abs/2512.22322v2)<br>
 收集任务完成证据截图并检查其有效性，支持移动端任务自验证。<br>
-[原文：§§3.2–3.4，Evidence Validity Check，式 (3)](https://arxiv.org/html/2512.22322v1)
+[原文：§§3.2–3.4，Evidence Validity Check，式 (3)](https://arxiv.org/abs/2512.22322v2)
 
 **环境注入式记忆投毒** · 2026<br>
 [Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents](https://arxiv.org/abs/2604.02623v2)<br>
@@ -286,15 +321,15 @@
 
 ## 📘 我们的综述
 
-**The State of Memory in GUI Agents: A Lifecycle-Centric Survey**
+**Memory in GUI Agents: A Survey**
 
-**GUI 智能体记忆研究现状：以生命周期为中心的综述**
+**GUI 智能体记忆综述**
 
 **论文链接 — 待公开。** 公开后将在此提供论文链接与正式引用信息。
 
 综述考察操作 Web、桌面和移动界面的语言模型与视觉语言模型智能体中的记忆。**生命周期—状态框架**将视觉证据、界面知识、任务状态与轨迹、可复用技能、用户与会话情境五类保留对象，与写入、表示、检索、使用、验证／恢复及更新／遗忘六种操作联系起来。对象类别描述记录所涉及的内容；文本、图和潜在表示描述存储形式。
 
-当前综合以 [290 项分类文献](CATALOGUE.zh-CN.md)为基础，逐项按原文核对保留对象及后续 GUI 用途。框架将维护操作与其作用对象、评测终点联系起来；映射反映原文支持的机制，效果比较与领域分布仍需相应的评测条件和抽样依据。
+当前综合以 [357 项分类文献](CATALOGUE.zh-CN.md)为基础，逐项按原文核对保留对象及后续 GUI 用途。历史截图可能仍是正确证据，其中的坐标却已无法用于当前点击；一个流程也可能只需重新绑定控件就能继续复用。框架用证据、派生和适用性依赖解释哪些对象需要修复、哪些知识应当保留，并将维护结果与后续行为评测联系起来。映射反映原文支持的机制，效果比较仍需结合相应评测条件。
 
 生命周期操作构成机制比较的主轴，五类对象用于区分同一操作作用于什么信息，以及相应的有效条件：
 
@@ -335,25 +370,26 @@
 
 ## 🔎 证据与可复现性
 
-版本 **`evidence-20261021-v3`** 提供《GUI 智能体记忆研究现状：以生命周期为中心的综述》的配套数据，文献截止日期为 **2026-09-20**。
+版本 **`evidence-20261031-v1`** 提供《GUI 智能体记忆综述》的配套数据，文献截止日期为 **2026-10-31**。
 
 | 内容 | 范围与数量 |
 |---|---|
-| 文献目录 | **290 项工作**：251 项直接记忆研究、39 项评测或安全研究，含分类、中英文描述、采用版本及原文定位 |
-| 对象—操作矩阵 | **247 项机制研究**的 **1,128 项工作—单元格赋值** |
+| 文献目录 | **357 项工作**：304 项直接记忆研究、53 项评测或安全研究，含分类、中英文描述、采用版本及原文定位 |
+| 对象—操作矩阵 | **297 项机制研究**的 **1,498 项工作—单元格赋值** |
 | 文献统计 | 按公开年份、主题、类别、分析角色及矩阵单元格汇总的计数 |
-| 检索与筛选 | **五个数据库的 13 组查询**、执行日期、命中数及筛选数量汇总 |
+| 检索与筛选 | **五个数据库的14组查询变体**、真实执行日期、8,195条来源记录及5,445条归并候选；1,724条保留候选的去向与证据阶段 |
 | 说明与校验 | 中英文 README、字段说明、CC BY 4.0 许可证、文件哈希及离线校验脚本 |
 
-- [下载数据包](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/releases/download/evidence-20261021-v3/evidence-20261021-v3.zip) · [数据包说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/README.zh-CN.md) · [Zenodo](https://doi.org/10.5281/zenodo.23536415)
-- [文献目录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/catalogue.csv) · [矩阵赋值](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/matrix_assignments.csv)
-- [统计汇总](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/corpus_counts.json) · [检索记录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/search_runs.csv) · [筛选数量](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/selection_summary.json)
-- [字段说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/data_dictionary.md) · [许可证](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/LICENSE.md) · [文件哈希](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261021-v3/releases/evidence-20261021-v3/manifest.sha256)
+- [下载数据包](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/releases/download/evidence-20261031-v1/evidence-20261031-v1.zip) · [数据包说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/README.zh-CN.md) · [Zenodo](https://doi.org/10.5281/zenodo.23985925)
+- [文献目录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/catalogue.csv) · [矩阵赋值](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/matrix_assignments.csv)
+- [统计汇总](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/corpus_counts.json) · [检索记录](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/search_queries.csv) · [筛选数量](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/selection_summary.json)
+- [候选去向](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/selection_accounting.csv)
+- [字段说明](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/data_dictionary.md) · [许可证](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/LICENSE.md) · [文件哈希](https://github.com/kqcoxn/Awesome-GUI-Agent-Memory/blob/evidence-20261031-v1/releases/evidence-20261031-v1/manifest.sha256)
 
 使用 Python 3.9 或更高版本校验文件、记录关联和计数：
 
 ```sh
-cd releases/evidence-20261021-v3
+cd releases/evidence-20261031-v1
 python3 validate.py
 ```
 

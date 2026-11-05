@@ -1,1 +1,2 @@
 releases/** -text
+catalogue.csv text eol=lf

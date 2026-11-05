@@ -1,0 +1,31 @@
+{
+  "publication_cutoff": "2026-10-31",
+  "search_queries": 14,
+  "search_records": 8195,
+  "merged_candidates": 5445,
+  "duplicate_records": 2750,
+  "retained_for_fulltext": 1724,
+  "not_selected_at_title_abstract": 3721,
+  "included_works": 357,
+  "included_from_search_pool": 310,
+  "included_from_additional_sources": 47,
+  "candidate_accounting": {
+    "retained_candidates": 1724,
+    "by_disposition": {
+      "focused_adjacent_gui": 842,
+      "focused_outside_scope": 216,
+      "focused_uncertain": 87,
+      "included_additional_record": 38,
+      "included_registered": 386,
+      "not_selected_boundary": 15,
+      "not_selected_followup": 31,
+      "not_selected_source_check": 64,
+      "not_selected_unverified": 41,
+      "not_selected_work_judgment": 4
+    },
+    "registered_candidates": 386,
+    "registered_pool_works": 310,
+    "additional_represented_candidates": 38,
+    "represented_works": 311
+  }
+}

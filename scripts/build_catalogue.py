@@ -3,7 +3,6 @@
 Run with --check to verify that both Markdown views match the data.
 """
 import argparse
-import calendar
 import csv
 import datetime
 import re
@@ -31,15 +30,15 @@ def render(rows, zh):
     counts = Counter(r['category'] for r in rows)
     if zh:
         lines = ['# GUI 智能体记忆分类目录', '', '[English](CATALOGUE.md) · **简体中文** · [精选阅读](README.zh-CN.md#shelves) · [CSV 数据](catalogue.csv)', '',
-                 f"文献覆盖截止 **2026-09-20**；目录整理于 **2026-10-21**。按工作去重共 **{len(rows)} 项**：{counts['direct_memory']} 项直接记忆研究、{counts['memory_evaluation_security']} 项相关评测／安全研究。", '',
-                 '收录范围为 LLM/VLM 参与 GUI 决策、操作或记忆处理的研究，依据原文中的保留对象及后续 GUI 用途选材。目录按框架贡献组织，允许存在覆盖遗漏。每项有原文分类依据；分类核验不代表所有效果数字或机制细节均已完成主张级审计。', '',
-                 '下列主题用于阅读导航，每项只列一次；主题分区与直接记忆／评测安全类别是两种不同的组织口径。保留对象与用途是综述者综合描述。年份取首次公开日期，可能早于正式发表年份。CSV 保留稳定标识、类别、采用版本、双语描述和原文定位；原文定位沿用核验记录的语言。', '',
+                 f"文献覆盖截止 **2026-10-31**；目录整理于 **2026-11-06**。按工作去重共 **{len(rows)} 项**：{counts['direct_memory']} 项直接记忆研究、{counts['memory_evaluation_security']} 项相关评测／安全研究。", '',
+                 '收录范围为 LLM/VLM 参与 GUI 决策、操作或记忆处理的研究，依据原文中的保留对象及后续 GUI 用途选材。目录按框架贡献组织，允许存在覆盖遗漏。采用版本及来源定位记录每项分类的依据，具体效果应结合原文评测条件理解。', '',
+                 '下列主题用于阅读导航，每项只列一次；主题分区与直接记忆／评测安全类别是两种不同的组织口径。保留对象与用途是综述者综合描述。年份取所登记的首次公开日期，保留来源的日期精度，可能早于正式发表年份。CSV 保留稳定标识、类别、采用版本、双语描述和原文定位；原文定位沿用核验记录的语言。', '',
                  '[配套数据](README.zh-CN.md#evidence) 保存本目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。精选阅读还包含目录范围之外的背景综述。', '']
     else:
         lines = ['# GUI Agent Memory Catalogue', '', '**English** · [简体中文](CATALOGUE.zh-CN.md) · [Curated readings](README.md#shelves) · [CSV data](catalogue.csv)', '',
-                 f"Publication cutoff: **2026-09-20**. Catalogue prepared: **2026-10-21**. **{len(rows)} distinct works**: {counts['direct_memory']} direct-memory studies and {counts['memory_evaluation_security']} related evaluation/security studies.", '',
-                 'The scope covers research in which an LLM/VLM participates in GUI decisions, actions or memory processing. Selection uses original-source evidence of retained information and its subsequent GUI use, organized by contribution to the framework; coverage may be incomplete. Every entry has a source basis for classification. Classification checks do not establish that all effect sizes or mechanism details have undergone claim-level auditing.', '',
-                 'Themes below are reading routes, with each work listed once; they are separate from the direct-memory versus evaluation/security categories. Retained objects and uses are reviewer syntheses. Years indicate first public availability and may precede formal publication. The CSV retains stable identifiers, categories, consulted versions, bilingual descriptions and source passages; passage locators preserve the language of the verification record.', '',
+                 f"Publication cutoff: **2026-10-31**. Catalogue prepared: **2026-11-06**. **{len(rows)} distinct works**: {counts['direct_memory']} direct-memory studies and {counts['memory_evaluation_security']} related evaluation/security studies.", '',
+                 'The scope covers research in which an LLM/VLM participates in GUI decisions, actions or memory processing. Selection uses original-source evidence of retained information and its subsequent GUI use, organized by contribution to the framework; coverage may be incomplete. Adopted versions and source locations document the basis of each classification; reported effects require their original evaluation conditions.', '',
+                 'Themes below are reading routes, with each work listed once; they are separate from the direct-memory versus evaluation/security categories. Retained objects and uses are reviewer syntheses. Years use the registered first-public date, preserve source precision, and may precede formal publication. The CSV retains stable identifiers, categories, consulted versions, bilingual descriptions and source passages; passage locators preserve the language of the verification record.', '',
                  'The [companion data](README.md#evidence) provide this catalogue, explicit matrix assignments, corpus statistics, executed queries and selection totals. Curated readings also include background surveys outside the catalogue scope.', '']
     lines += [' | '.join(f'[{names[int(zh)]} ({sum(r["theme"] == theme for r in rows)})](#{theme})' for theme, names in THEMES.items()), '']
     years = Counter(r['first_public_date'][:4] for r in rows)
@@ -47,8 +46,8 @@ def render(rows, zh):
               '| 首次公开年份 | 工作数 |' if zh else '| First public year | Works |',
               '|---|---:|']
     lines += [f'| {year}{"*" if year == "2026" else ""} | {count} |' for year, count in sorted(years.items())]
-    lines += ['', '*2026 年截至 9 月 20 日。计数描述本目录选材的年份分布，每项工作只计一次；不能据此估计全领域增长率。' if zh else
-              '*2026 covers publications through 20 September. Counts describe the selected catalogue, with each work counted once; they do not estimate field-wide growth.', '']
+    lines += ['', '*2026 年截至 10 月 31 日。计数描述本目录选材的年份分布，每项工作只计一次；不能据此估计全领域增长率。' if zh else
+              '*2026 covers publications through 31 October. Counts describe the selected catalogue, with each work counted once; they do not estimate field-wide growth.', '']
     for theme, names in THEMES.items():
         subset = sorted((r for r in rows if r['theme'] == theme), key=lambda r: r['title'].casefold())
         lines += [f'<a id="{theme}"></a>', '', f'## {names[int(zh)]} · {len(subset)}', '',
@@ -74,7 +73,7 @@ def main():
         if len({r[field] for r in rows}) != len(rows):
             raise ValueError(f'Duplicate {field}')
     for r in rows:
-        if any(not value.strip() for value in r.values()):
+        if any(not r[field].strip() for field in ['work_id', 'citation_key', 'title', 'first_public_date', 'theme', 'category', 'role', 'object_en', 'object_zh', 'use_en', 'use_zh', 'adopted_version', 'source_locator', 'source_url']):
             raise ValueError(f'Empty field: {r["work_id"]}')
         if r['theme'] not in THEMES or r['category'] not in {'direct_memory', 'memory_evaluation_security'}:
             raise ValueError(f'Unknown classification: {r["work_id"]}')
@@ -87,9 +86,9 @@ def main():
         if not re.fullmatch(r'\d{4}(?:-\d{2}){0,2}', date):
             raise ValueError(f'Invalid cutoff date: {r["work_id"]}')
         parts = [int(part) for part in date.split('-')]
-        year, month = parts[0], parts[1] if len(parts) > 1 else 12
-        day = parts[2] if len(parts) > 2 else calendar.monthrange(year, month)[1]
-        if datetime.date(year, month, day) > datetime.date(2026, 9, 20):
+        year, month = parts[0], parts[1] if len(parts) > 1 else 1
+        day = parts[2] if len(parts) > 2 else 1
+        if datetime.date(year, month, day) > datetime.date(2026, 10, 31):
             raise ValueError(f'Unresolved cutoff date: {r["work_id"]}')
         if re.search(r'\b[A-Za-z]:[/\\]|file://|fulltext_manifest|download_staging', ' '.join(r.values())):
             raise ValueError(f'Local path in public data: {r["work_id"]}')
