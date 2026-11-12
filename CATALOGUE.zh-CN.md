@@ -2,13 +2,13 @@
 
 [English](CATALOGUE.md) · **简体中文** · [精选阅读](README.zh-CN.md#shelves) · [CSV 数据](catalogue.csv)
 
-文献覆盖截止 **2026-10-31**；目录整理于 **2026-11-06**。按工作去重共 **357 项**：304 项直接记忆研究、53 项相关评测／安全研究。
+文献覆盖截止 **2026-10-31**；目录更新于 **2026-11-13**。按工作去重共 **357 项**：304 项直接记忆研究、53 项相关评测／安全研究。
 
 收录范围为 LLM/VLM 参与 GUI 决策、操作或记忆处理的研究，依据原文中的保留对象及后续 GUI 用途选材。目录按框架贡献组织，允许存在覆盖遗漏。采用版本及来源定位记录每项分类的依据，具体效果应结合原文评测条件理解。
 
 下列主题用于阅读导航，每项只列一次；主题分区与直接记忆／评测安全类别是两种不同的组织口径。保留对象与用途是综述者综合描述。年份取所登记的首次公开日期，保留来源的日期精度，可能早于正式发表年份。CSV 保留稳定标识、类别、采用版本、双语描述和原文定位；原文定位沿用核验记录的语言。
 
-[配套数据](README.zh-CN.md#evidence) 保存本目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。精选阅读还包含目录范围之外的背景综述。
+采用版本链接与原文定位记录分类依据；补充的正式发表信息用于查找出版记录。当前目录中的出版信息可以持续更新，[固定配套数据](README.zh-CN.md#evidence) 保存已归档的分类、逐格赋值、统计汇总、检索式及筛选数量。精选阅读还包含目录范围之外的背景综述。
 
 [视觉历史 (19)](#visual) | [界面结构与导航 (55)](#interface) | [任务状态与经验 (109)](#state) | [工作流与技能 (101)](#skill) | [用户上下文与个性化 (22)](#user) | [基准与评测 (33)](#evaluation) | [安全与可靠性 (18)](#security)
 
@@ -38,7 +38,7 @@
 | 2025 | <a id="mem_b8a7ad37fe"></a>[GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness](https://arxiv.org/html/2510.00536v1) | 历史 GUI 视觉 token KV 缓存 | 后续 GUI 动作预测 |
 | 2026 | <a id="mem_1de8c11621"></a>[Learning How to Remember: Memory Modality Selection for GUI Agents](https://arxiv.org/html/2610.17928v1) | 检索得到的文本与视觉交互经验候选 | 逐步选择供冻结GUI行动模型使用的记忆模态 |
 | 2026 | <a id="gui_wf_0235"></a>[MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents](https://arxiv.org/abs/2605.18652v1) | 任务相关界面事件与历史轨迹 | 长程GUI操作 |
-| 2025 | <a id="gui_wf_0078"></a>[PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents](https://arxiv.org/abs/2510.00413v2) | 历史截图、观测线索及动作结果 | 手机及网页GUI导航 |
+| 2025 | <a id="gui_wf_0078"></a>[PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents](https://arxiv.org/abs/2510.00413v2)<br>正式发表: [IJCNLP-AACL Findings (2026)](https://doi.org/10.18653/2026.findings-aacl.13) | 历史截图、观测线索及动作结果 | 手机及网页GUI导航 |
 | 2026 | <a id="mem_c1851f8f2f"></a>[Rethinking Token Pruning for Historical Screenshots in GUI Visual Agents: Semantic, Spatial, and Temporal Perspectives](https://arxiv.org/html/2603.26041v1) | 历史截图及视觉嵌入 | 后续GUI导航推理 |
 | 2024 | <a id="mem_721a3ba219"></a>[Seeing is Believing: Vision-Driven Non-Crash Functional Bug Detection for Mobile Apps](https://arxiv.org/html/2407.03037) | 连续截图与测试进度 | 检测跨 GUI 转移的非崩溃错误 |
 | 2025 | <a id="mem_37bd08fb78"></a>[SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents](https://arxiv.org/html/2512.22322v2) | 任务完成证据截图 | 移动GUI任务自验证 |
@@ -46,7 +46,7 @@
 | 2026 | <a id="mem_395f95bf3d"></a>[STP-GUI: Spatially-Aware Token Pruning for Efficient Web-GUI Agents](https://arxiv.org/html/2610.20390v1) | 当前及历史截图token中选出的空间窗口 | 压缩视觉输入并保留连贯GUI区域以支持动作预测 |
 | 2026 | <a id="mem_29f8342932"></a>[Task-Adaptive Retrieval over Agentic Multi-Modal Web Histories via Learned Graph Memory](https://arxiv.org/abs/2604.07863v1) | 截图、超文本标记语言（HTML）、结构信号历史图 | 网页代理后续任务成功 |
 | 2024 | <a id="mem_e971245432"></a>[Training a Vision Language Model as Smartphone Assistant](https://arxiv.org/html/2404.08755v1) | 过往屏幕和动作 | 手机 GUI 后续控制 |
-| 2025 | <a id="mem_891f9b6c38"></a>[UI-Hawk: Unleashing the Screen Stream Understanding for Mobile GUI Agents](https://aclanthology.org/2025.emnlp-main.920.pdf) | 屏幕序列与动作历史 | 手机 GUI 下一步动作 |
+| 2025 | <a id="mem_891f9b6c38"></a>[UI-Hawk: Unleashing the Screen Stream Understanding for Mobile GUI Agents](https://aclanthology.org/2025.emnlp-main.920.pdf)<br>正式发表: [EMNLP (2025)](https://doi.org/10.18653/v1/2025.emnlp-main.920) | 屏幕序列与动作历史 | 手机 GUI 下一步动作 |
 | 2026 | <a id="mem_2fb8583d04"></a>[ViBR: Automated Bug Replay from Video-Based Reports using Vision-Language Models](https://arxiv.org/html/2604.19905v1) | 历史 GUI 行动视频 | 在 Android 应用重演错误 |
 
 <a id="interface"></a>
@@ -297,7 +297,7 @@
 | 2025 | <a id="mem_43d635f955"></a>[NetGent: Agent-Based Automation of Network Application Workflows](https://arxiv.org/html/2509.00625v1) | 网页工作流状态与执行代码 | 重复网页任务执行 |
 | 2026 | <a id="mem_dcf1078ab5"></a>[Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution](https://arxiv.org/html/2609.36927v1) | 参数化神经符号流程程序 | 复用带运行时守卫的桌面与网页流程 |
 | 2026 | <a id="mem_8f8e50f93a"></a>[Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents](https://arxiv.org/html/2610.01787v1) | 带键定位器、流程、状态事实与教训 | 将经验路由至检索上下文或策略学习 |
-| 2026 | <a id="mem_9bff151ee5"></a>[OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations](https://arxiv.org/html/2609.02149v1) | 专家流程和领域规则 | 后续专业GUI任务 |
+| 2026 | <a id="mem_9bff151ee5"></a>[OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations](https://arxiv.org/html/2609.02149v1)<br>正式发表: [EMNLP System Demonstrations (2026)](https://doi.org/10.18653/2026.emnlp-demos.21) | 专家流程和领域规则 | 后续专业GUI任务 |
 | 2026 | <a id="gui_wf_0263"></a>[Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval](https://arxiv.org/abs/2606.04391v1) | 历史轨迹技能和动作代码 | 后续网页动作 |
 | 2024 | <a id="mem_7f315017a0"></a>[PAFFA: Premeditated Actions For Fast Agents](https://arxiv.org/html/2412.07958v1) | 浏览器交互模式与动作 | 网页任务操作 |
 | 2026 | <a id="gui_wf_0243"></a>[PANDO: Efficient Multimodal AI Agents via Online Skill Distillation](https://arxiv.org/abs/2605.24785v2) | distilled online interaction skills | reuse skills in subsequent multimodal web actions |
@@ -387,7 +387,7 @@
 | 2026 | <a id="mem_de1a311866"></a>[LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles](https://arxiv.org/html/2609.34769v1) | 原生尝试历史与失败摘要 | 检验记忆对解谜重试和恢复的影响 |
 | 2026 | <a id="mem_7bed9ffd2f"></a>[Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay](https://arxiv.org/html/2610.27954v1) | 先前目标状态与后续动作序列 | 通过重放后续目标动作评测包含隐藏状态的恢复 |
 | 2025 | <a id="mem_15a6944ee7"></a>[MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents](https://arxiv.org/html/2509.06477v1) | 预设与代理生成的快捷工作流 | 手机GUI与快捷操作混合执行 |
-| 2026 | <a id="gui_wf_0140"></a>[MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075v3) | 跨动作及跨会话信息 | 移动GUI任务评测 |
+| 2026 | <a id="gui_wf_0140"></a>[MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075v3)<br>正式发表: [ACM MM (2026)](https://doi.org/10.1145/3767308.3836285) | 跨动作及跨会话信息 | 移动GUI任务评测 |
 | 2026 | <a id="gui_wf_0241"></a>[MemGym: a Long-Horizon Memory Environment for LLM Agents](https://arxiv.org/abs/2605.20833v1) | 长程代理经历 | 后续网页任务 |
 | 2025 | <a id="mem_067bd369ad"></a>[NatureGAIA: Pushing the Frontiers of GUI Agents with a Challenging Benchmark and High-Quality Trajectory Dataset](https://arxiv.org/html/2508.01330v1) | 任务计划与演进上下文 | 长程GUI任务执行 |
 | 2025 | <a id="mem_a1448e1af0"></a>[OPeRA: A Dataset of Observation, Persona, Rationale, and Action for Evaluating LLMs on Human Online Shopping Behavior Simulation](https://arxiv.org/html/2506.05606v1) | 用户画像与购物操作历史 | 网页下一动作预测 |

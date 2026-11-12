@@ -21,6 +21,15 @@ THEMES = {
     'security': ('Safety and reliability', '安全与可靠性'),
 }
 
+# Formal publication metadata supplements the consulted evidence versions.
+# Keys and DOIs match the source catalogue; years below are publication years.
+FORMAL_PUBLICATIONS = {
+    'gui_wf_0078': ('IJCNLP-AACL Findings', 2026, '10.18653/2026.findings-aacl.13'),
+    'gui_wf_0140': ('ACM MM', 2026, '10.1145/3767308.3836285'),
+    'mem_9bff151ee5': ('EMNLP System Demonstrations', 2026, '10.18653/2026.emnlp-demos.21'),
+    'mem_891f9b6c38': ('EMNLP', 2025, '10.18653/v1/2025.emnlp-main.920'),
+}
+
 
 def cell(value):
     return value.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('|', '&#124;').replace('[', '&#91;').replace(']', '&#93;').replace('\n', ' ')
@@ -30,16 +39,16 @@ def render(rows, zh):
     counts = Counter(r['category'] for r in rows)
     if zh:
         lines = ['# GUI 智能体记忆分类目录', '', '[English](CATALOGUE.md) · **简体中文** · [精选阅读](README.zh-CN.md#shelves) · [CSV 数据](catalogue.csv)', '',
-                 f"文献覆盖截止 **2026-10-31**；目录整理于 **2026-11-06**。按工作去重共 **{len(rows)} 项**：{counts['direct_memory']} 项直接记忆研究、{counts['memory_evaluation_security']} 项相关评测／安全研究。", '',
+                 f"文献覆盖截止 **2026-10-31**；目录更新于 **2026-11-13**。按工作去重共 **{len(rows)} 项**：{counts['direct_memory']} 项直接记忆研究、{counts['memory_evaluation_security']} 项相关评测／安全研究。", '',
                  '收录范围为 LLM/VLM 参与 GUI 决策、操作或记忆处理的研究，依据原文中的保留对象及后续 GUI 用途选材。目录按框架贡献组织，允许存在覆盖遗漏。采用版本及来源定位记录每项分类的依据，具体效果应结合原文评测条件理解。', '',
                  '下列主题用于阅读导航，每项只列一次；主题分区与直接记忆／评测安全类别是两种不同的组织口径。保留对象与用途是综述者综合描述。年份取所登记的首次公开日期，保留来源的日期精度，可能早于正式发表年份。CSV 保留稳定标识、类别、采用版本、双语描述和原文定位；原文定位沿用核验记录的语言。', '',
-                 '[配套数据](README.zh-CN.md#evidence) 保存本目录、逐格赋值、统计汇总、实际检索式及筛选数量汇总。精选阅读还包含目录范围之外的背景综述。', '']
+                 '采用版本链接与原文定位记录分类依据；补充的正式发表信息用于查找出版记录。当前目录中的出版信息可以持续更新，[固定配套数据](README.zh-CN.md#evidence) 保存已归档的分类、逐格赋值、统计汇总、检索式及筛选数量。精选阅读还包含目录范围之外的背景综述。', '']
     else:
         lines = ['# GUI Agent Memory Catalogue', '', '**English** · [简体中文](CATALOGUE.zh-CN.md) · [Curated readings](README.md#shelves) · [CSV data](catalogue.csv)', '',
-                 f"Publication cutoff: **2026-10-31**. Catalogue prepared: **2026-11-06**. **{len(rows)} distinct works**: {counts['direct_memory']} direct-memory studies and {counts['memory_evaluation_security']} related evaluation/security studies.", '',
+                 f"Literature coverage cutoff: **2026-10-31**. Catalogue updated: **2026-11-13**. **{len(rows)} distinct works**: {counts['direct_memory']} direct-memory studies and {counts['memory_evaluation_security']} related evaluation/security studies.", '',
                  'The scope covers research in which an LLM/VLM participates in GUI decisions, actions or memory processing. Selection uses original-source evidence of retained information and its subsequent GUI use, organized by contribution to the framework; coverage may be incomplete. Adopted versions and source locations document the basis of each classification; reported effects require their original evaluation conditions.', '',
                  'Themes below are reading routes, with each work listed once; they are separate from the direct-memory versus evaluation/security categories. Retained objects and uses are reviewer syntheses. Years use the registered first-public date, preserve source precision, and may precede formal publication. The CSV retains stable identifiers, categories, consulted versions, bilingual descriptions and source passages; passage locators preserve the language of the verification record.', '',
-                 'The [companion data](README.md#evidence) provide this catalogue, explicit matrix assignments, corpus statistics, executed queries and selection totals. Curated readings also include background surveys outside the catalogue scope.', '']
+                 'Consulted-version links and source passages identify classification evidence; additional publication details identify formal records. Publication metadata in this live catalogue can be updated, while the [fixed companion data](README.md#evidence) archive classifications, explicit matrix assignments, corpus statistics, executed queries and selection totals. Curated readings also include background surveys outside the catalogue scope.', '']
     lines += [' | '.join(f'[{names[int(zh)]} ({sum(r["theme"] == theme for r in rows)})](#{theme})' for theme, names in THEMES.items()), '']
     years = Counter(r['first_public_date'][:4] for r in rows)
     lines += ['## 年度分布' if zh else '## Annual distribution', '',
@@ -55,7 +64,14 @@ def render(rows, zh):
                   '|---|---|---|---|']
         for r in subset:
             obj, use = (r['object_zh'], r['use_zh']) if zh else (r['object_en'], r['use_en'])
-            lines.append(f'| {r["first_public_date"][:4]} | <a id="{r["citation_key"]}"></a>[{cell(r["title"])}]({r["source_url"]}) | {cell(obj)} | {cell(use)} |')
+            paper = f'<a id="{r["citation_key"]}"></a>[{cell(r["title"])}]({r["source_url"]})'
+            if r['citation_key'] in FORMAL_PUBLICATIONS:
+                venue, year, doi = FORMAL_PUBLICATIONS[r['citation_key']]
+                if r['doi'] != doi:
+                    raise ValueError(f'Publication DOI mismatch: {r["citation_key"]}')
+                label = '正式发表' if zh else 'Published'
+                paper += f'<br>{label}: [{venue} ({year})](https://doi.org/{doi})'
+            lines.append(f'| {r["first_public_date"][:4]} | {paper} | {cell(obj)} | {cell(use)} |')
         lines.append('')
     lines += ['## 数据维护' if zh else '## Data maintenance', '',
               '`catalogue.csv` 是本目录的数据源。修改记录后运行 `python scripts/build_catalogue.py`；使用 `python scripts/build_catalogue.py --check` 检查双语页面是否同步。' if zh else

@@ -77,6 +77,7 @@ Organizes task data as execution state, separating data applicability, workflow 
 
 **PAL-UI** · 2025<br>
 [PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents](https://arxiv.org/abs/2510.00413v2)<br>
+Published: [IJCNLP-AACL 2026 Findings](https://doi.org/10.18653/2026.findings-aacl.13) · [Consulted version](https://arxiv.org/abs/2510.00413v2)<br>
 Retrieves a previous screenshot by step index when the agent needs to look back.<br>
 
 **Chain-of-Memory** · 2025<br>
@@ -261,6 +262,7 @@ Read the interaction protocol alongside the reported metric.
 
 **MemGUI-Bench · online GUI execution** · 2026<br>
 [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075v3)<br>
+Published: [ACM MM 2026](https://doi.org/10.1145/3767308.3836285) · [Consulted version](https://arxiv.org/abs/2602.06075v3)<br>
 Evaluates Android GUI interaction with resets after failure and experience transfer across mirrored task pairs.<br>
 
 **AndroTMem · recorded trajectories** · 2026<br>
@@ -329,7 +331,7 @@ The survey examines memory in language- and vision-language-model agents operati
 
 The current synthesis draws on the [357-work classification catalogue](CATALOGUE.md), with original-source checks of retained objects and subsequent GUI uses. A historical screenshot can remain correct evidence after its coordinates cease to support a click; a procedure can remain reusable after an interface binding is repaired. Evidence, derivation and applicability dependencies explain which objects need repair and which knowledge can be preserved, connecting maintenance to subsequent behavior. Assignments record source-supported mechanisms; effect comparisons require their original evaluation conditions.
 
-Lifecycle operations form the main axis for comparing mechanisms; the five object categories distinguish what each operation acts on and the conditions under which that information remains useful:
+The mechanism comparisons examine information retained or lost, retrieval units, influence on action selection and targets of revision. They relate these differences to GUI workloads, including delayed visual dependencies, batch progress, recurring procedures and changing interfaces. The five object categories distinguish the information involved and its conditions of use:
 
 | State layer | Retained content | Conditions for use and maintenance |
 |---|---|---|
@@ -351,18 +353,17 @@ Three design tensions guide the mechanism comparisons:
 
 Separating **procedures, variable bindings and applicability conditions** helps identify what needs repair while retaining useful knowledge. Cross-layer dependencies connect observations to task facts, trajectories to skills, and user information to later plans. A stored record and the context currently consumed by an agent can therefore require different updates.
 
-Evaluation follows the path from retained information to action: **recall, action selection on recorded observations and online execution** measure different outcomes. Comparisons account for experience, reset conditions and resource budgets; security analysis also preserves attacker access and the path from retained content to later harm. The research agenda proposes **task-resumption and cross-layer correction tests** to measure whether revisions reach later decisions while useful, unaffected knowledge remains available.
+Evaluation follows the path from retained information to action: **recall, action selection on recorded observations and online execution** measure different outcomes. Comparisons account for experience, reset conditions and resource budgets; security analysis also preserves attacker access and the path from retained content to later harm.
 
 ### Challenges and future directions
 
-The survey develops six research directions from existing mechanisms and their conditions of use:
+The survey identifies five challenges for using retained experience as interfaces, execution state and user requirements change:
 
-- **Memory quality and effective use**: improve admission, compression, retrieval and decision use together, measuring task gains under matched experience and budgets.
-- **Abstraction with validity conditions**: connect compact procedures to applicability conditions and recoverable source evidence.
-- **Task continuity under incomplete feedback**: distinguish intended actions, observed effects and unresolved confirmations, and evaluate resumption after interruption.
-- **Cross-layer correction**: identify dependencies and propagate revisions while preserving utility on unaffected knowledge.
-- **Experience and computation over time**: account for initial construction, repeated use, verification and maintenance costs together.
-- **Scoped and interoperable interfaces**: preserve object identity, provenance, applicability and correction dependencies when replacing or sharing components.
+- **Preserving evidence through abstraction**: retain the grounds for reconsidering compact knowledge, including distinctions between confirmed effects, provisional inferences and unresolved outcomes.
+- **Procedural reuse under interface change**: identify when a changed control permits local repair and when altered preconditions require replanning.
+- **Consistent task state across interruptions**: reconcile remembered progress with the current application, avoiding repeated or omitted operations when execution resumes.
+- **Dependency-aware correction and withdrawal**: propagate revisions through summaries, skills and active context while preserving valid knowledge and respecting changed user conditions.
+- **Resource allocation over changing interaction histories**: balance retention, retrieval, fresh observation and maintenance as experience ages and opportunities for reuse change.
 
 <a id="evidence"></a>
 
